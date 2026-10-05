@@ -1,0 +1,1 @@
+{"framework":"nextjs","buildCommand":"npm run build","installCommand":"npm ci","functions":{"app/api/discover/route.ts":{"maxDuration":120},"app/api/inspect/route.ts":{"maxDuration":300}}}

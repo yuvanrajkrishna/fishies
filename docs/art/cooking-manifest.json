@@ -1,0 +1,916 @@
+{
+  "generator": "built-in image_gen",
+  "status": "complete",
+  "selectedAtlasCount": 6,
+  "selectedSpriteCount": 54,
+  "variantCount": 17,
+  "variantSpriteCount": 153,
+  "style": "Retro marine field-guide pixel art. Cohesive 16-bit adventure-game background art, crisp deliberately visible square pixels, stepped contours, restrained ordered dithering, hand-clustered highlights. Base palette midnight navy #081B2C, ocean teal #145563, sea-glass #78C7AD, parchment #F5E6BB, coral orange #EE9862. Sophisticated natural-history museum mood, charming but not babyish. No smooth vector curves, no glossy 3D, no photorealism, no blurry pixel filter, no text, no logos, no border.",
+  "assets": [
+    {
+      "id": "props-cookware",
+      "version": "b",
+      "path": "props-cookware.png",
+      "prompt": "Retro marine field-guide pixel art. Cohesive 16-bit adventure-game background art, crisp deliberately visible square pixels, stepped contours, restrained ordered dithering, hand-clustered highlights. Base palette midnight navy #081B2C, ocean teal #145563, sea-glass #78C7AD, parchment #F5E6BB, coral orange #EE9862. Sophisticated natural-history museum mood, charming but not babyish. No smooth vector curves, no glossy 3D, no photorealism, no blurry pixel filter, no text, no logos, no border.\nUse case: stylized-concept. Asset type: polished pixel-art icon sprite atlas. Reference image is earlier version of this atlas; make a BETTER ALTERNATIVE version B with cleaner boldly readable silhouettes and LESS detail. Keep exact 3x3 item order, colors, material identities. Generate a SQUARE image with true transparent alpha. Exactly NINE small isolated objects in invisible 3 by 3 equal square cells. Critical layout: make each icon occupy only 60 percent of its cell's width AND height, centered on both axes; 20 percent of each cell must be completely empty on each side. Large equal transparent gutters between icons, nothing touching cell boundaries. At output1536x1536 centers are (256,256),(768,256),(1280,256),(256,768),(768,768),(1280,768),(256,1280),(768,1280),(1280,1280); maximum icon bounding box300x300 including handles. At any output size preserve these normalized proportions. Uniform top-side three-quarter angle. Render as if authored on a 384x384 pixel canvas with nearest-neighbor enlargement: larger square pixel clusters, restrained dithering, confident navy outlines, cream highlights, rich warm wood/copper, teal cookware. The nine items in strict row-major order: 1. black cast iron frying pan with copper handle; 2. deep teal enamel stockpot with cream lid; 3. copper saucepan with lid off next to it but in same cell; 4. bamboo stacked steamer basket slightly open; 5. rectangular roasting tray; 6. round charcoal grill with grate and three glowing coals; 7. wide dark steel wok with wooden handle; 8. cream ceramic casserole dish; 9. small fish-shaped wire grilling basket. No text,numbers,grid,background,outside shadows,glow, photorealism, smooth shading or fine speckle texture. Background fully transparent.",
+      "category": "props",
+      "items": [
+        "black cast iron frying pan with copper handle",
+        "deep teal enamel stockpot with cream lid",
+        "copper saucepan with lid off next to it but in same cell",
+        "bamboo stacked steamer basket slightly open",
+        "rectangular roasting tray",
+        "round charcoal grill with grate and three glowing coals",
+        "wide dark steel wok with wooden handle",
+        "cream ceramic casserole dish",
+        "small fish-shaped wire grilling basket"
+      ],
+      "cols": 3,
+      "rows": 3,
+      "sourcePath": "exec-55352a54-e9c1-4b00-8930-d0e88fb9f2c2.png",
+      "width": 1254,
+      "height": 1254,
+      "cellWidth": 418,
+      "cellHeight": 418,
+      "alphaVerified": true,
+      "selectedVersion": "b",
+      "cellBoundaryOpaquePixelCounts": {
+        "x418": 0,
+        "x836": 0,
+        "y418": 0,
+        "y836": 0
+      },
+      "selectionReason": "B has bolder cookware silhouettes, cleaner material shading and all cells isolated.",
+      "cells": [
+        {
+          "index": 0,
+          "row": 0,
+          "col": 0,
+          "item": "black cast iron frying pan with copper handle"
+        },
+        {
+          "index": 1,
+          "row": 0,
+          "col": 1,
+          "item": "deep teal enamel stockpot with cream lid"
+        },
+        {
+          "index": 2,
+          "row": 0,
+          "col": 2,
+          "item": "copper saucepan with lid off next to it but in same cell"
+        },
+        {
+          "index": 3,
+          "row": 1,
+          "col": 0,
+          "item": "bamboo stacked steamer basket slightly open"
+        },
+        {
+          "index": 4,
+          "row": 1,
+          "col": 1,
+          "item": "rectangular roasting tray"
+        },
+        {
+          "index": 5,
+          "row": 1,
+          "col": 2,
+          "item": "round charcoal grill with grate and three glowing coals"
+        },
+        {
+          "index": 6,
+          "row": 2,
+          "col": 0,
+          "item": "wide dark steel wok with wooden handle"
+        },
+        {
+          "index": 7,
+          "row": 2,
+          "col": 1,
+          "item": "cream ceramic casserole dish"
+        },
+        {
+          "index": 8,
+          "row": 2,
+          "col": 2,
+          "item": "small fish-shaped wire grilling basket"
+        }
+      ]
+    },
+    {
+      "id": "props-utensils",
+      "version": "b",
+      "path": "props-utensils.png",
+      "prompt": "Retro marine field-guide pixel art. Cohesive 16-bit adventure-game background art, crisp deliberately visible square pixels, stepped contours, restrained ordered dithering, hand-clustered highlights. Base palette midnight navy #081B2C, ocean teal #145563, sea-glass #78C7AD, parchment #F5E6BB, coral orange #EE9862. Sophisticated natural-history museum mood, charming but not babyish. No smooth vector curves, no glossy 3D, no photorealism, no blurry pixel filter, no text, no logos, no border.\nUse case: stylized-concept. Asset type: polished pixel-art icon sprite atlas. Reference image is earlier version of this atlas; make a BETTER ALTERNATIVE version B with cleaner boldly readable silhouettes and LESS detail. Keep exact 3x3 item order, colors, material identities. Generate a SQUARE image with true transparent alpha. Exactly NINE small isolated objects in invisible 3 by 3 equal square cells. Critical layout: make each icon occupy only 60 percent of its cell's width AND height, centered on both axes; 20 percent of each cell must be completely empty on each side. Large equal transparent gutters between icons, nothing touching cell boundaries. At output1536x1536 centers are (256,256),(768,256),(1280,256),(256,768),(768,768),(1280,768),(256,1280),(768,1280),(1280,1280); maximum icon bounding box300x300 including handles. At any output size preserve these normalized proportions. Uniform top-side three-quarter angle. Render as if authored on a 384x384 pixel canvas with nearest-neighbor enlargement: larger square pixel clusters, restrained dithering, confident navy outlines, cream highlights, rich warm wood/copper, teal cookware. The nine items in strict row-major order: 1. wooden chopping board with handle; 2. chef knife with dark teal handle; 3. long slotted fish spatula; 4. pair of stainless steel kitchen tongs; 5. wooden spoon; 6. small wire whisk; 7. round metal colander; 8. simple probe food thermometer with blank display; 9. oven mitt in cream fabric with teal stripes. No text,numbers,grid,background,outside shadows,glow, photorealism, smooth shading or fine speckle texture. Background fully transparent.",
+      "category": "props",
+      "items": [
+        "wooden chopping board with handle",
+        "chef knife with dark teal handle",
+        "long slotted fish spatula",
+        "pair of stainless steel kitchen tongs",
+        "wooden spoon",
+        "small wire whisk",
+        "round metal colander",
+        "simple probe food thermometer with blank display",
+        "oven mitt in cream fabric with teal stripes"
+      ],
+      "cols": 3,
+      "rows": 3,
+      "sourcePath": "exec-0eee2a81-9024-4992-b041-1976c7ea3c2f.png",
+      "width": 1254,
+      "height": 1254,
+      "cellWidth": 418,
+      "cellHeight": 418,
+      "alphaVerified": true,
+      "selectedVersion": "b",
+      "cellBoundaryOpaquePixelCounts": {
+        "x418": 0,
+        "x836": 0,
+        "y418": 0,
+        "y836": 0
+      },
+      "selectionReason": "B has clear compact silhouettes with legible tiny utensil details and all cells isolated.",
+      "cells": [
+        {
+          "index": 0,
+          "row": 0,
+          "col": 0,
+          "item": "wooden chopping board with handle"
+        },
+        {
+          "index": 1,
+          "row": 0,
+          "col": 1,
+          "item": "chef knife with dark teal handle"
+        },
+        {
+          "index": 2,
+          "row": 0,
+          "col": 2,
+          "item": "long slotted fish spatula"
+        },
+        {
+          "index": 3,
+          "row": 1,
+          "col": 0,
+          "item": "pair of stainless steel kitchen tongs"
+        },
+        {
+          "index": 4,
+          "row": 1,
+          "col": 1,
+          "item": "wooden spoon"
+        },
+        {
+          "index": 5,
+          "row": 1,
+          "col": 2,
+          "item": "small wire whisk"
+        },
+        {
+          "index": 6,
+          "row": 2,
+          "col": 0,
+          "item": "round metal colander"
+        },
+        {
+          "index": 7,
+          "row": 2,
+          "col": 1,
+          "item": "simple probe food thermometer with blank display"
+        },
+        {
+          "index": 8,
+          "row": 2,
+          "col": 2,
+          "item": "oven mitt in cream fabric with teal stripes"
+        }
+      ]
+    },
+    {
+      "id": "props-ingredients",
+      "version": "c",
+      "path": "props-ingredients.png",
+      "prompt": "Retro marine field-guide pixel art. Cohesive 16-bit adventure-game background art, crisp deliberately visible square pixels, stepped contours, restrained ordered dithering, hand-clustered highlights. Base palette midnight navy #081B2C, ocean teal #145563, sea-glass #78C7AD, parchment #F5E6BB, coral orange #EE9862. Sophisticated natural-history museum mood, charming but not babyish. No smooth vector curves, no glossy 3D, no photorealism, no blurry pixel filter, no text, no logos, no border.\nUse case: stylized-concept. Asset type: transparent cooking sprite atlas. Make a NEW square sprite atlas using reference only for pixel color style. Nine SMALL cooking-ingredient icons with ENORMOUS empty margins in a3x3grid. Each item's maximumwidth/height40percent of cell, so every 418pxcell has an icon only167x167px. At actual1254pxoutput centers must be209,627,1045 on bothaxes. Icons fully contained and centered. Make every icon very small in itscell. Huge equal transparent spaces between icons; no part crossing x418,x836,y418,y836. Nine items strict lefttoright,toptobottom: 1. golden butter block on unfolded cream wrapper with one butter curl; 2. whole lemon and a lemon wedge in same cell; 3. garlic bulb with two peeled cloves; 4. bundle of dill and flat-leaf parsley tied with string; 5. green olive oil bottle with no label; 6. wooden salt cellar with a few white salt crystals; 7. wooden black pepper mill; 8. red chilli pepper with curved stem; 9. small dish of golden flour and breadcrumbs, no lettering. True transparent alpha. No text, labels, grid lines, shadows or glow. Square image. Clean readable pixel art.",
+      "category": "props",
+      "items": [
+        "golden butter block on unfolded cream wrapper with one butter curl",
+        "whole lemon and a lemon wedge in same cell",
+        "garlic bulb with two peeled cloves",
+        "bundle of dill and flat-leaf parsley tied with string",
+        "green olive oil bottle with no label",
+        "wooden salt cellar with a few white salt crystals",
+        "wooden black pepper mill",
+        "red chilli pepper with curved stem",
+        "small dish of golden flour and breadcrumbs, no lettering"
+      ],
+      "cols": 3,
+      "rows": 3,
+      "sourcePath": "exec-c5e1fa7d-0052-4ccc-8270-16c8eea86aeb.png",
+      "width": 1254,
+      "height": 1254,
+      "cellWidth": 418,
+      "cellHeight": 418,
+      "alphaVerified": true,
+      "selectedVersion": "c",
+      "cellBoundaryOpaquePixelCounts": {
+        "x418": 0,
+        "x836": 0,
+        "y418": 0,
+        "y836": 0
+      },
+      "selectionReason": "C resolves herb bundle crossing adjacent cell; smaller isolated cooking ingredients, consistent palette.",
+      "cells": [
+        {
+          "index": 0,
+          "row": 0,
+          "col": 0,
+          "item": "golden butter block on unfolded cream wrapper with one butter curl"
+        },
+        {
+          "index": 1,
+          "row": 0,
+          "col": 1,
+          "item": "whole lemon and a lemon wedge in same cell"
+        },
+        {
+          "index": 2,
+          "row": 0,
+          "col": 2,
+          "item": "garlic bulb with two peeled cloves"
+        },
+        {
+          "index": 3,
+          "row": 1,
+          "col": 0,
+          "item": "bundle of dill and flat-leaf parsley tied with string"
+        },
+        {
+          "index": 4,
+          "row": 1,
+          "col": 1,
+          "item": "green olive oil bottle with no label"
+        },
+        {
+          "index": 5,
+          "row": 1,
+          "col": 2,
+          "item": "wooden salt cellar with a few white salt crystals"
+        },
+        {
+          "index": 6,
+          "row": 2,
+          "col": 0,
+          "item": "wooden black pepper mill"
+        },
+        {
+          "index": 7,
+          "row": 2,
+          "col": 1,
+          "item": "red chilli pepper with curved stem"
+        },
+        {
+          "index": 8,
+          "row": 2,
+          "col": 2,
+          "item": "small dish of golden flour and breadcrumbs, no lettering"
+        }
+      ]
+    },
+    {
+      "id": "dishes-fish",
+      "version": "c",
+      "path": "dishes-fish.png",
+      "prompt": "Use case: stylized-concept. Generate a NEW square transparent pixel-art ASSET ATLAS. This is NOT a full composition: it is nine SEPARATE SMALL ICONS spaced VERY FAR APART on true transparent alpha. 3columns and3rows, exactly9icons. The reference is ONLY for color/pixel style, no scene or background. Each icon should occupy NO MORE THAN HALF of its invisible square cell width or height. There is a HUGE 50percent empty area between every pair of icons. On a1536x1536 image each icon maximum256x256, centered on x=256,768,1280 and y=256,768,1280. Leave very generous empty margins all around. Deliberately SMALL icons in a largely EMPTY canvas. No cropping; all handles/tails/steam contained. Objects row-major: 1. cream plate holding a cooked salmon fillet with lemon and dill; 2. cream plate holding golden battered white fish and chunky chips with peas; 3. cream plate holding a grilled whole sea bass with rosemary and lemon; 4. cream plate with seared tuna steak pink interior edge and greens; 5. cream plate holding smoked mackerel fillet and potatoes; 6. cream plate holding pan-fried trout fillet and green beans; 7. cream shallow bowl holding tomato fish stew; 8. cream plate with two fish tacos and slaw; 9. cream plate holding steamed white fish with ginger and spring onion. Retro marine field-guide pixel art. Cohesive 16-bit adventure-game background art, crisp deliberately visible square pixels, stepped contours, restrained ordered dithering, hand-clustered highlights. Base palette midnight navy #081B2C, ocean teal #145563, sea-glass #78C7AD, parchment #F5E6BB, coral orange #EE9862. Sophisticated natural-history museum mood, charming but not babyish. No smooth vector curves, no glossy 3D, no photorealism, no blurry pixel filter, no text, no logos, no border. Uniform top-side three-quarter camera. Ceramic plates parchment cream with thin teal rim. Make clean chunky low-resolution sprite shapes, 4-6px block stair steps, no smooth outlines. Distinct mouthwatering dishes, restrained detailed texture. Do NOT draw typography, grids, cell lines, glow, shadow, background, hands, people or extra objects. Version C: spacious production-safe atlas with accurately centered separated icons. Each image cell will be clipped separately on the website, so no icon may occupy another cell. True fully transparent background throughout all empty areas.",
+      "category": "dish-sprites",
+      "items": [
+        "cream plate holding a cooked salmon fillet with lemon and dill",
+        "cream plate holding golden battered white fish and chunky chips with peas",
+        "cream plate holding a grilled whole sea bass with rosemary and lemon",
+        "cream plate with seared tuna steak pink interior edge and greens",
+        "cream plate holding smoked mackerel fillet and potatoes",
+        "cream plate holding pan-fried trout fillet and green beans",
+        "cream shallow bowl holding tomato fish stew",
+        "cream plate with two fish tacos and slaw",
+        "cream plate holding steamed white fish with ginger and spring onion"
+      ],
+      "cols": 3,
+      "rows": 3,
+      "sourcePath": "exec-5246b3b4-8921-46bc-ab9b-3162a9702729.png",
+      "width": 1254,
+      "height": 1254,
+      "cellWidth": 418,
+      "cellHeight": 418,
+      "alphaVerified": true,
+      "selectedVersion": "c",
+      "cellBoundaryOpaquePixelCounts": {
+        "x418": 0,
+        "x836": 0,
+        "y418": 0,
+        "y836": 0
+      },
+      "selectionReason": "C has safer spacing, full whole-fish tail and clearly distinct dishes.",
+      "cells": [
+        {
+          "index": 0,
+          "row": 0,
+          "col": 0,
+          "item": "cream plate holding a cooked salmon fillet with lemon and dill"
+        },
+        {
+          "index": 1,
+          "row": 0,
+          "col": 1,
+          "item": "cream plate holding golden battered white fish and chunky chips with peas"
+        },
+        {
+          "index": 2,
+          "row": 0,
+          "col": 2,
+          "item": "cream plate holding a grilled whole sea bass with rosemary and lemon"
+        },
+        {
+          "index": 3,
+          "row": 1,
+          "col": 0,
+          "item": "cream plate with seared tuna steak pink interior edge and greens"
+        },
+        {
+          "index": 4,
+          "row": 1,
+          "col": 1,
+          "item": "cream plate holding smoked mackerel fillet and potatoes"
+        },
+        {
+          "index": 5,
+          "row": 1,
+          "col": 2,
+          "item": "cream plate holding pan-fried trout fillet and green beans"
+        },
+        {
+          "index": 6,
+          "row": 2,
+          "col": 0,
+          "item": "cream shallow bowl holding tomato fish stew"
+        },
+        {
+          "index": 7,
+          "row": 2,
+          "col": 1,
+          "item": "cream plate with two fish tacos and slaw"
+        },
+        {
+          "index": 8,
+          "row": 2,
+          "col": 2,
+          "item": "cream plate holding steamed white fish with ginger and spring onion"
+        }
+      ]
+    },
+    {
+      "id": "dishes-shellfish",
+      "version": "c",
+      "path": "dishes-shellfish.png",
+      "prompt": "Use case: stylized-concept. Generate a NEW square transparent pixel-art ASSET ATLAS. This is NOT a full composition: it is nine SEPARATE SMALL ICONS spaced VERY FAR APART on true transparent alpha. 3columns and3rows, exactly9icons. The reference is ONLY for color/pixel style, no scene or background. Each icon should occupy NO MORE THAN HALF of its invisible square cell width or height. There is a HUGE 50percent empty area between every pair of icons. On a1536x1536 image each icon maximum256x256, centered on x=256,768,1280 and y=256,768,1280. Leave very generous empty margins all around. Deliberately SMALL icons in a largely EMPTY canvas. No cropping; all handles/tails/steam contained. Objects row-major: 1. cream plate of grilled prawns with lemon; 2. cream bowl of mussels in broth with herbs; 3. cream plate of three seared scallops with green garnish; 4. cream plate with grilled lobster half and small butter dish; 5. cream platter of opened oysters on crushed ice with lemon; 6. cream plate with golden calamari rings and lemon; 7. cream plate with grilled octopus arm and potatoes; 8. cream bowl with crab pasta; 9. cream plate with cooked langoustines and herbs. Retro marine field-guide pixel art. Cohesive 16-bit adventure-game background art, crisp deliberately visible square pixels, stepped contours, restrained ordered dithering, hand-clustered highlights. Base palette midnight navy #081B2C, ocean teal #145563, sea-glass #78C7AD, parchment #F5E6BB, coral orange #EE9862. Sophisticated natural-history museum mood, charming but not babyish. No smooth vector curves, no glossy 3D, no photorealism, no blurry pixel filter, no text, no logos, no border. Uniform top-side three-quarter camera. Ceramic plates parchment cream with thin teal rim. Make clean chunky low-resolution sprite shapes, 4-6px block stair steps, no smooth outlines. Distinct mouthwatering dishes, restrained detailed texture. Do NOT draw typography, grids, cell lines, glow, shadow, background, hands, people or extra objects. Version C: spacious production-safe atlas with accurately centered separated icons. Each image cell will be clipped separately on the website, so no icon may occupy another cell. True fully transparent background throughout all empty areas.",
+      "category": "dish-sprites",
+      "items": [
+        "cream plate of grilled prawns with lemon",
+        "cream bowl of mussels in broth with herbs",
+        "cream plate of three seared scallops with green garnish",
+        "cream plate with grilled lobster half and small butter dish",
+        "cream platter of opened oysters on crushed ice with lemon",
+        "cream plate with golden calamari rings and lemon",
+        "cream plate with grilled octopus arm and potatoes",
+        "cream bowl with crab pasta",
+        "cream plate with cooked langoustines and herbs"
+      ],
+      "cols": 3,
+      "rows": 3,
+      "sourcePath": "exec-b7ab6243-9de6-42ce-b715-0f6b58b31dd4.png",
+      "width": 1254,
+      "height": 1254,
+      "cellWidth": 418,
+      "cellHeight": 418,
+      "alphaVerified": true,
+      "selectedVersion": "c",
+      "cellBoundaryOpaquePixelCounts": {
+        "x418": 0,
+        "x836": 0,
+        "y418": 0,
+        "y836": 0
+      },
+      "selectionReason": "C resolves neighboring plate overlap and row crossing; all dishes fit exact cells.",
+      "cells": [
+        {
+          "index": 0,
+          "row": 0,
+          "col": 0,
+          "item": "cream plate of grilled prawns with lemon"
+        },
+        {
+          "index": 1,
+          "row": 0,
+          "col": 1,
+          "item": "cream bowl of mussels in broth with herbs"
+        },
+        {
+          "index": 2,
+          "row": 0,
+          "col": 2,
+          "item": "cream plate of three seared scallops with green garnish"
+        },
+        {
+          "index": 3,
+          "row": 1,
+          "col": 0,
+          "item": "cream plate with grilled lobster half and small butter dish"
+        },
+        {
+          "index": 4,
+          "row": 1,
+          "col": 1,
+          "item": "cream platter of opened oysters on crushed ice with lemon"
+        },
+        {
+          "index": 5,
+          "row": 1,
+          "col": 2,
+          "item": "cream plate with golden calamari rings and lemon"
+        },
+        {
+          "index": 6,
+          "row": 2,
+          "col": 0,
+          "item": "cream plate with grilled octopus arm and potatoes"
+        },
+        {
+          "index": 7,
+          "row": 2,
+          "col": 1,
+          "item": "cream bowl with crab pasta"
+        },
+        {
+          "index": 8,
+          "row": 2,
+          "col": 2,
+          "item": "cream plate with cooked langoustines and herbs"
+        }
+      ]
+    },
+    {
+      "id": "cooking-steps",
+      "version": "d",
+      "path": "cooking-steps.png",
+      "prompt": "Retro marine field-guide pixel art. Cohesive 16-bit adventure-game background art, crisp deliberately visible square pixels, stepped contours, restrained ordered dithering, hand-clustered highlights. Base palette midnight navy #081B2C, ocean teal #145563, sea-glass #78C7AD, parchment #F5E6BB, coral orange #EE9862. Sophisticated natural-history museum mood, charming but not babyish. No smooth vector curves, no glossy 3D, no photorealism, no blurry pixel filter, no text, no logos, no border.\nUse case: stylized-concept. Asset type: transparent cooking sprite atlas. EDIT the supplied atlas to correct its grid geometry ONLY, preserving style and all nine objects: move ALL THREE icons in TOPROW upward by80pixels. Toprow icon bottoms must be ABOVE y380 on1254pxcanvas, so none is cut by boundary y418. Keep middle and bottom rows unchanged. Keep exact objectorder. Also remove any tiny stray outside pixels, preserve true transparent alpha. No new objects. This is strict3x3production clipping geometry; visual top rowcurrently too low. All iconparts must fit inside their own418x418cell with transparent margins. Nine items strict lefttoright,toptobottom: 1. pat of butter beginning to melt in black frying pan; 2. raw salmon fillet resting on wooden chopping board; 3. fish fillet sizzling in pan with small white steam pixels; 4. lemon half being squeezed with three tiny juice drops, no hand; 5. herbs sprinkled above fish fillet on cream plate, no hand; 6. lidded pot with visible steam curling in chunky pixels; 7. closed oven with warm amber window and blank controls; 8. cream bowl of marinade with wooden spoon; 9. finished cooked fish fillet on cream plate with neatly placed lemon. True transparent alpha. No text, labels, grid lines, shadows or glow. Square image. Clean readable pixel art.",
+      "category": "process-sprites",
+      "items": [
+        "pat of butter beginning to melt in black frying pan",
+        "raw salmon fillet resting on wooden chopping board",
+        "fish fillet sizzling in pan with small white steam pixels",
+        "lemon half being squeezed with three tiny juice drops, no hand",
+        "herbs sprinkled above fish fillet on cream plate, no hand",
+        "lidded pot with visible steam curling in chunky pixels",
+        "closed oven with warm amber window and blank controls",
+        "cream bowl of marinade with wooden spoon",
+        "finished cooked fish fillet on cream plate with neatly placed lemon"
+      ],
+      "cols": 3,
+      "rows": 3,
+      "sourcePath": "exec-52b260ee-4e82-47b5-8f36-6c2e8f7b05c1.png",
+      "width": 1254,
+      "height": 1254,
+      "cellWidth": 418,
+      "cellHeight": 418,
+      "alphaVerified": true,
+      "selectedVersion": "d",
+      "cellBoundaryOpaquePixelCounts": {
+        "x418": 0,
+        "x836": 0,
+        "y418": 0,
+        "y836": 0
+      },
+      "selectionReason": "D corrects C top row position; action sprites remain isolated and maintain the source pixel style.",
+      "cells": [
+        {
+          "index": 0,
+          "row": 0,
+          "col": 0,
+          "item": "pat of butter beginning to melt in black frying pan"
+        },
+        {
+          "index": 1,
+          "row": 0,
+          "col": 1,
+          "item": "raw salmon fillet resting on wooden chopping board"
+        },
+        {
+          "index": 2,
+          "row": 0,
+          "col": 2,
+          "item": "fish fillet sizzling in pan with small white steam pixels"
+        },
+        {
+          "index": 3,
+          "row": 1,
+          "col": 0,
+          "item": "lemon half being squeezed with three tiny juice drops, no hand"
+        },
+        {
+          "index": 4,
+          "row": 1,
+          "col": 1,
+          "item": "herbs sprinkled above fish fillet on cream plate, no hand"
+        },
+        {
+          "index": 5,
+          "row": 1,
+          "col": 2,
+          "item": "lidded pot with visible steam curling in chunky pixels"
+        },
+        {
+          "index": 6,
+          "row": 2,
+          "col": 0,
+          "item": "closed oven with warm amber window and blank controls"
+        },
+        {
+          "index": 7,
+          "row": 2,
+          "col": 1,
+          "item": "cream bowl of marinade with wooden spoon"
+        },
+        {
+          "index": 8,
+          "row": 2,
+          "col": 2,
+          "item": "finished cooked fish fillet on cream plate with neatly placed lemon"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "props-cookware",
+      "version": "a",
+      "path": "props-cookware--a.png",
+      "prompt": "Retro marine field-guide pixel art. Cohesive 16-bit adventure-game background art, crisp deliberately visible square pixels, stepped contours, restrained ordered dithering, hand-clustered highlights. Base palette midnight navy #081B2C, ocean teal #145563, sea-glass #78C7AD, parchment #F5E6BB, coral orange #EE9862. Sophisticated natural-history museum mood, charming but not babyish. No smooth vector curves, no glossy 3D, no photorealism, no blurry pixel filter, no text, no logos, no border.\nUse case: stylized-concept. Asset type: transparent website sprite atlas for A Fish's Tale. Reference image is visual style only, do not copy the underwater scene. Generate a SQUARE 1536x1536 PNG with TRUE transparent alpha. Exactly NINE isolated objects in an invisible 3x3 grid of equal 512x512 cells. Every object centered in its cell with 20% empty margin on all sides, no visible lines or cell backgrounds. Uniform top-side three-quarter view. Clean crisp authored 16-bit pixel art: chunky square pixel edges and carefully clustered shading, natural museum palette. Variant A: detailed tactile material surfaces but strong readable silhouettes. No text, labels, numbers, shadows outside objects, glow, backgrounds, gradients or antialiased vector art. The nine cells in strict left-to-right, top-to-bottom order: 1. black cast iron frying pan with copper handle; 2. deep teal enamel stockpot with cream lid; 3. copper saucepan with lid off next to it but in same cell; 4. bamboo stacked steamer basket slightly open; 5. rectangular roasting tray; 6. round charcoal grill with grate and three glowing coals; 7. wide dark steel wok with wooden handle; 8. cream ceramic casserole dish; 9. small fish-shaped wire grilling basket. Do not duplicate items or move cell positions. Thin navy pixel outlines and warm cream highlights. Background alpha must be fully transparent around each item, including all margins. These objects will be individually displayed by CSS clipping of the atlas.",
+      "category": "props",
+      "items": [
+        "black cast iron frying pan with copper handle",
+        "deep teal enamel stockpot with cream lid",
+        "copper saucepan with lid off next to it but in same cell",
+        "bamboo stacked steamer basket slightly open",
+        "rectangular roasting tray",
+        "round charcoal grill with grate and three glowing coals",
+        "wide dark steel wok with wooden handle",
+        "cream ceramic casserole dish",
+        "small fish-shaped wire grilling basket"
+      ],
+      "cols": 3,
+      "rows": 3,
+      "sourcePath": "exec-70cfe555-4532-46a8-aff2-cb5510c1e9be.png"
+    },
+    {
+      "id": "props-cookware",
+      "version": "b",
+      "path": "props-cookware--b.png",
+      "prompt": "Retro marine field-guide pixel art. Cohesive 16-bit adventure-game background art, crisp deliberately visible square pixels, stepped contours, restrained ordered dithering, hand-clustered highlights. Base palette midnight navy #081B2C, ocean teal #145563, sea-glass #78C7AD, parchment #F5E6BB, coral orange #EE9862. Sophisticated natural-history museum mood, charming but not babyish. No smooth vector curves, no glossy 3D, no photorealism, no blurry pixel filter, no text, no logos, no border.\nUse case: stylized-concept. Asset type: polished pixel-art icon sprite atlas. Reference image is earlier version of this atlas; make a BETTER ALTERNATIVE version B with cleaner boldly readable silhouettes and LESS detail. Keep exact 3x3 item order, colors, material identities. Generate a SQUARE image with true transparent alpha. Exactly NINE small isolated objects in invisible 3 by 3 equal square cells. Critical layout: make each icon occupy only 60 percent of its cell's width AND height, centered on both axes; 20 percent of each cell must be completely empty on each side. Large equal transparent gutters between icons, nothing touching cell boundaries. At output1536x1536 centers are (256,256),(768,256),(1280,256),(256,768),(768,768),(1280,768),(256,1280),(768,1280),(1280,1280); maximum icon bounding box300x300 including handles. At any output size preserve these normalized proportions. Uniform top-side three-quarter angle. Render as if authored on a 384x384 pixel canvas with nearest-neighbor enlargement: larger square pixel clusters, restrained dithering, confident navy outlines, cream highlights, rich warm wood/copper, teal cookware. The nine items in strict row-major order: 1. black cast iron frying pan with copper handle; 2. deep teal enamel stockpot with cream lid; 3. copper saucepan with lid off next to it but in same cell; 4. bamboo stacked steamer basket slightly open; 5. rectangular roasting tray; 6. round charcoal grill with grate and three glowing coals; 7. wide dark steel wok with wooden handle; 8. cream ceramic casserole dish; 9. small fish-shaped wire grilling basket. No text,numbers,grid,background,outside shadows,glow, photorealism, smooth shading or fine speckle texture. Background fully transparent.",
+      "category": "props",
+      "items": [
+        "black cast iron frying pan with copper handle",
+        "deep teal enamel stockpot with cream lid",
+        "copper saucepan with lid off next to it but in same cell",
+        "bamboo stacked steamer basket slightly open",
+        "rectangular roasting tray",
+        "round charcoal grill with grate and three glowing coals",
+        "wide dark steel wok with wooden handle",
+        "cream ceramic casserole dish",
+        "small fish-shaped wire grilling basket"
+      ],
+      "cols": 3,
+      "rows": 3,
+      "sourcePath": "exec-55352a54-e9c1-4b00-8930-d0e88fb9f2c2.png"
+    },
+    {
+      "id": "props-utensils",
+      "version": "a",
+      "path": "props-utensils--a.png",
+      "prompt": "Retro marine field-guide pixel art. Cohesive 16-bit adventure-game background art, crisp deliberately visible square pixels, stepped contours, restrained ordered dithering, hand-clustered highlights. Base palette midnight navy #081B2C, ocean teal #145563, sea-glass #78C7AD, parchment #F5E6BB, coral orange #EE9862. Sophisticated natural-history museum mood, charming but not babyish. No smooth vector curves, no glossy 3D, no photorealism, no blurry pixel filter, no text, no logos, no border.\nUse case: stylized-concept. Asset type: transparent website sprite atlas for A Fish's Tale. Reference image is visual style only, do not copy the underwater scene. Generate a SQUARE 1536x1536 PNG with TRUE transparent alpha. Exactly NINE isolated objects in an invisible 3x3 grid of equal 512x512 cells. Every object centered in its cell with 20% empty margin on all sides, no visible lines or cell backgrounds. Uniform top-side three-quarter view. Clean crisp authored 16-bit pixel art: chunky square pixel edges and carefully clustered shading, natural museum palette. Variant A: detailed tactile material surfaces but strong readable silhouettes. No text, labels, numbers, shadows outside objects, glow, backgrounds, gradients or antialiased vector art. The nine cells in strict left-to-right, top-to-bottom order: 1. wooden chopping board with handle; 2. chef knife with dark teal handle; 3. long slotted fish spatula; 4. pair of stainless steel kitchen tongs; 5. wooden spoon; 6. small wire whisk; 7. round metal colander; 8. simple probe food thermometer with blank display; 9. oven mitt in cream fabric with teal stripes. Do not duplicate items or move cell positions. Thin navy pixel outlines and warm cream highlights. Background alpha must be fully transparent around each item, including all margins. These objects will be individually displayed by CSS clipping of the atlas.",
+      "category": "props",
+      "items": [
+        "wooden chopping board with handle",
+        "chef knife with dark teal handle",
+        "long slotted fish spatula",
+        "pair of stainless steel kitchen tongs",
+        "wooden spoon",
+        "small wire whisk",
+        "round metal colander",
+        "simple probe food thermometer with blank display",
+        "oven mitt in cream fabric with teal stripes"
+      ],
+      "cols": 3,
+      "rows": 3,
+      "sourcePath": "exec-963861ec-9a89-4247-b53d-1d7c6f20f0c4.png"
+    },
+    {
+      "id": "props-utensils",
+      "version": "b",
+      "path": "props-utensils--b.png",
+      "prompt": "Retro marine field-guide pixel art. Cohesive 16-bit adventure-game background art, crisp deliberately visible square pixels, stepped contours, restrained ordered dithering, hand-clustered highlights. Base palette midnight navy #081B2C, ocean teal #145563, sea-glass #78C7AD, parchment #F5E6BB, coral orange #EE9862. Sophisticated natural-history museum mood, charming but not babyish. No smooth vector curves, no glossy 3D, no photorealism, no blurry pixel filter, no text, no logos, no border.\nUse case: stylized-concept. Asset type: polished pixel-art icon sprite atlas. Reference image is earlier version of this atlas; make a BETTER ALTERNATIVE version B with cleaner boldly readable silhouettes and LESS detail. Keep exact 3x3 item order, colors, material identities. Generate a SQUARE image with true transparent alpha. Exactly NINE small isolated objects in invisible 3 by 3 equal square cells. Critical layout: make each icon occupy only 60 percent of its cell's width AND height, centered on both axes; 20 percent of each cell must be completely empty on each side. Large equal transparent gutters between icons, nothing touching cell boundaries. At output1536x1536 centers are (256,256),(768,256),(1280,256),(256,768),(768,768),(1280,768),(256,1280),(768,1280),(1280,1280); maximum icon bounding box300x300 including handles. At any output size preserve these normalized proportions. Uniform top-side three-quarter angle. Render as if authored on a 384x384 pixel canvas with nearest-neighbor enlargement: larger square pixel clusters, restrained dithering, confident navy outlines, cream highlights, rich warm wood/copper, teal cookware. The nine items in strict row-major order: 1. wooden chopping board with handle; 2. chef knife with dark teal handle; 3. long slotted fish spatula; 4. pair of stainless steel kitchen tongs; 5. wooden spoon; 6. small wire whisk; 7. round metal colander; 8. simple probe food thermometer with blank display; 9. oven mitt in cream fabric with teal stripes. No text,numbers,grid,background,outside shadows,glow, photorealism, smooth shading or fine speckle texture. Background fully transparent.",
+      "category": "props",
+      "items": [
+        "wooden chopping board with handle",
+        "chef knife with dark teal handle",
+        "long slotted fish spatula",
+        "pair of stainless steel kitchen tongs",
+        "wooden spoon",
+        "small wire whisk",
+        "round metal colander",
+        "simple probe food thermometer with blank display",
+        "oven mitt in cream fabric with teal stripes"
+      ],
+      "cols": 3,
+      "rows": 3,
+      "sourcePath": "exec-0eee2a81-9024-4992-b041-1976c7ea3c2f.png"
+    },
+    {
+      "id": "props-ingredients",
+      "version": "a",
+      "path": "props-ingredients--a.png",
+      "prompt": "Retro marine field-guide pixel art. Cohesive 16-bit adventure-game background art, crisp deliberately visible square pixels, stepped contours, restrained ordered dithering, hand-clustered highlights. Base palette midnight navy #081B2C, ocean teal #145563, sea-glass #78C7AD, parchment #F5E6BB, coral orange #EE9862. Sophisticated natural-history museum mood, charming but not babyish. No smooth vector curves, no glossy 3D, no photorealism, no blurry pixel filter, no text, no logos, no border.\nUse case: stylized-concept. Asset type: transparent website sprite atlas for A Fish's Tale. Reference image is visual style only, do not copy the underwater scene. Generate a SQUARE 1536x1536 PNG with TRUE transparent alpha. Exactly NINE isolated objects in an invisible 3x3 grid of equal 512x512 cells. Every object centered in its cell with 20% empty margin on all sides, no visible lines or cell backgrounds. Uniform top-side three-quarter view. Clean crisp authored 16-bit pixel art: chunky square pixel edges and carefully clustered shading, natural museum palette. Variant A: detailed tactile material surfaces but strong readable silhouettes. No text, labels, numbers, shadows outside objects, glow, backgrounds, gradients or antialiased vector art. The nine cells in strict left-to-right, top-to-bottom order: 1. golden butter block on unfolded cream wrapper with one butter curl; 2. whole lemon and a lemon wedge in same cell; 3. garlic bulb with two peeled cloves; 4. bundle of dill and flat-leaf parsley tied with string; 5. green olive oil bottle with no label; 6. wooden salt cellar with a few white salt crystals; 7. wooden black pepper mill; 8. red chilli pepper with curved stem; 9. small dish of golden flour and breadcrumbs, no lettering. Do not duplicate items or move cell positions. Thin navy pixel outlines and warm cream highlights. Background alpha must be fully transparent around each item, including all margins. These objects will be individually displayed by CSS clipping of the atlas.",
+      "category": "props",
+      "items": [
+        "golden butter block on unfolded cream wrapper with one butter curl",
+        "whole lemon and a lemon wedge in same cell",
+        "garlic bulb with two peeled cloves",
+        "bundle of dill and flat-leaf parsley tied with string",
+        "green olive oil bottle with no label",
+        "wooden salt cellar with a few white salt crystals",
+        "wooden black pepper mill",
+        "red chilli pepper with curved stem",
+        "small dish of golden flour and breadcrumbs, no lettering"
+      ],
+      "cols": 3,
+      "rows": 3,
+      "sourcePath": "exec-fcc65bbd-800f-49b7-8609-9606dbf241d4.png"
+    },
+    {
+      "id": "props-ingredients",
+      "version": "b",
+      "path": "props-ingredients--b.png",
+      "prompt": "Retro marine field-guide pixel art. Cohesive 16-bit adventure-game background art, crisp deliberately visible square pixels, stepped contours, restrained ordered dithering, hand-clustered highlights. Base palette midnight navy #081B2C, ocean teal #145563, sea-glass #78C7AD, parchment #F5E6BB, coral orange #EE9862. Sophisticated natural-history museum mood, charming but not babyish. No smooth vector curves, no glossy 3D, no photorealism, no blurry pixel filter, no text, no logos, no border.\nUse case: stylized-concept. Asset type: polished pixel-art icon sprite atlas. Reference image is earlier version of this atlas; make a BETTER ALTERNATIVE version B with cleaner boldly readable silhouettes and LESS detail. Keep exact 3x3 item order, colors, material identities. Generate a SQUARE image with true transparent alpha. Exactly NINE small isolated objects in invisible 3 by 3 equal square cells. Critical layout: make each icon occupy only 60 percent of its cell's width AND height, centered on both axes; 20 percent of each cell must be completely empty on each side. Large equal transparent gutters between icons, nothing touching cell boundaries. At output1536x1536 centers are (256,256),(768,256),(1280,256),(256,768),(768,768),(1280,768),(256,1280),(768,1280),(1280,1280); maximum icon bounding box300x300 including handles. At any output size preserve these normalized proportions. Uniform top-side three-quarter angle. Render as if authored on a 384x384 pixel canvas with nearest-neighbor enlargement: larger square pixel clusters, restrained dithering, confident navy outlines, cream highlights, rich warm wood/copper, teal cookware. The nine items in strict row-major order: 1. golden butter block on unfolded cream wrapper with one butter curl; 2. whole lemon and a lemon wedge in same cell; 3. garlic bulb with two peeled cloves; 4. bundle of dill and flat-leaf parsley tied with string; 5. green olive oil bottle with no label; 6. wooden salt cellar with a few white salt crystals; 7. wooden black pepper mill; 8. red chilli pepper with curved stem; 9. small dish of golden flour and breadcrumbs, no lettering. No text,numbers,grid,background,outside shadows,glow, photorealism, smooth shading or fine speckle texture. Background fully transparent.",
+      "category": "props",
+      "items": [
+        "golden butter block on unfolded cream wrapper with one butter curl",
+        "whole lemon and a lemon wedge in same cell",
+        "garlic bulb with two peeled cloves",
+        "bundle of dill and flat-leaf parsley tied with string",
+        "green olive oil bottle with no label",
+        "wooden salt cellar with a few white salt crystals",
+        "wooden black pepper mill",
+        "red chilli pepper with curved stem",
+        "small dish of golden flour and breadcrumbs, no lettering"
+      ],
+      "cols": 3,
+      "rows": 3,
+      "sourcePath": "exec-eb4c15ed-9dc8-4e74-93a5-0aec594fbc6a.png"
+    },
+    {
+      "id": "props-ingredients",
+      "version": "c",
+      "path": "props-ingredients--c.png",
+      "prompt": "Retro marine field-guide pixel art. Cohesive 16-bit adventure-game background art, crisp deliberately visible square pixels, stepped contours, restrained ordered dithering, hand-clustered highlights. Base palette midnight navy #081B2C, ocean teal #145563, sea-glass #78C7AD, parchment #F5E6BB, coral orange #EE9862. Sophisticated natural-history museum mood, charming but not babyish. No smooth vector curves, no glossy 3D, no photorealism, no blurry pixel filter, no text, no logos, no border.\nUse case: stylized-concept. Asset type: transparent cooking sprite atlas. Make a NEW square sprite atlas using reference only for pixel color style. Nine SMALL cooking-ingredient icons with ENORMOUS empty margins in a3x3grid. Each item's maximumwidth/height40percent of cell, so every 418pxcell has an icon only167x167px. At actual1254pxoutput centers must be209,627,1045 on bothaxes. Icons fully contained and centered. Make every icon very small in itscell. Huge equal transparent spaces between icons; no part crossing x418,x836,y418,y836. Nine items strict lefttoright,toptobottom: 1. golden butter block on unfolded cream wrapper with one butter curl; 2. whole lemon and a lemon wedge in same cell; 3. garlic bulb with two peeled cloves; 4. bundle of dill and flat-leaf parsley tied with string; 5. green olive oil bottle with no label; 6. wooden salt cellar with a few white salt crystals; 7. wooden black pepper mill; 8. red chilli pepper with curved stem; 9. small dish of golden flour and breadcrumbs, no lettering. True transparent alpha. No text, labels, grid lines, shadows or glow. Square image. Clean readable pixel art.",
+      "category": "props",
+      "items": [
+        "golden butter block on unfolded cream wrapper with one butter curl",
+        "whole lemon and a lemon wedge in same cell",
+        "garlic bulb with two peeled cloves",
+        "bundle of dill and flat-leaf parsley tied with string",
+        "green olive oil bottle with no label",
+        "wooden salt cellar with a few white salt crystals",
+        "wooden black pepper mill",
+        "red chilli pepper with curved stem",
+        "small dish of golden flour and breadcrumbs, no lettering"
+      ],
+      "cols": 3,
+      "rows": 3,
+      "sourcePath": "exec-c5e1fa7d-0052-4ccc-8270-16c8eea86aeb.png"
+    },
+    {
+      "id": "dishes-fish",
+      "version": "a",
+      "path": "dishes-fish--a.png",
+      "prompt": "Retro marine field-guide pixel art. Cohesive 16-bit adventure-game background art, crisp deliberately visible square pixels, stepped contours, restrained ordered dithering, hand-clustered highlights. Base palette midnight navy #081B2C, ocean teal #145563, sea-glass #78C7AD, parchment #F5E6BB, coral orange #EE9862. Sophisticated natural-history museum mood, charming but not babyish. No smooth vector curves, no glossy 3D, no photorealism, no blurry pixel filter, no text, no logos, no border.\nUse case: stylized-concept. Asset type: transparent website sprite atlas for A Fish's Tale. Reference image is visual style only, do not copy the underwater scene. Generate a SQUARE 1536x1536 PNG with TRUE transparent alpha. Exactly NINE isolated food or cooking objects in an invisible 3x3 grid of equal 512x512 cells. Every object centered in its cell with 20% empty margin on all sides, no visible lines or cell backgrounds. Uniform top-side three-quarter view. Clean crisp authored 16-bit pixel art: chunky square pixel edges and carefully clustered shading, natural museum palette. Variant A: appetizing tactile material surfaces but strong readable silhouettes. All ceramic plates and bowls warm parchment cream with a single thin ocean-teal rim, presented at identical angle. No text, labels, numbers, shadows outside objects, glow, backgrounds, gradients or antialiased vector art. The nine cells in strict left-to-right, top-to-bottom order: 1. cream plate holding a cooked salmon fillet with lemon and dill; 2. cream plate holding golden battered white fish and chunky chips with peas; 3. cream plate holding a grilled whole sea bass with rosemary and lemon; 4. cream plate with seared tuna steak pink interior edge and greens; 5. cream plate holding smoked mackerel fillet and potatoes; 6. cream plate holding pan-fried trout fillet and green beans; 7. cream shallow bowl holding tomato fish stew; 8. cream plate with two fish tacos and slaw; 9. cream plate holding steamed white fish with ginger and spring onion. Do not duplicate items or move cell positions. Thin navy pixel outlines and warm cream highlights. Background alpha must be fully transparent around each item, including all margins. These objects will be individually displayed by CSS clipping of the atlas. Distinct dishes or action moments, no merged cells, no utensils added unless requested, no hands or people.",
+      "category": "dish-sprites",
+      "items": [
+        "cream plate holding a cooked salmon fillet with lemon and dill",
+        "cream plate holding golden battered white fish and chunky chips with peas",
+        "cream plate holding a grilled whole sea bass with rosemary and lemon",
+        "cream plate with seared tuna steak pink interior edge and greens",
+        "cream plate holding smoked mackerel fillet and potatoes",
+        "cream plate holding pan-fried trout fillet and green beans",
+        "cream shallow bowl holding tomato fish stew",
+        "cream plate with two fish tacos and slaw",
+        "cream plate holding steamed white fish with ginger and spring onion"
+      ],
+      "cols": 3,
+      "rows": 3,
+      "sourcePath": "exec-3425105d-8a2d-41d9-9f70-cd4d20c70653.png"
+    },
+    {
+      "id": "dishes-fish",
+      "version": "b",
+      "path": "dishes-fish--b.png",
+      "prompt": "Retro marine field-guide pixel art. Cohesive 16-bit adventure-game background art, crisp deliberately visible square pixels, stepped contours, restrained ordered dithering, hand-clustered highlights. Base palette midnight navy #081B2C, ocean teal #145563, sea-glass #78C7AD, parchment #F5E6BB, coral orange #EE9862. Sophisticated natural-history museum mood, charming but not babyish. No smooth vector curves, no glossy 3D, no photorealism, no blurry pixel filter, no text, no logos, no border.\nUse case: stylized-concept. Asset type: polished pixel-art cooking sprite atlas. Reference image is earlier version of this atlas; make a BETTER ALTERNATIVE version B with cleaner boldly readable silhouettes, more breathing space, LESS fine detail. Keep exact3x3 item order,color identities and ingredients. Generate a SQUARE image with true transparent alpha. Exactly NINE small isolated dish/action objects in invisible3x3 equal square cells. Critical layout: every plate, handle, steam and garnish stays inside the central60percent of its cell, 20percent blank transparent margin on each side. Equal centers at 1/6,3/6,5/6 positions along x/y. LARGE transparent gutters; no item touches image edge or another item. At output1536x1536 maximum item bounding box300x300 including garnish and steam. At any size preserve normalized proportions. Uniform top-side three-quarter angle. Ceramic plates warm parchment cream with one thin teal rim. Render as authored on a384x384 pixel canvas nearest-neighbor enlargement: deliberately chunky square pixel clusters, restrained dithering, confident navy outlines, cream highlights. Food remains appetizing and distinct in compact display. The nine items in strict row-major order: 1. cream plate holding a cooked salmon fillet with lemon and dill; 2. cream plate holding golden battered white fish and chunky chips with peas; 3. cream plate holding a grilled whole sea bass with rosemary and lemon; 4. cream plate with seared tuna steak pink interior edge and greens; 5. cream plate holding smoked mackerel fillet and potatoes; 6. cream plate holding pan-fried trout fillet and green beans; 7. cream shallow bowl holding tomato fish stew; 8. cream plate with two fish tacos and slaw; 9. cream plate holding steamed white fish with ginger and spring onion. No text,numbers,grid,background,outside shadows,glow, photorealism,smooth shading, fine speckle texture,hands or people. Fully transparent background. Make species/dish differences clear, no duplicate dishes. Each cell will be separately clipped using CSS.",
+      "category": "dish-sprites",
+      "items": [
+        "cream plate holding a cooked salmon fillet with lemon and dill",
+        "cream plate holding golden battered white fish and chunky chips with peas",
+        "cream plate holding a grilled whole sea bass with rosemary and lemon",
+        "cream plate with seared tuna steak pink interior edge and greens",
+        "cream plate holding smoked mackerel fillet and potatoes",
+        "cream plate holding pan-fried trout fillet and green beans",
+        "cream shallow bowl holding tomato fish stew",
+        "cream plate with two fish tacos and slaw",
+        "cream plate holding steamed white fish with ginger and spring onion"
+      ],
+      "cols": 3,
+      "rows": 3,
+      "sourcePath": "exec-207b8fe7-28fe-45d6-9591-d77b4328be9e.png"
+    },
+    {
+      "id": "dishes-fish",
+      "version": "c",
+      "path": "dishes-fish--c.png",
+      "prompt": "Use case: stylized-concept. Generate a NEW square transparent pixel-art ASSET ATLAS. This is NOT a full composition: it is nine SEPARATE SMALL ICONS spaced VERY FAR APART on true transparent alpha. 3columns and3rows, exactly9icons. The reference is ONLY for color/pixel style, no scene or background. Each icon should occupy NO MORE THAN HALF of its invisible square cell width or height. There is a HUGE 50percent empty area between every pair of icons. On a1536x1536 image each icon maximum256x256, centered on x=256,768,1280 and y=256,768,1280. Leave very generous empty margins all around. Deliberately SMALL icons in a largely EMPTY canvas. No cropping; all handles/tails/steam contained. Objects row-major: 1. cream plate holding a cooked salmon fillet with lemon and dill; 2. cream plate holding golden battered white fish and chunky chips with peas; 3. cream plate holding a grilled whole sea bass with rosemary and lemon; 4. cream plate with seared tuna steak pink interior edge and greens; 5. cream plate holding smoked mackerel fillet and potatoes; 6. cream plate holding pan-fried trout fillet and green beans; 7. cream shallow bowl holding tomato fish stew; 8. cream plate with two fish tacos and slaw; 9. cream plate holding steamed white fish with ginger and spring onion. Retro marine field-guide pixel art. Cohesive 16-bit adventure-game background art, crisp deliberately visible square pixels, stepped contours, restrained ordered dithering, hand-clustered highlights. Base palette midnight navy #081B2C, ocean teal #145563, sea-glass #78C7AD, parchment #F5E6BB, coral orange #EE9862. Sophisticated natural-history museum mood, charming but not babyish. No smooth vector curves, no glossy 3D, no photorealism, no blurry pixel filter, no text, no logos, no border. Uniform top-side three-quarter camera. Ceramic plates parchment cream with thin teal rim. Make clean chunky low-resolution sprite shapes, 4-6px block stair steps, no smooth outlines. Distinct mouthwatering dishes, restrained detailed texture. Do NOT draw typography, grids, cell lines, glow, shadow, background, hands, people or extra objects. Version C: spacious production-safe atlas with accurately centered separated icons. Each image cell will be clipped separately on the website, so no icon may occupy another cell. True fully transparent background throughout all empty areas.",
+      "category": "dish-sprites",
+      "items": [
+        "cream plate holding a cooked salmon fillet with lemon and dill",
+        "cream plate holding golden battered white fish and chunky chips with peas",
+        "cream plate holding a grilled whole sea bass with rosemary and lemon",
+        "cream plate with seared tuna steak pink interior edge and greens",
+        "cream plate holding smoked mackerel fillet and potatoes",
+        "cream plate holding pan-fried trout fillet and green beans",
+        "cream shallow bowl holding tomato fish stew",
+        "cream plate with two fish tacos and slaw",
+        "cream plate holding steamed white fish with ginger and spring onion"
+      ],
+      "cols": 3,
+      "rows": 3,
+      "sourcePath": "exec-5246b3b4-8921-46bc-ab9b-3162a9702729.png"
+    },
+    {
+      "id": "dishes-shellfish",
+      "version": "a",
+      "path": "dishes-shellfish--a.png",
+      "prompt": "Retro marine field-guide pixel art. Cohesive 16-bit adventure-game background art, crisp deliberately visible square pixels, stepped contours, restrained ordered dithering, hand-clustered highlights. Base palette midnight navy #081B2C, ocean teal #145563, sea-glass #78C7AD, parchment #F5E6BB, coral orange #EE9862. Sophisticated natural-history museum mood, charming but not babyish. No smooth vector curves, no glossy 3D, no photorealism, no blurry pixel filter, no text, no logos, no border.\nUse case: stylized-concept. Asset type: transparent website sprite atlas for A Fish's Tale. Reference image is visual style only, do not copy the underwater scene. Generate a SQUARE 1536x1536 PNG with TRUE transparent alpha. Exactly NINE isolated food or cooking objects in an invisible 3x3 grid of equal 512x512 cells. Every object centered in its cell with 20% empty margin on all sides, no visible lines or cell backgrounds. Uniform top-side three-quarter view. Clean crisp authored 16-bit pixel art: chunky square pixel edges and carefully clustered shading, natural museum palette. Variant A: appetizing tactile material surfaces but strong readable silhouettes. All ceramic plates and bowls warm parchment cream with a single thin ocean-teal rim, presented at identical angle. No text, labels, numbers, shadows outside objects, glow, backgrounds, gradients or antialiased vector art. The nine cells in strict left-to-right, top-to-bottom order: 1. cream plate of grilled prawns with lemon; 2. cream bowl of mussels in broth with herbs; 3. cream plate of three seared scallops with green garnish; 4. cream plate with grilled lobster half and small butter dish; 5. cream platter of opened oysters on crushed ice with lemon; 6. cream plate with golden calamari rings and lemon; 7. cream plate with grilled octopus arm and potatoes; 8. cream bowl with crab pasta; 9. cream plate with cooked langoustines and herbs. Do not duplicate items or move cell positions. Thin navy pixel outlines and warm cream highlights. Background alpha must be fully transparent around each item, including all margins. These objects will be individually displayed by CSS clipping of the atlas. Distinct dishes or action moments, no merged cells, no utensils added unless requested, no hands or people.",
+      "category": "dish-sprites",
+      "items": [
+        "cream plate of grilled prawns with lemon",
+        "cream bowl of mussels in broth with herbs",
+        "cream plate of three seared scallops with green garnish",
+        "cream plate with grilled lobster half and small butter dish",
+        "cream platter of opened oysters on crushed ice with lemon",
+        "cream plate with golden calamari rings and lemon",
+        "cream plate with grilled octopus arm and potatoes",
+        "cream bowl with crab pasta",
+        "cream plate with cooked langoustines and herbs"
+      ],
+      "cols": 3,
+      "rows": 3,
+      "sourcePath": "exec-25cc9d8f-7476-4993-b370-b48dc8648b2a.png"
+    },
+    {
+      "id": "dishes-shellfish",
+      "version": "b",
+      "path": "dishes-shellfish--b.png",
+      "prompt": "Retro marine field-guide pixel art. Cohesive 16-bit adventure-game background art, crisp deliberately visible square pixels, stepped contours, restrained ordered dithering, hand-clustered highlights. Base palette midnight navy #081B2C, ocean teal #145563, sea-glass #78C7AD, parchment #F5E6BB, coral orange #EE9862. Sophisticated natural-history museum mood, charming but not babyish. No smooth vector curves, no glossy 3D, no photorealism, no blurry pixel filter, no text, no logos, no border.\nUse case: stylized-concept. Asset type: polished pixel-art cooking sprite atlas. Reference image is earlier version of this atlas; make a BETTER ALTERNATIVE version B with cleaner boldly readable silhouettes, more breathing space, LESS fine detail. Keep exact3x3 item order,color identities and ingredients. Generate a SQUARE image with true transparent alpha. Exactly NINE small isolated dish/action objects in invisible3x3 equal square cells. Critical layout: every plate, handle, steam and garnish stays inside the central60percent of its cell, 20percent blank transparent margin on each side. Equal centers at 1/6,3/6,5/6 positions along x/y. LARGE transparent gutters; no item touches image edge or another item. At output1536x1536 maximum item bounding box300x300 including garnish and steam. At any size preserve normalized proportions. Uniform top-side three-quarter angle. Ceramic plates warm parchment cream with one thin teal rim. Render as authored on a384x384 pixel canvas nearest-neighbor enlargement: deliberately chunky square pixel clusters, restrained dithering, confident navy outlines, cream highlights. Food remains appetizing and distinct in compact display. The nine items in strict row-major order: 1. cream plate of grilled prawns with lemon; 2. cream bowl of mussels in broth with herbs; 3. cream plate of three seared scallops with green garnish; 4. cream plate with grilled lobster half and small butter dish; 5. cream platter of opened oysters on crushed ice with lemon; 6. cream plate with golden calamari rings and lemon; 7. cream plate with grilled octopus arm and potatoes; 8. cream bowl with crab pasta; 9. cream plate with cooked langoustines and herbs. No text,numbers,grid,background,outside shadows,glow, photorealism,smooth shading, fine speckle texture,hands or people. Fully transparent background. Make species/dish differences clear, no duplicate dishes. Each cell will be separately clipped using CSS.",
+      "category": "dish-sprites",
+      "items": [
+        "cream plate of grilled prawns with lemon",
+        "cream bowl of mussels in broth with herbs",
+        "cream plate of three seared scallops with green garnish",
+        "cream plate with grilled lobster half and small butter dish",
+        "cream platter of opened oysters on crushed ice with lemon",
+        "cream plate with golden calamari rings and lemon",
+        "cream plate with grilled octopus arm and potatoes",
+        "cream bowl with crab pasta",
+        "cream plate with cooked langoustines and herbs"
+      ],
+      "cols": 3,
+      "rows": 3,
+      "sourcePath": "exec-ea3799a5-dccc-4fbd-bfce-f7b3e025b283.png"
+    },
+    {
+      "id": "dishes-shellfish",
+      "version": "c",
+      "path": "dishes-shellfish--c.png",
+      "prompt": "Use case: stylized-concept. Generate a NEW square transparent pixel-art ASSET ATLAS. This is NOT a full composition: it is nine SEPARATE SMALL ICONS spaced VERY FAR APART on true transparent alpha. 3columns and3rows, exactly9icons. The reference is ONLY for color/pixel style, no scene or background. Each icon should occupy NO MORE THAN HALF of its invisible square cell width or height. There is a HUGE 50percent empty area between every pair of icons. On a1536x1536 image each icon maximum256x256, centered on x=256,768,1280 and y=256,768,1280. Leave very generous empty margins all around. Deliberately SMALL icons in a largely EMPTY canvas. No cropping; all handles/tails/steam contained. Objects row-major: 1. cream plate of grilled prawns with lemon; 2. cream bowl of mussels in broth with herbs; 3. cream plate of three seared scallops with green garnish; 4. cream plate with grilled lobster half and small butter dish; 5. cream platter of opened oysters on crushed ice with lemon; 6. cream plate with golden calamari rings and lemon; 7. cream plate with grilled octopus arm and potatoes; 8. cream bowl with crab pasta; 9. cream plate with cooked langoustines and herbs. Retro marine field-guide pixel art. Cohesive 16-bit adventure-game background art, crisp deliberately visible square pixels, stepped contours, restrained ordered dithering, hand-clustered highlights. Base palette midnight navy #081B2C, ocean teal #145563, sea-glass #78C7AD, parchment #F5E6BB, coral orange #EE9862. Sophisticated natural-history museum mood, charming but not babyish. No smooth vector curves, no glossy 3D, no photorealism, no blurry pixel filter, no text, no logos, no border. Uniform top-side three-quarter camera. Ceramic plates parchment cream with thin teal rim. Make clean chunky low-resolution sprite shapes, 4-6px block stair steps, no smooth outlines. Distinct mouthwatering dishes, restrained detailed texture. Do NOT draw typography, grids, cell lines, glow, shadow, background, hands, people or extra objects. Version C: spacious production-safe atlas with accurately centered separated icons. Each image cell will be clipped separately on the website, so no icon may occupy another cell. True fully transparent background throughout all empty areas.",
+      "category": "dish-sprites",
+      "items": [
+        "cream plate of grilled prawns with lemon",
+        "cream bowl of mussels in broth with herbs",
+        "cream plate of three seared scallops with green garnish",
+        "cream plate with grilled lobster half and small butter dish",
+        "cream platter of opened oysters on crushed ice with lemon",
+        "cream plate with golden calamari rings and lemon",
+        "cream plate with grilled octopus arm and potatoes",
+        "cream bowl with crab pasta",
+        "cream plate with cooked langoustines and herbs"
+      ],
+      "cols": 3,
+      "rows": 3,
+      "sourcePath": "exec-b7ab6243-9de6-42ce-b715-0f6b58b31dd4.png"
+    },
+    {
+      "id": "cooking-steps",
+      "version": "a",
+      "path": "cooking-steps--a.png",
+      "prompt": "Retro marine field-guide pixel art. Cohesive 16-bit adventure-game background art, crisp deliberately visible square pixels, stepped contours, restrained ordered dithering, hand-clustered highlights. Base palette midnight navy #081B2C, ocean teal #145563, sea-glass #78C7AD, parchment #F5E6BB, coral orange #EE9862. Sophisticated natural-history museum mood, charming but not babyish. No smooth vector curves, no glossy 3D, no photorealism, no blurry pixel filter, no text, no logos, no border.\nUse case: stylized-concept. Asset type: transparent website sprite atlas for A Fish's Tale. Reference image is visual style only, do not copy the underwater scene. Generate a SQUARE 1536x1536 PNG with TRUE transparent alpha. Exactly NINE isolated food or cooking objects in an invisible 3x3 grid of equal 512x512 cells. Every object centered in its cell with 20% empty margin on all sides, no visible lines or cell backgrounds. Uniform top-side three-quarter view. Clean crisp authored 16-bit pixel art: chunky square pixel edges and carefully clustered shading, natural museum palette. Variant A: appetizing tactile material surfaces but strong readable silhouettes. All ceramic plates and bowls warm parchment cream with a single thin ocean-teal rim, presented at identical angle. No text, labels, numbers, shadows outside objects, glow, backgrounds, gradients or antialiased vector art. The nine cells in strict left-to-right, top-to-bottom order: 1. pat of butter beginning to melt in black frying pan; 2. raw salmon fillet resting on wooden chopping board; 3. fish fillet sizzling in pan with small white steam pixels; 4. lemon half being squeezed with three tiny juice drops, no hand; 5. herbs sprinkled above fish fillet on cream plate, no hand; 6. lidded pot with visible steam curling in chunky pixels; 7. closed oven with warm amber window and blank controls; 8. cream bowl of marinade with wooden spoon; 9. finished cooked fish fillet on cream plate with neatly placed lemon. Do not duplicate items or move cell positions. Thin navy pixel outlines and warm cream highlights. Background alpha must be fully transparent around each item, including all margins. These objects will be individually displayed by CSS clipping of the atlas. Distinct dishes or action moments, no merged cells, no utensils added unless requested, no hands or people.",
+      "category": "process-sprites",
+      "items": [
+        "pat of butter beginning to melt in black frying pan",
+        "raw salmon fillet resting on wooden chopping board",
+        "fish fillet sizzling in pan with small white steam pixels",
+        "lemon half being squeezed with three tiny juice drops, no hand",
+        "herbs sprinkled above fish fillet on cream plate, no hand",
+        "lidded pot with visible steam curling in chunky pixels",
+        "closed oven with warm amber window and blank controls",
+        "cream bowl of marinade with wooden spoon",
+        "finished cooked fish fillet on cream plate with neatly placed lemon"
+      ],
+      "cols": 3,
+      "rows": 3,
+      "sourcePath": "exec-6ad7ff42-4947-4ec2-a6cd-ec4dd0c59808.png"
+    },
+    {
+      "id": "cooking-steps",
+      "version": "b",
+      "path": "cooking-steps--b.png",
+      "prompt": "Retro marine field-guide pixel art. Cohesive 16-bit adventure-game background art, crisp deliberately visible square pixels, stepped contours, restrained ordered dithering, hand-clustered highlights. Base palette midnight navy #081B2C, ocean teal #145563, sea-glass #78C7AD, parchment #F5E6BB, coral orange #EE9862. Sophisticated natural-history museum mood, charming but not babyish. No smooth vector curves, no glossy 3D, no photorealism, no blurry pixel filter, no text, no logos, no border.\nUse case: stylized-concept. Asset type: polished pixel-art cooking sprite atlas. Reference image is earlier version of this atlas; make a BETTER ALTERNATIVE version B with cleaner boldly readable silhouettes, more breathing space, LESS fine detail. Keep exact3x3 item order,color identities and ingredients. Generate a SQUARE image with true transparent alpha. Exactly NINE small isolated dish/action objects in invisible3x3 equal square cells. Critical layout: every plate, handle, steam and garnish stays inside the central60percent of its cell, 20percent blank transparent margin on each side. Equal centers at 1/6,3/6,5/6 positions along x/y. LARGE transparent gutters; no item touches image edge or another item. At output1536x1536 maximum item bounding box300x300 including garnish and steam. At any size preserve normalized proportions. Uniform top-side three-quarter angle. Ceramic plates warm parchment cream with one thin teal rim. Render as authored on a384x384 pixel canvas nearest-neighbor enlargement: deliberately chunky square pixel clusters, restrained dithering, confident navy outlines, cream highlights. Food remains appetizing and distinct in compact display. The nine items in strict row-major order: 1. pat of butter beginning to melt in black frying pan; 2. raw salmon fillet resting on wooden chopping board; 3. fish fillet sizzling in pan with small white steam pixels; 4. lemon half being squeezed with three tiny juice drops, no hand; 5. herbs sprinkled above fish fillet on cream plate, no hand; 6. lidded pot with visible steam curling in chunky pixels; 7. closed oven with warm amber window and blank controls; 8. cream bowl of marinade with wooden spoon; 9. finished cooked fish fillet on cream plate with neatly placed lemon. No text,numbers,grid,background,outside shadows,glow, photorealism,smooth shading, fine speckle texture,hands or people. Fully transparent background. Make species/dish differences clear, no duplicate dishes. Each cell will be separately clipped using CSS.",
+      "category": "process-sprites",
+      "items": [
+        "pat of butter beginning to melt in black frying pan",
+        "raw salmon fillet resting on wooden chopping board",
+        "fish fillet sizzling in pan with small white steam pixels",
+        "lemon half being squeezed with three tiny juice drops, no hand",
+        "herbs sprinkled above fish fillet on cream plate, no hand",
+        "lidded pot with visible steam curling in chunky pixels",
+        "closed oven with warm amber window and blank controls",
+        "cream bowl of marinade with wooden spoon",
+        "finished cooked fish fillet on cream plate with neatly placed lemon"
+      ],
+      "cols": 3,
+      "rows": 3,
+      "sourcePath": "exec-2bdb1507-aad0-424f-b984-36c517016140.png"
+    },
+    {
+      "id": "cooking-steps",
+      "version": "c",
+      "path": "cooking-steps--c.png",
+      "prompt": "Use case: stylized-concept. Generate a NEW square transparent pixel-art ASSET ATLAS. This is NOT a full composition: it is nine SEPARATE SMALL ICONS spaced VERY FAR APART on true transparent alpha. 3columns and3rows, exactly9icons. The reference is ONLY for color/pixel style, no scene or background. Each icon should occupy NO MORE THAN HALF of its invisible square cell width or height. There is a HUGE 50percent empty area between every pair of icons. On a1536x1536 image each icon maximum256x256, centered on x=256,768,1280 and y=256,768,1280. Leave very generous empty margins all around. Deliberately SMALL icons in a largely EMPTY canvas. No cropping; all handles/tails/steam contained. Objects row-major: 1. pat of butter beginning to melt in black frying pan; 2. raw salmon fillet resting on wooden chopping board; 3. fish fillet sizzling in pan with small white steam pixels; 4. lemon half being squeezed with three tiny juice drops, no hand; 5. herbs sprinkled above fish fillet on cream plate, no hand; 6. lidded pot with visible steam curling in chunky pixels; 7. closed oven with warm amber window and blank controls; 8. cream bowl of marinade with wooden spoon; 9. finished cooked fish fillet on cream plate with neatly placed lemon. Retro marine field-guide pixel art. Cohesive 16-bit adventure-game background art, crisp deliberately visible square pixels, stepped contours, restrained ordered dithering, hand-clustered highlights. Base palette midnight navy #081B2C, ocean teal #145563, sea-glass #78C7AD, parchment #F5E6BB, coral orange #EE9862. Sophisticated natural-history museum mood, charming but not babyish. No smooth vector curves, no glossy 3D, no photorealism, no blurry pixel filter, no text, no logos, no border. Uniform top-side three-quarter camera. Ceramic plates parchment cream with thin teal rim. Make clean chunky low-resolution sprite shapes, 4-6px block stair steps, no smooth outlines. Distinct mouthwatering dishes, restrained detailed texture. Do NOT draw typography, grids, cell lines, glow, shadow, background, hands, people or extra objects. Version C: spacious production-safe atlas with accurately centered separated icons. Each image cell will be clipped separately on the website, so no icon may occupy another cell. True fully transparent background throughout all empty areas.",
+      "category": "process-sprites",
+      "items": [
+        "pat of butter beginning to melt in black frying pan",
+        "raw salmon fillet resting on wooden chopping board",
+        "fish fillet sizzling in pan with small white steam pixels",
+        "lemon half being squeezed with three tiny juice drops, no hand",
+        "herbs sprinkled above fish fillet on cream plate, no hand",
+        "lidded pot with visible steam curling in chunky pixels",
+        "closed oven with warm amber window and blank controls",
+        "cream bowl of marinade with wooden spoon",
+        "finished cooked fish fillet on cream plate with neatly placed lemon"
+      ],
+      "cols": 3,
+      "rows": 3,
+      "sourcePath": "exec-59b511a4-e241-4992-9d10-6f610a293b2f.png"
+    },
+    {
+      "id": "cooking-steps",
+      "version": "d",
+      "path": "cooking-steps--d.png",
+      "prompt": "Retro marine field-guide pixel art. Cohesive 16-bit adventure-game background art, crisp deliberately visible square pixels, stepped contours, restrained ordered dithering, hand-clustered highlights. Base palette midnight navy #081B2C, ocean teal #145563, sea-glass #78C7AD, parchment #F5E6BB, coral orange #EE9862. Sophisticated natural-history museum mood, charming but not babyish. No smooth vector curves, no glossy 3D, no photorealism, no blurry pixel filter, no text, no logos, no border.\nUse case: stylized-concept. Asset type: transparent cooking sprite atlas. EDIT the supplied atlas to correct its grid geometry ONLY, preserving style and all nine objects: move ALL THREE icons in TOPROW upward by80pixels. Toprow icon bottoms must be ABOVE y380 on1254pxcanvas, so none is cut by boundary y418. Keep middle and bottom rows unchanged. Keep exact objectorder. Also remove any tiny stray outside pixels, preserve true transparent alpha. No new objects. This is strict3x3production clipping geometry; visual top rowcurrently too low. All iconparts must fit inside their own418x418cell with transparent margins. Nine items strict lefttoright,toptobottom: 1. pat of butter beginning to melt in black frying pan; 2. raw salmon fillet resting on wooden chopping board; 3. fish fillet sizzling in pan with small white steam pixels; 4. lemon half being squeezed with three tiny juice drops, no hand; 5. herbs sprinkled above fish fillet on cream plate, no hand; 6. lidded pot with visible steam curling in chunky pixels; 7. closed oven with warm amber window and blank controls; 8. cream bowl of marinade with wooden spoon; 9. finished cooked fish fillet on cream plate with neatly placed lemon. True transparent alpha. No text, labels, grid lines, shadows or glow. Square image. Clean readable pixel art.",
+      "category": "process-sprites",
+      "items": [
+        "pat of butter beginning to melt in black frying pan",
+        "raw salmon fillet resting on wooden chopping board",
+        "fish fillet sizzling in pan with small white steam pixels",
+        "lemon half being squeezed with three tiny juice drops, no hand",
+        "herbs sprinkled above fish fillet on cream plate, no hand",
+        "lidded pot with visible steam curling in chunky pixels",
+        "closed oven with warm amber window and blank controls",
+        "cream bowl of marinade with wooden spoon",
+        "finished cooked fish fillet on cream plate with neatly placed lemon"
+      ],
+      "cols": 3,
+      "rows": 3,
+      "sourcePath": "exec-52b260ee-4e82-47b5-8f36-6c2e8f7b05c1.png"
+    }
+  ],
+  "usageNotes": [
+    "CSS3x3 clipping; actual image size1254x1254, cell418x418.",
+    "Different objects have varying visual occupancy; allow per-sheet display sizing.",
+    "Dish images are conceptual illustrations, not evidence of menu availability or safe preparation.",
+    "Cooking process shows generic salmon sequence and must not be treated as complete cooking instructions."
+  ]
+}

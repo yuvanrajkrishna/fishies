@@ -1,0 +1,484 @@
+{
+  "purpose": "Copy-only suggestions. Preserve factual ownership in catalogue.ts; no source or research changes.",
+  "tone": "Specific, conversational and concise. Let the artwork provide playfulness. Avoid paired slogan fragments, vague wonder/curiosity claims and calling every object little.",
+  "pageReplacements": [
+    {
+      "line": 13,
+      "find": "Meet it in real life.",
+      "replace": "Find an aquarium."
+    },
+    {
+      "line": 13,
+      "find": "A table by the sea. Or your street.",
+      "replace": "Find it on the menu."
+    },
+    {
+      "line": 13,
+      "find": "Bring the story to your kitchen.",
+      "replace": "Find a fishmonger."
+    },
+    {
+      "line": 37,
+      "find": "A FIELD GUIDE FOR THE CURIOUS",
+      "replace": "AN ILLUSTRATED SEAFOOD FIELD GUIDE"
+    },
+    {
+      "line": 38,
+      "find": "Follow the story",
+      "replace": "Explore this species"
+    },
+    {
+      "line": 40,
+      "find": "Curiosity starts below the surface.",
+      "replace": "Explore its habitat, lifecycle and where to find it."
+    },
+    {
+      "line": 42,
+      "find": "PICK YOUR",
+      "replace": "EXPLORE THE"
+    },
+    {
+      "line": 42,
+      "find": "next obsession.",
+      "replace": "collection."
+    },
+    {
+      "line": 43,
+      "find": "A PLACE IN THE WORLD",
+      "replace": "HABITAT & RANGE"
+    },
+    {
+      "line": 43,
+      "find": "Every story<br/>starts <em>somewhere.</em>",
+      "replace": "Where it <em>lives.</em>"
+    },
+    {
+      "line": 43,
+      "find": "ON THE MENU",
+      "replace": "WHAT IT EATS"
+    },
+    {
+      "line": 43,
+      "find": "A LITTLE SUPERPOWER",
+      "replace": "DISTINGUISHING FEATURE"
+    },
+    {
+      "line": 44,
+      "find": "THE ART OF GROWING UP",
+      "replace": "LIFECYCLE"
+    },
+    {
+      "line": 44,
+      "find": "A life <em>less ordinary.</em>",
+      "replace": "How it <em>grows.</em>"
+    },
+    {
+      "line": 44,
+      "find": "From its first beginning<br/>to the next generation.",
+      "replace": "Follow the stages of its life,<br/>from development to adulthood."
+    },
+    {
+      "line": 45,
+      "find": "FROM CURIOSITY TO A REAL PLAN",
+      "replace": "PLACES TO VISIT, EAT & SHOP"
+    },
+    {
+      "line": 45,
+      "find": "Where does your<br/><em>curiosity take you?</em>",
+      "replace": "Find it <em>near you.</em>"
+    },
+    {
+      "line": 46,
+      "find": "YOUR NEXT<br/>LITTLE ADVENTURE",
+      "replace": "CHOOSE<br/>A LOCATION"
+    },
+    {
+      "line": 46,
+      "find": "A WINDOW INTO THEIR WORLD",
+      "replace": "AQUARIUMS & EXHIBITS"
+    },
+    {
+      "line": 46,
+      "find": "GOOD FOOD HAS A STORY",
+      "replace": "RESTAURANTS & MENUS"
+    },
+    {
+      "line": 46,
+      "find": "A FRESH CHAPTER",
+      "replace": "FISHMONGERS & SEAFOOD SHOPS"
+    },
+    {
+      "line": 46,
+      "find": "Look a little closer.",
+      "replace": "Find a place to see it."
+    },
+    {
+      "line": 46,
+      "find": "Something wonderful awaits.",
+      "replace": "See where it is served."
+    },
+    {
+      "line": 46,
+      "find": "Make something delicious.",
+      "replace": "Choose what to cook."
+    },
+    {
+      "line": 46,
+      "find": "WHERE SHALL WE LOOK?",
+      "replace": "LOCATION"
+    },
+    {
+      "line": 46,
+      "find": "Live pages. Linked evidence. No invented places.<br/>Menu names may not identify the exact species.",
+      "replace": "Results link to the venue’s website.<br/>A menu name may refer to more than one species."
+    },
+    {
+      "line": 46,
+      "find": "This one belongs<br/><em>to the deep.</em>",
+      "replace": "Explore the<br/><em>deep sea.</em>"
+    },
+    {
+      "line": 46,
+      "find": "No restaurant or aquarium suggestions here. Explore its extraordinary natural history through the researchers who study it.",
+      "replace": "This collection does not include visitor or food listings for this animal. Read what researchers have learned about its life in the deep ocean."
+    },
+    {
+      "line": 48,
+      "find": "Following real links to find your next discovery.",
+      "replace": "Searching venue websites and checking the details."
+    },
+    {
+      "line": 49,
+      "find": "places to investigate.",
+      "replace": "results found."
+    },
+    {
+      "line": 49,
+      "find": "No matches surfaced this time.",
+      "replace": "No matching places found."
+    },
+    {
+      "line": 49,
+      "find": "AGENT FIELD NOTES",
+      "replace": "WEBSITE DETAILS"
+    },
+    {
+      "line": 51,
+      "find": "A LITTLE KITCHEN MAGIC",
+      "replace": "IN THE KITCHEN"
+    },
+    {
+      "line": 51,
+      "find": "From the sea<br/><em>to something lovely.</em>",
+      "replace": "How to <em>cook it.</em>"
+    },
+    {
+      "line": 51,
+      "find": "Start with good ingredients. Find a recipe made for {fish.menu}, and let the little details do the work.",
+      "replace": "Find recipes for {fish.menu}, with preparation steps and cooking instructions."
+    },
+    {
+      "line": 51,
+      "find": "ONE DELICIOUS POSSIBILITY",
+      "replace": "SERVING SUGGESTION"
+    },
+    {
+      "line": 51,
+      "find": "A little butter",
+      "replace": "Butter"
+    },
+    {
+      "line": 51,
+      "find": "A squeeze of lemon",
+      "replace": "Lemon"
+    },
+    {
+      "line": 51,
+      "find": "Something green",
+      "replace": "Fresh herbs"
+    },
+    {
+      "line": 51,
+      "find": "Your favourite pan",
+      "replace": "Frying pan"
+    },
+    {
+      "line": 51,
+      "find": "Check your cooking",
+      "replace": "Cooking thermometer"
+    },
+    {
+      "line": 52,
+      "find": "THE OCEAN IS FULL OF STORIES",
+      "replace": "CONTINUE EXPLORING"
+    },
+    {
+      "line": 52,
+      "find": "Keep your <em>curiosity afloat.</em>",
+      "replace": "What will you<br/><em>find next?</em>"
+    },
+    {
+      "line": 53,
+      "find": "A little closer to the ocean.",
+      "replace": "An illustrated guide to sea life and seafood."
+    }
+  ],
+  "catalogueTaglines": [
+    {
+      "id": "salmon",
+      "field": "tagline",
+      "find": "Born in a river. Raised by the ocean.",
+      "replace": "Returns from the Atlantic to spawn in freshwater."
+    },
+    {
+      "id": "cod",
+      "field": "tagline",
+      "find": "The quiet giant of the cold seabed.",
+      "replace": "Recognise it by three dorsal fins and a small chin barbel."
+    },
+    {
+      "id": "tuna",
+      "field": "tagline",
+      "find": "Built for the endless blue.",
+      "replace": "An open-ocean hunter with distinctive yellow fins."
+    },
+    {
+      "id": "mackerel",
+      "field": "tagline",
+      "find": "A flash of silver. A school of thousands.",
+      "replace": "Blue-green stripes mark this schooling Atlantic fish."
+    },
+    {
+      "id": "clownfish",
+      "field": "tagline",
+      "find": "A tiny fish. A very good neighbour.",
+      "replace": "Lives among the tentacles of a host anemone."
+    },
+    {
+      "id": "tang",
+      "field": "tagline",
+      "find": "A little blue, a little bold.",
+      "replace": "Bright blue with a yellow tail and a dark palette-shaped marking."
+    },
+    {
+      "id": "seahorse",
+      "field": "tagline",
+      "find": "Small creature. Extraordinary father.",
+      "replace": "The male carries developing young in a brood pouch."
+    },
+    {
+      "id": "shark",
+      "field": "tagline",
+      "find": "A dark fin over a sunlit reef.",
+      "replace": "Black-tipped fins distinguish this shallow-water reef shark."
+    },
+    {
+      "id": "lobster",
+      "field": "tagline",
+      "find": "Blue armour. Two very different claws.",
+      "replace": "A rocky-seabed dweller that sheds its shell as it grows."
+    },
+    {
+      "id": "crab",
+      "field": "tagline",
+      "find": "A piecrust shell. A powerful pinch.",
+      "replace": "Look for black-tipped claws and a crimped shell edge."
+    },
+    {
+      "id": "prawn",
+      "field": "tagline",
+      "find": "A small wonder of cold water.",
+      "replace": "A pink shrimp from the cold North Atlantic."
+    },
+    {
+      "id": "mussel",
+      "field": "tagline",
+      "find": "A whole ocean, filtered through a shell.",
+      "replace": "Anchors to the coast with threads and filters food from the water."
+    },
+    {
+      "id": "oyster",
+      "field": "tagline",
+      "find": "An uneven shell. An entire tiny world.",
+      "replace": "Native to the northwest Pacific and farmed around the world."
+    },
+    {
+      "id": "scallop",
+      "field": "tagline",
+      "find": "The shell that can swim away.",
+      "replace": "Claps its two shells to swim away from danger."
+    },
+    {
+      "id": "squid",
+      "field": "tagline",
+      "find": "A jet-powered shape-shifter.",
+      "replace": "An active Atlantic predator that swims by jet propulsion."
+    },
+    {
+      "id": "octopus",
+      "field": "tagline",
+      "find": "Eight arms. Endless curiosity.",
+      "replace": "Explores rocky seabeds with eight sucker-lined arms."
+    },
+    {
+      "id": "cuttlefish",
+      "field": "tagline",
+      "find": "The sea’s living colour palette.",
+      "replace": "Changes colour and pattern to blend into its surroundings."
+    },
+    {
+      "id": "dumbo",
+      "field": "tagline",
+      "find": "Some stories belong in the deep.",
+      "replace": "Swims above the deep seafloor using ear-like fins."
+    }
+  ],
+  "catalogueDescriptionEdits": [
+    {
+      "id": "salmon",
+      "field": "description",
+      "find": "A silver traveller with a remarkable sense of home. ",
+      "replace": ""
+    },
+    {
+      "id": "cod",
+      "field": "description",
+      "find": "Their story is tied to cold Atlantic waters and the communities that fish them.",
+      "replace": "They live in cold Atlantic waters."
+    },
+    {
+      "id": "clownfish",
+      "field": "description",
+      "find": "Orange, white and unmistakable. Clownfish shelter among anemone tentacles, making one of the reef’s most recognisable partnerships.",
+      "replace": "Clownfish have orange bodies crossed by white bands. They shelter among the tentacles of a host anemone."
+    },
+    {
+      "id": "tang",
+      "field": "description",
+      "find": " It is a wild animal with a place in a complex reef community.",
+      "replace": ""
+    },
+    {
+      "id": "prawn",
+      "field": "description",
+      "find": "Northern prawns live in the North Atlantic and play their part in a busy seafloor food web.",
+      "replace": "Northern prawns forage over the North Atlantic seafloor."
+    },
+    {
+      "id": "cuttlefish",
+      "field": "description",
+      "find": "A master of pattern and camouflage, with a broad body edged by a rippling fin.",
+      "replace": "A broad-bodied cephalopod with a rippling fin and skin that changes colour and pattern."
+    }
+  ],
+  "catalogueStageLabelsById": {
+    "salmon": [
+      "Eggs in river gravel",
+      "Alevin, fry and parr",
+      "Migration to sea",
+      "Return to spawn"
+    ],
+    "cod": [
+      "Spawning",
+      "Drifting larvae",
+      "Juvenile cod",
+      "Adult cod"
+    ],
+    "tuna": [
+      "Spawning in warm water",
+      "Larval tuna",
+      "Young schools",
+      "Adult tuna"
+    ],
+    "mackerel": [
+      "Drifting eggs",
+      "Feeding larvae",
+      "Juvenile schools",
+      "Seasonal migration"
+    ],
+    "clownfish": [
+      "Eggs beside an anemone",
+      "Larvae in open water",
+      "Settling on the reef",
+      "Adult social groups"
+    ],
+    "tang": [
+      "Spawning",
+      "Planktonic larvae",
+      "Juvenile settlement",
+      "Reef-feeding adults"
+    ],
+    "seahorse": [
+      "Egg transfer",
+      "Developing in the pouch",
+      "Birth",
+      "Growth"
+    ],
+    "shark": [
+      "Developing inside the mother",
+      "Live birth",
+      "Coastal nursery",
+      "Adult reef shark"
+    ],
+    "lobster": [
+      "Eggs under the abdomen",
+      "Planktonic larvae",
+      "Seabed settlement",
+      "Growth and moulting"
+    ],
+    "crab": [
+      "Carried eggs",
+      "Planktonic larvae",
+      "Juvenile settlement",
+      "Adult crab"
+    ],
+    "prawn": [
+      "Carried eggs",
+      "Planktonic larvae",
+      "Juvenile settlement",
+      "Adult prawn"
+    ],
+    "mussel": [
+      "Spawning",
+      "Swimming larvae",
+      "Settlement",
+      "Adult mussel beds"
+    ],
+    "oyster": [
+      "Spawning",
+      "Swimming larvae",
+      "Spat settlement",
+      "Attached adults"
+    ],
+    "scallop": [
+      "Spawning",
+      "Planktonic larvae",
+      "Juvenile settlement",
+      "Adult scallop"
+    ],
+    "squid": [
+      "Egg capsules",
+      "Hatching",
+      "Rapid growth",
+      "Reproduction"
+    ],
+    "octopus": [
+      "Egg care",
+      "Hatching",
+      "Growth and hunting",
+      "Reproduction"
+    ],
+    "cuttlefish": [
+      "Attached eggs",
+      "Hatching",
+      "Juvenile hunting",
+      "Adult cuttlefish"
+    ],
+    "dumbo": [
+      "Deep-sea life",
+      "Developing eggs",
+      "Young octopuses",
+      "Adults"
+    ]
+  }
+}

@@ -1,0 +1,537 @@
+{
+  "status": "complete",
+  "method": "built-in image_gen",
+  "style": "Retro marine field-guide pixel art. Cohesive 16-bit adventure-game background art, crisp deliberately visible square pixels, stepped contours, restrained ordered dithering, hand-clustered highlights. Base palette midnight navy #081B2C, ocean teal #145563, sea-glass #78C7AD, parchment #F5E6BB, coral orange #EE9862. Sophisticated natural-history museum mood, charming but not babyish. No smooth vector curves, no glossy 3D, no photorealism, no blurry pixel filter, no text, no logos, no border.",
+  "counts": {
+    "selected": 15,
+    "variants": 31,
+    "new_generated_this_agent": 22,
+    "preexisting_preserved": 9
+  },
+  "notes": [
+    "All 31 variants visually inspected. Each of 15 scenes compared across alternatives; world atlas refined to third variant for style/readability.",
+    "All images copied without pixel modification; preserve master PNGs.",
+    "All scene illustrations are generic conceptual environments, not venue photos or habitat evidence.",
+    "Decorative atlas is not reliable geography or a coordinate basemap. Use independent geographic data for world distribution.",
+    "Normalized overlay rectangles specify centre x/y and available width/height in uncropped source image. Layer text on dark panels when contrast requires."
+  ],
+  "assets": [
+    {
+      "id": "habitat-reef",
+      "category": "habitat",
+      "variants": [
+        {
+          "version": "A",
+          "path": "exec-a0d62964-f2a1-4221-a3fe-bab82aef30d1.png",
+          "prompt": "Retro marine field-guide pixel art. Cohesive 16-bit adventure-game background art, crisp deliberately visible square pixels, stepped contours, restrained ordered dithering, hand-clustered highlights. Base palette midnight navy #081B2C, ocean teal #145563, sea-glass #78C7AD, parchment #F5E6BB, coral orange #EE9862. Sophisticated natural-history museum mood, charming but not babyish. No smooth vector curves, no glossy 3D, no photorealism, no blurry pixel filter, no text, no logos, no border.\nUse case: stylized-concept. Asset type: wide website chapter background, 1536x1024 landscape. Create the definitive visual anchor for A Fish's Tale: an underwater tropical coral reef diorama viewed side-on. Rich navy upper water, shafts of light represented by broad stepped color bands, turquoise open water in the central 60 percent, delicate warm orange branching coral and mint reef plants framing the lower corners, textured sandy seabed at bottom. Many fine pixel clusters but a visibly low-resolution authored-pixel structure, like a 384x256 scene enlarged by nearest neighbor. Unoccupied central water for fish sprites and overlay UI. No fish, no animals, no humans, no lettering, no interface. Readable spatial depth using only hard-edged layered pixels. Beautiful atmospheric restraint.",
+          "variant_file": "variants/habitat-reef--a.png",
+          "selected": true
+        },
+        {
+          "version": "B",
+          "path": "exec-debf789c-eec0-4afa-909d-c36ad3986e9e.png",
+          "prompt": "Retro marine field-guide pixel art. Cohesive 16-bit adventure-game background art, crisp deliberately visible square pixels, stepped contours, restrained ordered dithering, hand-clustered highlights. Base palette midnight navy #081B2C, ocean teal #145563, sea-glass #78C7AD, parchment #F5E6BB, coral orange #EE9862. Sophisticated natural-history museum mood, charming but not babyish. No smooth vector curves, no glossy 3D, no photorealism, no blurry pixel filter, no text, no logos, no border.\nUse case: stylized-concept. Asset type: wide website chapter background, 1536x1024 landscape. Create the definitive visual anchor for A Fish's Tale: an underwater tropical coral reef diorama viewed side-on. Rich navy upper water, shafts of light represented by broad stepped color bands, turquoise open water in the central 60 percent, delicate warm orange branching coral and mint reef plants framing the lower corners, textured sandy seabed at bottom. Many fine pixel clusters but a visibly low-resolution authored-pixel structure, like a 384x256 scene enlarged by nearest neighbor. Unoccupied central water for fish sprites and overlay UI. No fish, no animals, no humans, no lettering, no interface. Readable spatial depth using only hard-edged layered pixels. Beautiful atmospheric restraint.\nAlternative B composition: create an asymmetrical reef arch framing the far left and bottom right. Broader, calm central navy-teal water and stronger diagonal sunlight from upper right. Restrained coral accents. Central 60 percent empty.\nStrict consistency: use attached reef reference only for pixel scale, palette discipline and hard-edged shading; change subject to specified habitat. Avoid blur and smooth gradients.",
+          "variant_file": "variants/habitat-reef--b.png",
+          "selected": false
+        }
+      ],
+      "chosen": "A",
+      "reason": "Best balanced reef framing and broad central clearing; canonical style anchor.",
+      "overlay": {
+        "x": 0.5,
+        "y": 0.45,
+        "width": 0.4,
+        "height": 0.4
+      },
+      "chosen_file": "assets/habitat-reef.png",
+      "limitations": "Generic conceptual scene illustration, not a photograph of any venue or evidence of exact habitat. Do not claim the art proves availability, species presence or accessibility.",
+      "crop_note": "Use centred 3:2 composition; quiet centre survives moderate horizontal crop. Do not cover key environment with dense text.",
+      "width": 1536,
+      "height": 1024,
+      "file_bytes": 2012675
+    },
+    {
+      "id": "habitat-river",
+      "category": "habitat",
+      "variants": [
+        {
+          "version": "A",
+          "path": "exec-8625aec9-befa-44fb-8d5c-28b84022fbb2.png",
+          "prompt": "Retro marine field-guide pixel art. Cohesive 16-bit adventure-game background art, crisp deliberately visible square pixels, stepped contours, restrained ordered dithering, hand-clustered highlights. Base palette midnight navy #081B2C, ocean teal #145563, sea-glass #78C7AD, parchment #F5E6BB, coral orange #EE9862. Sophisticated natural-history museum mood, charming but not babyish. No smooth vector curves, no glossy 3D, no photorealism, no blurry pixel filter, no text, no logos, no border.\nUse case: stylized-concept. Asset type: wide website chapter background 1536x1024 landscape. Transform reference style into a clear cool freshwater river viewed UNDERWATER side-on. Rounded ochre river stones along bottom, ribbons of muted green aquatic plants at corners, clear sage and aqua water, strong amber pixel sunlight entering from surface, riverbank silhouettes faint above water at top. Central 60 percent open unoccupied water to overlay a salmon or trout sprite and text. Palette variation: moss, ochre, clear jade, cream, navy. Retain exactly the same authored 16-bit pixel clusters and stepped lighting as reference. No fish, no humans, no text, no interface.",
+          "variant_file": "variants/habitat-river--a.png",
+          "selected": false
+        },
+        {
+          "version": "B",
+          "path": "exec-61d3f177-884e-4f11-9f0a-3e040a97f545.png",
+          "prompt": "Retro marine field-guide pixel art. Cohesive 16-bit adventure-game background art, crisp deliberately visible square pixels, stepped contours, restrained ordered dithering, hand-clustered highlights. Base palette midnight navy #081B2C, ocean teal #145563, sea-glass #78C7AD, parchment #F5E6BB, coral orange #EE9862. Sophisticated natural-history museum mood, charming but not babyish. No smooth vector curves, no glossy 3D, no photorealism, no blurry pixel filter, no text, no logos, no border.\nUse case: stylized-concept. Asset type: wide website chapter background 1536x1024 landscape. Transform reference style into a clear cool freshwater river viewed UNDERWATER side-on. Rounded ochre river stones along bottom, ribbons of muted green aquatic plants at corners, clear sage and aqua water, strong amber pixel sunlight entering from surface, riverbank silhouettes faint above water at top. Central 60 percent open unoccupied water to overlay a salmon or trout sprite and text. Palette variation: moss, ochre, clear jade, cream, navy. Retain exactly the same authored 16-bit pixel clusters and stepped lighting as reference. No fish, no humans, no text, no interface.\nAlternative B composition: clearer water and brighter gentle golden afternoon light through a river surface. River roots visible far left, smooth pebbles along bottom, a few translucent reeds at far right. Central 65 percent empty; no coral.\nStrict consistency: use attached reef reference only for pixel scale, palette discipline and hard-edged shading; change subject to specified habitat. Avoid blur and smooth gradients.",
+          "variant_file": "variants/habitat-river--b.png",
+          "selected": true
+        }
+      ],
+      "chosen": "B",
+      "reason": "Bank roots distinguish freshwater habitat while calm central water supports a large creature.",
+      "overlay": {
+        "x": 0.54,
+        "y": 0.43,
+        "width": 0.42,
+        "height": 0.38
+      },
+      "chosen_file": "assets/habitat-river.png",
+      "limitations": "Generic conceptual scene illustration, not a photograph of any venue or evidence of exact habitat. Do not claim the art proves availability, species presence or accessibility.",
+      "crop_note": "Use centred 3:2 composition; quiet centre survives moderate horizontal crop. Do not cover key environment with dense text.",
+      "width": 1536,
+      "height": 1024,
+      "file_bytes": 2193177
+    },
+    {
+      "id": "habitat-open-ocean",
+      "category": "habitat",
+      "variants": [
+        {
+          "version": "A",
+          "path": "exec-ffcf03e4-b6df-4980-805f-2bd44cf4d30a.png",
+          "prompt": "Retro marine field-guide pixel art. Cohesive 16-bit adventure-game background art, crisp deliberately visible square pixels, stepped contours, restrained ordered dithering, hand-clustered highlights. Base palette midnight navy #081B2C, ocean teal #145563, sea-glass #78C7AD, parchment #F5E6BB, coral orange #EE9862. Sophisticated natural-history museum mood, charming but not babyish. No smooth vector curves, no glossy 3D, no photorealism, no blurry pixel filter, no text, no logos, no border.\nUse case: stylized-concept. Reference image is style only.\nWide 1536x1024 website background. Same authored pixel-art treatment as reference, transformed into vast OPEN OCEAN. Indigo and cobalt upper water, silver-blue light shafts, deep ultramarine horizon, dark blue depth below. No coral or plants or visible seafloor. Immense calm open central water for tuna/mackerel sprites. Faint distant ocean current bands rendered in stepped pixels, subtle moonlike surface light at top. No fish or animals, no text.",
+          "variant_file": "variants/habitat-open-ocean--a.png",
+          "selected": true
+        },
+        {
+          "version": "B",
+          "path": "exec-5d885187-b0bc-4482-b25a-09c3cd8166a5.png",
+          "prompt": "Retro marine field-guide pixel art. Cohesive 16-bit adventure-game background art, crisp deliberately visible square pixels, stepped contours, restrained ordered dithering, hand-clustered highlights. Base palette midnight navy #081B2C, ocean teal #145563, sea-glass #78C7AD, parchment #F5E6BB, coral orange #EE9862. Sophisticated natural-history museum mood, charming but not babyish. No smooth vector curves, no glossy 3D, no photorealism, no blurry pixel filter, no text, no logos, no border.\nUse case: stylized-concept. Reference image is style only.\nWide 1536x1024 website background. Same authored pixel-art treatment as reference, transformed into vast OPEN OCEAN. Indigo and cobalt upper water, silver-blue light shafts, deep ultramarine horizon, dark blue depth below. No coral or plants or visible seafloor. Immense calm open central water for tuna/mackerel sprites. Faint distant ocean current bands rendered in stepped pixels, subtle moonlike surface light at top. No fish or animals, no text.\nAlternative B composition: immense pelagic depth seen just below sunlit rolling surface. Thin glints of pale mint above, broad calm cobalt/navy lower two thirds, faint large stepped vertical light bands. No horizon above water, no seabed, plants or coral.\nStrict consistency: use attached reef reference only for pixel scale, palette discipline and hard-edged shading; change subject to specified habitat. Avoid blur and smooth gradients.",
+          "variant_file": "variants/habitat-open-ocean--b.png",
+          "selected": false
+        }
+      ],
+      "chosen": "A",
+      "reason": "More deliberate hard-edged pixel light and current bands while retaining open pelagic space.",
+      "overlay": {
+        "x": 0.5,
+        "y": 0.5,
+        "width": 0.55,
+        "height": 0.45
+      },
+      "chosen_file": "assets/habitat-open-ocean.png",
+      "limitations": "Generic conceptual scene illustration, not a photograph of any venue or evidence of exact habitat. Do not claim the art proves availability, species presence or accessibility.",
+      "crop_note": "Use centred 3:2 composition; quiet centre survives moderate horizontal crop. Do not cover key environment with dense text.",
+      "width": 1536,
+      "height": 1024,
+      "file_bytes": 1783935
+    },
+    {
+      "id": "habitat-seabed",
+      "category": "habitat",
+      "variants": [
+        {
+          "version": "A",
+          "path": "exec-eeedd59d-ed7a-4650-b905-61313903732b.png",
+          "prompt": "Retro marine field-guide pixel art. Cohesive 16-bit adventure-game background art, crisp deliberately visible square pixels, stepped contours, restrained ordered dithering, hand-clustered highlights. Base palette midnight navy #081B2C, ocean teal #145563, sea-glass #78C7AD, parchment #F5E6BB, coral orange #EE9862. Sophisticated natural-history museum mood, charming but not babyish. No smooth vector curves, no glossy 3D, no photorealism, no blurry pixel filter, no text, no logos, no border.\nUse case: stylized-concept. Reference image is style only.\nWide 1536x1024 website background. Same pixel-art treatment as reference, transformed into a COLD ATLANTIC SEABED. Slate-blue water and softly illuminated sand/gravel bottom. Scattered round stones, low sparse red-brown seaweed, no tropical reef. Cool grey, ink blue, pale sand, dusty lavender and muted rust palette. Central open swimming space for cod above bottom. Atmospheric low sunlight from top right, hard pixel cluster bands rather than blur. No fish, animals or text.",
+          "variant_file": "variants/habitat-seabed--a.png",
+          "selected": false
+        },
+        {
+          "version": "B",
+          "path": "exec-1247e031-5503-4af6-a839-0800a2dcde12.png",
+          "prompt": "Retro marine field-guide pixel art. Cohesive 16-bit adventure-game background art, crisp deliberately visible square pixels, stepped contours, restrained ordered dithering, hand-clustered highlights. Base palette midnight navy #081B2C, ocean teal #145563, sea-glass #78C7AD, parchment #F5E6BB, coral orange #EE9862. Sophisticated natural-history museum mood, charming but not babyish. No smooth vector curves, no glossy 3D, no photorealism, no blurry pixel filter, no text, no logos, no border.\nUse case: stylized-concept. Reference image is style only.\nWide 1536x1024 website background. Same pixel-art treatment as reference, transformed into a COLD ATLANTIC SEABED. Slate-blue water and softly illuminated sand/gravel bottom. Scattered round stones, low sparse red-brown seaweed, no tropical reef. Cool grey, ink blue, pale sand, dusty lavender and muted rust palette. Central open swimming space for cod above bottom. Atmospheric low sunlight from top right, hard pixel cluster bands rather than blur. No fish, animals or text.\nAlternative B: colder twilight palette with lavender slate and navy, pale sandy seabed across bottom 20 percent, one low large rounded boulder on left, thin rust seaweed at far right, no reef-like terraces. Open broad middle two thirds. Less detail than reference in central water; fine pixel detail only edges.\nReference is pixel-style only; retain crisp square pixel clusters, stepped color lighting and mature museum illustration tone.",
+          "variant_file": "variants/habitat-seabed--b.png",
+          "selected": true
+        }
+      ],
+      "chosen": "B",
+      "reason": "Lower rocks and cooler lavender light make a clearer, quieter cold seabed stage.",
+      "overlay": {
+        "x": 0.52,
+        "y": 0.46,
+        "width": 0.52,
+        "height": 0.35
+      },
+      "chosen_file": "assets/habitat-seabed.png",
+      "limitations": "Generic conceptual scene illustration, not a photograph of any venue or evidence of exact habitat. Do not claim the art proves availability, species presence or accessibility.",
+      "crop_note": "Use centred 3:2 composition; quiet centre survives moderate horizontal crop. Do not cover key environment with dense text.",
+      "width": 1536,
+      "height": 1024,
+      "file_bytes": 2033619
+    },
+    {
+      "id": "habitat-kelp",
+      "category": "habitat",
+      "variants": [
+        {
+          "version": "A",
+          "path": "exec-ec8baa98-8524-4180-8add-12e81d029a8f.png",
+          "prompt": "Retro marine field-guide pixel art. Cohesive 16-bit adventure-game background art, crisp deliberately visible square pixels, stepped contours, restrained ordered dithering, hand-clustered highlights. Base palette midnight navy #081B2C, ocean teal #145563, sea-glass #78C7AD, parchment #F5E6BB, coral orange #EE9862. Sophisticated natural-history museum mood, charming but not babyish. No smooth vector curves, no glossy 3D, no photorealism, no blurry pixel filter, no text, no logos, no border.\nUse case: stylized-concept. Reference image is style only.\nWide 1536x1024 website background. Same pixel-art treatment as reference, transformed into a TEMPERATE KELP FOREST. Long ribbon-shaped amber/olive kelp rising from rocky bottom and framing both sides. Cool green aquamarine clear water with sunshafts. Central 60 percent open water for a fish sprite and UI. Leafy kelp correct shapes, no tropical coral. Deep jade, mustard gold, moss, sea glass colors. No fish, animals, humans, or text.",
+          "variant_file": "variants/habitat-kelp--a.png",
+          "selected": false
+        },
+        {
+          "version": "B",
+          "path": "exec-84a56b86-29ad-425a-8f83-a9759ac9ac3f.png",
+          "prompt": "Retro marine field-guide pixel art. Cohesive 16-bit adventure-game background art, crisp deliberately visible square pixels, stepped contours, restrained ordered dithering, hand-clustered highlights. Base palette midnight navy #081B2C, ocean teal #145563, sea-glass #78C7AD, parchment #F5E6BB, coral orange #EE9862. Sophisticated natural-history museum mood, charming but not babyish. No smooth vector curves, no glossy 3D, no photorealism, no blurry pixel filter, no text, no logos, no border.\nUse case: stylized-concept. Reference image is style only.\nWide 1536x1024 website background. Same pixel-art treatment as reference, transformed into a TEMPERATE KELP FOREST. Long ribbon-shaped amber/olive kelp rising from rocky bottom and framing both sides. Cool green aquamarine clear water with sunshafts. Central 60 percent open water for a fish sprite and UI. Leafy kelp correct shapes, no tropical coral. Deep jade, mustard gold, moss, sea glass colors. No fish, animals, humans, or text.\nAlternative B: cathedral-like kelp fronds rise from both far edges, more distinct long rippling ribbon-shaped leaves, gold olive highlights and dark jade water. Sparse distant thin kelp silhouettes for depth; broad central clearing from x 25 percent to 75 percent. No coral.\nReference is pixel-style only; retain crisp square pixel clusters, stepped color lighting and mature museum illustration tone.",
+          "variant_file": "variants/habitat-kelp--b.png",
+          "selected": true
+        }
+      ],
+      "chosen": "B",
+      "reason": "Kelp forms a clear vertical frame with a wider central opening than A.",
+      "overlay": {
+        "x": 0.5,
+        "y": 0.43,
+        "width": 0.4,
+        "height": 0.42
+      },
+      "chosen_file": "assets/habitat-kelp.png",
+      "limitations": "Generic conceptual scene illustration, not a photograph of any venue or evidence of exact habitat. Do not claim the art proves availability, species presence or accessibility.",
+      "crop_note": "Use centred 3:2 composition; quiet centre survives moderate horizontal crop. Do not cover key environment with dense text.",
+      "width": 1536,
+      "height": 1024,
+      "file_bytes": 2107380
+    },
+    {
+      "id": "destination-aquarium",
+      "category": "destination",
+      "variants": [
+        {
+          "version": "A",
+          "path": "exec-60b47ed3-8ec9-499e-95df-7336f2412f28.png",
+          "prompt": "Retro marine field-guide pixel art. Cohesive 16-bit adventure-game background art, crisp deliberately visible square pixels, stepped contours, restrained ordered dithering, hand-clustered highlights. Base palette midnight navy #081B2C, ocean teal #145563, sea-glass #78C7AD, parchment #F5E6BB, coral orange #EE9862. Sophisticated natural-history museum mood, charming but not babyish. No smooth vector curves, no glossy 3D, no photorealism, no blurry pixel filter, no text, no logos, no border.\nUse case: stylized-concept. Reference is style only.\n1536x1024 wide full scene. Pixel-art public aquarium gallery seen from visitor side. A huge blue-green panoramic glass viewing window occupies central 65 percent, empty clear water ready for composited fish sprite. Glass arch and navy iron frames, warm cream stone floor, small benches at bottom, softly glowing gold exhibit lamps. Tiny simple visitor silhouettes at far left and right give scale, unobstructed central tank. Reef rocks at tank bottom. Magical calm museum mood, no specific city or venue branding. No text, no fish drawn in tank.",
+          "variant_file": "variants/destination-aquarium--a.png",
+          "selected": false
+        },
+        {
+          "version": "B",
+          "path": "exec-1792c997-2258-4228-a8a5-3ea74a8a99de.png",
+          "prompt": "Retro marine field-guide pixel art. Cohesive 16-bit adventure-game background art, crisp deliberately visible square pixels, stepped contours, restrained ordered dithering, hand-clustered highlights. Base palette midnight navy #081B2C, ocean teal #145563, sea-glass #78C7AD, parchment #F5E6BB, coral orange #EE9862. Sophisticated natural-history museum mood, charming but not babyish. No smooth vector curves, no glossy 3D, no photorealism, no blurry pixel filter, no text, no logos, no border.\nUse case: stylized-concept. Reference is style only.\n1536x1024 wide full scene. Pixel-art public aquarium gallery seen from visitor side. A huge blue-green panoramic glass viewing window occupies central 65 percent, empty clear water ready for composited fish sprite. Glass arch and navy iron frames, warm cream stone floor, small benches at bottom, softly glowing gold exhibit lamps. Tiny simple visitor silhouettes at far left and right give scale, unobstructed central tank. Reef rocks at tank bottom. Magical calm museum mood, no specific city or venue branding. No text, no fish drawn in tank.\nAlternative B: aquarium gallery in elegant older natural-history museum, a large rounded brass framed panoramic window centered above a navy bench. Two warm art-deco lamps at extreme sides, dark teal floor, central tank full of clear empty water with subtle stones only far corners. Symmetric spacious composition with unobstructed 60 percent water. Small visitors only far corners.\nReference is pixel-style only; retain crisp square pixel clusters, stepped color lighting and mature museum illustration tone.",
+          "variant_file": "variants/destination-aquarium--b.png",
+          "selected": true
+        }
+      ],
+      "chosen": "B",
+      "reason": "Brass frame, benches and lamps create stronger museum identity and expansive clear tank.",
+      "overlay": {
+        "x": 0.5,
+        "y": 0.4,
+        "width": 0.45,
+        "height": 0.38
+      },
+      "chosen_file": "assets/destination-aquarium.png",
+      "limitations": "Generic conceptual scene illustration, not a photograph of any venue or evidence of exact habitat. Do not claim the art proves availability, species presence or accessibility.",
+      "crop_note": "Use at 3:2 or compensate overlay coordinates when cropped. Object-fit cover on narrow mobile may remove side context; keep central stage visible.",
+      "width": 1536,
+      "height": 1024,
+      "file_bytes": 2146061
+    },
+    {
+      "id": "destination-restaurant",
+      "category": "destination",
+      "variants": [
+        {
+          "version": "A",
+          "path": "exec-0e6a2f38-7afa-4326-a351-3c90d52ad955.png",
+          "prompt": "Retro marine field-guide pixel art. Cohesive 16-bit adventure-game background art, crisp deliberately visible square pixels, stepped contours, restrained ordered dithering, hand-clustered highlights. Base palette midnight navy #081B2C, ocean teal #145563, sea-glass #78C7AD, parchment #F5E6BB, coral orange #EE9862. Sophisticated natural-history museum mood, charming but not babyish. No smooth vector curves, no glossy 3D, no photorealism, no blurry pixel filter, no text, no logos, no border.\nUse case: stylized-concept. Reference is style only.\n1536x1024 wide full scene. Pixel-art cosy seafood restaurant at blue hour seen from inside, a beautifully composed foreground walnut dining table occupying bottom third with a large EMPTY cream ceramic plate in centre, no food on plate because separate food sprites will be overlaid. Folded linen, fork and knife, water glass, small candle at edges. Warm amber pendant lights and dark teal tiled wall, window with abstract city night lights. Welcoming refined bistro atmosphere, no identifiable city, no letters, no logos, no humans. True retro pixel clusters, no smooth gradients.",
+          "variant_file": "variants/destination-restaurant--a.png",
+          "selected": false
+        },
+        {
+          "version": "B",
+          "path": "exec-8941d669-8be0-4ec8-b1e5-ac9ca2857fac.png",
+          "prompt": "Retro marine field-guide pixel art. Cohesive 16-bit adventure-game background art, crisp deliberately visible square pixels, stepped contours, restrained ordered dithering, hand-clustered highlights. Base palette midnight navy #081B2C, ocean teal #145563, sea-glass #78C7AD, parchment #F5E6BB, coral orange #EE9862. Sophisticated natural-history museum mood, charming but not babyish. No smooth vector curves, no glossy 3D, no photorealism, no blurry pixel filter, no text, no logos, no border.\nUse case: stylized-concept. Reference is style only.\n1536x1024 wide full scene. Pixel-art cosy seafood restaurant at blue hour seen from inside, a beautifully composed foreground walnut dining table occupying bottom third with a large EMPTY cream ceramic plate in centre, no food on plate because separate food sprites will be overlaid. Folded linen, fork and knife, water glass, small candle at edges. Warm amber pendant lights and dark teal tiled wall, window with abstract city night lights. Welcoming refined bistro atmosphere, no identifiable city, no letters, no logos, no humans. True retro pixel clusters, no smooth gradients.\nAlternative B composition: intimate nautical bistro with central empty cream plate on a compact front table at 50 percent horizontal and 76 percent vertical. Large moonlit arched harbour window in background centre framed by dark teal tiled walls, brass candle sconces at far sides, one coral-orange linen napkin. Plate occupies 25 percent image width, fully visible with perspective ellipse. Warm amber restrained lighting. No fish decorations, no text.\nUse attached reference only for pixel cluster scale and palette, no reef scene retained. Authentic crisp 16-bit environmental game art; no smooth shading.",
+          "variant_file": "variants/destination-restaurant--b.png",
+          "selected": true
+        }
+      ],
+      "chosen": "B",
+      "reason": "Distinctive moonlit harbour window and coral linen make a refined destination; large unobstructed plate.",
+      "overlay": {
+        "x": 0.51,
+        "y": 0.785,
+        "width": 0.35,
+        "height": 0.15
+      },
+      "chosen_file": "assets/destination-restaurant.png",
+      "limitations": "Generic conceptual scene illustration, not a photograph of any venue or evidence of exact habitat. Do not claim the art proves availability, species presence or accessibility.",
+      "crop_note": "Use at 3:2 or compensate overlay coordinates when cropped. Object-fit cover on narrow mobile may remove side context; keep central stage visible.",
+      "width": 1536,
+      "height": 1024,
+      "file_bytes": 1968849
+    },
+    {
+      "id": "destination-fishmonger",
+      "category": "destination",
+      "variants": [
+        {
+          "version": "A",
+          "path": "exec-c27bfdbb-e7fb-41fd-bfbe-957a05807140.png",
+          "prompt": "Retro marine field-guide pixel art. Cohesive 16-bit adventure-game background art, crisp deliberately visible square pixels, stepped contours, restrained ordered dithering, hand-clustered highlights. Base palette midnight navy #081B2C, ocean teal #145563, sea-glass #78C7AD, parchment #F5E6BB, coral orange #EE9862. Sophisticated natural-history museum mood, charming but not babyish. No smooth vector curves, no glossy 3D, no photorealism, no blurry pixel filter, no text, no logos, no border.\nUse case: stylized-concept. Reference is style only.\n1536x1024 wide full scene. Pixel-art neighbourhood fishmonger shop interior. Curved glass chilled counter filled with clean crushed ice dominates lower half, EMPTY clear space in centre for fish sprite overlays. Bronze mechanical hanging scale on left, cream subway tiles, muted navy signboard with absolutely no writing, folded kraft paper, blue crates at edges, warm morning window light. Inviting trustworthy local market, no brand, no city specificity. No fish already in counter, no price labels or text. Coherent pixel-art medium.",
+          "variant_file": "variants/destination-fishmonger--a.png",
+          "selected": false
+        },
+        {
+          "version": "B",
+          "path": "exec-7fc8e80a-4155-4d01-a00d-8d3240d32643.png",
+          "prompt": "Retro marine field-guide pixel art. Cohesive 16-bit adventure-game background art, crisp deliberately visible square pixels, stepped contours, restrained ordered dithering, hand-clustered highlights. Base palette midnight navy #081B2C, ocean teal #145563, sea-glass #78C7AD, parchment #F5E6BB, coral orange #EE9862. Sophisticated natural-history museum mood, charming but not babyish. No smooth vector curves, no glossy 3D, no photorealism, no blurry pixel filter, no text, no logos, no border.\nUse case: stylized-concept. Reference is style only.\n1536x1024 wide full scene. Pixel-art neighbourhood fishmonger shop interior. Curved glass chilled counter filled with clean crushed ice dominates lower half, EMPTY clear space in centre for fish sprite overlays. Bronze mechanical hanging scale on left, cream subway tiles, muted navy signboard with absolutely no writing, folded kraft paper, blue crates at edges, warm morning window light. Inviting trustworthy local market, no brand, no city specificity. No fish already in counter, no price labels or text. Coherent pixel-art medium.\nAlternative B composition: smaller old-fashioned fishmonger with straight glass ice counter, brass balance scale at far right, dark teal tiled lower counter, amber morning window on left. A flat wide bed of clean crushed ice occupies central 50 percent width and lower 30 percent height for large overlaid seafood sprites. Absolutely no actual seafood, no writing, no price labels. Clear organized silhouette and fewer decorative objects.\nUse attached reference only for pixel cluster scale and palette, no reef scene retained. Authentic crisp 16-bit environmental game art; no smooth shading.",
+          "variant_file": "variants/destination-fishmonger--b.png",
+          "selected": true
+        }
+      ],
+      "chosen": "B",
+      "reason": "Flat clean ice bed provides a reliable reusable seafood stage; blank signboard can hold live heading.",
+      "overlay": {
+        "x": 0.5,
+        "y": 0.64,
+        "width": 0.65,
+        "height": 0.14
+      },
+      "chosen_file": "assets/destination-fishmonger.png",
+      "limitations": "Generic conceptual scene illustration, not a photograph of any venue or evidence of exact habitat. Do not claim the art proves availability, species presence or accessibility.",
+      "crop_note": "Use at 3:2 or compensate overlay coordinates when cropped. Object-fit cover on narrow mobile may remove side context; keep central stage visible.",
+      "width": 1536,
+      "height": 1024,
+      "file_bytes": 2309386
+    },
+    {
+      "id": "destination-kitchen",
+      "category": "destination",
+      "variants": [
+        {
+          "version": "A",
+          "path": "exec-8ab625f5-9368-403f-8fd5-947734668d03.png",
+          "prompt": "Retro marine field-guide pixel art. Cohesive 16-bit adventure-game background art, crisp deliberately visible square pixels, stepped contours, restrained ordered dithering, hand-clustered highlights. Base palette midnight navy #081B2C, ocean teal #145563, sea-glass #78C7AD, parchment #F5E6BB, coral orange #EE9862. Sophisticated natural-history museum mood, charming but not babyish. No smooth vector curves, no glossy 3D, no photorealism, no blurry pixel filter, no text, no logos, no border.\nUse case: stylized-concept. Reference is style only.\n1536x1024 wide full scene. Pixel-art welcoming home kitchen workspace. Warm cream tiled backsplash, dark teal cupboards, copper hanging pans along upper left, window to garden at upper right, oak worktop across lower third. Clean empty wooden chopping board at lower centre, a simple hob with empty flat frying pan slightly right. Open middle for overlay cooking tools and ingredients. Warm butter yellow and amber highlights on navy teal base. No people, no food, no text, no brands. Clearly visible square pixel art like reference.",
+          "variant_file": "variants/destination-kitchen--a.png",
+          "selected": true
+        },
+        {
+          "version": "B",
+          "path": "exec-4b217555-c1f8-4e93-a07d-9551d06e7430.png",
+          "prompt": "Retro marine field-guide pixel art. Cohesive 16-bit adventure-game background art, crisp deliberately visible square pixels, stepped contours, restrained ordered dithering, hand-clustered highlights. Base palette midnight navy #081B2C, ocean teal #145563, sea-glass #78C7AD, parchment #F5E6BB, coral orange #EE9862. Sophisticated natural-history museum mood, charming but not babyish. No smooth vector curves, no glossy 3D, no photorealism, no blurry pixel filter, no text, no logos, no border.\nUse case: stylized-concept. Reference is style only.\n1536x1024 wide full scene. Pixel-art welcoming home kitchen workspace. Warm cream tiled backsplash, dark teal cupboards, copper hanging pans along upper left, window to garden at upper right, oak worktop across lower third. Clean empty wooden chopping board at lower centre, a simple hob with empty flat frying pan slightly right. Open middle for overlay cooking tools and ingredients. Warm butter yellow and amber highlights on navy teal base. No people, no food, no text, no brands. Clearly visible square pixel art like reference.\nAlternative B composition: farmhouse kitchen with large bright oak island filling lower third, broad EMPTY wooden chopping board centered at 50 percent x and 76 percent y, plate sized. Cream tiled wall behind, narrow garden window left, hanging copper saucepan and cast iron pan far right, dark teal lower cabinetry. The centre wall remains quiet for copy. No fixed pan on central worktop; central board completely empty for recipe sprites. Chunky pixel texture and warm morning light.\nUse attached reference only for pixel cluster scale and palette, no reef scene retained. Authentic crisp 16-bit environmental game art; no smooth shading.",
+          "variant_file": "variants/destination-kitchen--b.png",
+          "selected": false
+        }
+      ],
+      "chosen": "A",
+      "reason": "Simpler quieter backsplash and close worktop support recipe overlays with less visual competition.",
+      "overlay": {
+        "x": 0.475,
+        "y": 0.733,
+        "width": 0.3,
+        "height": 0.1
+      },
+      "chosen_file": "assets/destination-kitchen.png",
+      "limitations": "Generic conceptual scene illustration, not a photograph of any venue or evidence of exact habitat. Do not claim the art proves availability, species presence or accessibility.",
+      "crop_note": "Use at 3:2 or compensate overlay coordinates when cropped. Object-fit cover on narrow mobile may remove side context; keep central stage visible.",
+      "width": 1536,
+      "height": 1024,
+      "file_bytes": 1934193
+    },
+    {
+      "id": "habitat-deep-sea",
+      "category": "habitat",
+      "variants": [
+        {
+          "version": "A",
+          "path": "exec-90e945c5-0b30-444c-a1cf-044835a0d541.png",
+          "prompt": "Retro marine field-guide pixel art. Cohesive 16-bit adventure-game background art, crisp deliberately visible square pixels, stepped contours, restrained ordered dithering, hand-clustered highlights. Base palette midnight navy #081B2C, ocean teal #145563, sea-glass #78C7AD, parchment #F5E6BB, coral orange #EE9862. Sophisticated natural-history museum mood, charming but not babyish. No smooth vector curves, no glossy 3D, no photorealism, no blurry pixel filter, no text, no logos, no border.\nUse case: stylized-concept. Asset type: wide website chapter background. Input image role: style reference only, do not copy reef composition if environment differs.\n1536x1024 wide pixel-art chapter background. Bathyal deep sea with midnight indigo almost black water, sparse tiny turquoise bioluminescent specks, distant rocky ocean-floor silhouette, faint cone of a research-submersible lamp entering from one upper corner without showing vehicle. Central 70 percent open for a creature sprite. No coral reef, sunlight, fish, text or bubbles at the surface. Beautiful quiet mystery.\nCreate strong crisp hard-edged pixel clusters at consistent 4px scale, as though 384x256 authored artwork enlarged nearest-neighbor. Restrained dither, no antialiasing. High-impact environmental story illustration.",
+          "variant_file": "variants/habitat-deep-sea--a.png",
+          "selected": false
+        },
+        {
+          "version": "B",
+          "path": "exec-19562a48-ca43-4758-a767-4028cb965a64.png",
+          "prompt": "Retro marine field-guide pixel art. Cohesive 16-bit adventure-game background art, crisp deliberately visible square pixels, stepped contours, restrained ordered dithering, hand-clustered highlights. Base palette midnight navy #081B2C, ocean teal #145563, sea-glass #78C7AD, parchment #F5E6BB, coral orange #EE9862. Sophisticated natural-history museum mood, charming but not babyish. No smooth vector curves, no glossy 3D, no photorealism, no blurry pixel filter, no text, no logos, no border.\nUse case: stylized-concept. Input image is pixel-style reference only. Landscape 1536x1024. Alternative B: true dark deep seafloor, NOT an underwater cave. Flat distant muddy plain occupies bottom 15 percent, only sparse rounded black rocks, no vertical spires and no reef terraces. Very dark midnight-indigo water fills 80 percent with a few tiny cyan glints, faint soft-edged but pixel-clustered research light cone entering upper right. A quiet mysterious immense void. No surface or sunlight visible.\nCrisp 16-bit authored game art using broad stepped shading and restrained dither, visible square pixels like reference. No text or logos.",
+          "variant_file": "variants/habitat-deep-sea--b.png",
+          "selected": true
+        }
+      ],
+      "chosen": "B",
+      "reason": "Corrected cave-like A into an immense dark plain with sparse rocks; strong contrast for deep-sea creatures.",
+      "overlay": {
+        "x": 0.5,
+        "y": 0.42,
+        "width": 0.58,
+        "height": 0.5
+      },
+      "limitations": "Conceptual dark seafloor, not a measured depth or real site.",
+      "chosen_file": "assets/habitat-deep-sea.png",
+      "crop_note": "Use centred 3:2 composition; quiet centre survives moderate horizontal crop. Do not cover key environment with dense text.",
+      "width": 1536,
+      "height": 1024,
+      "file_bytes": 1597109
+    },
+    {
+      "id": "habitat-tidepool",
+      "category": "habitat",
+      "variants": [
+        {
+          "version": "A",
+          "path": "exec-1df011df-d4ad-404b-868f-31ecf3fc02af.png",
+          "prompt": "Retro marine field-guide pixel art. Cohesive 16-bit adventure-game background art, crisp deliberately visible square pixels, stepped contours, restrained ordered dithering, hand-clustered highlights. Base palette midnight navy #081B2C, ocean teal #145563, sea-glass #78C7AD, parchment #F5E6BB, coral orange #EE9862. Sophisticated natural-history museum mood, charming but not babyish. No smooth vector curves, no glossy 3D, no photorealism, no blurry pixel filter, no text, no logos, no border.\nUse case: stylized-concept. Asset type: wide website chapter background. Input image role: style reference only, do not copy reef composition if environment differs.\n1536x1024 wide pixel-art chapter background. Shallow coastal tidepool viewed through crystal clear jade water. Soft ochre rounded rock edges at sides, pale sand and shells at bottom corners, subtle seaweed, distant rippled sunlight near upper edge. Central 60 percent clear turquoise water for shellfish and octopus sprites. Warm coastal palette and coherent square pixel clusters. No animals, text, or signage.\nCreate strong crisp hard-edged pixel clusters at consistent 4px scale, as though 384x256 authored artwork enlarged nearest-neighbor. Restrained dither, no antialiasing. High-impact environmental story illustration.",
+          "variant_file": "variants/habitat-tidepool--a.png",
+          "selected": false
+        },
+        {
+          "version": "B",
+          "path": "exec-9a0c632d-753c-4640-a439-ffeec1c06ad5.png",
+          "prompt": "Retro marine field-guide pixel art. Cohesive 16-bit adventure-game background art, crisp deliberately visible square pixels, stepped contours, restrained ordered dithering, hand-clustered highlights. Base palette midnight navy #081B2C, ocean teal #145563, sea-glass #78C7AD, parchment #F5E6BB, coral orange #EE9862. Sophisticated natural-history museum mood, charming but not babyish. No smooth vector curves, no glossy 3D, no photorealism, no blurry pixel filter, no text, no logos, no border.\nUse case: stylized-concept. Input image is pixel-style reference only. Landscape 1536x1024. Alternative B: a TRUE shallow coastal rockpool viewed from slight overhead through clear shallow water, NOT a tropical coral reef. Warm ochre smooth rounded rocks form edges of shallow pool, a few empty shells and ribbon seaweed along bottom corners. Sparse ripples and sunlight caustics show pale sand beneath central jade water. Absolutely no branching coral, sponges, deep canyon or tall vertical plants. The pool is only ankle-deep, perspective from above. Centre 65 percent calm water.\nCrisp 16-bit authored game art using broad stepped shading and restrained dither, visible square pixels like reference. No text or logos.",
+          "variant_file": "variants/habitat-tidepool--b.png",
+          "selected": true
+        }
+      ],
+      "chosen": "B",
+      "reason": "Corrected reef-like A into visibly shallow coastal rockpool with overhead water and sandstone edges.",
+      "overlay": {
+        "x": 0.5,
+        "y": 0.46,
+        "width": 0.48,
+        "height": 0.48
+      },
+      "limitations": "Overhead viewpoint suits shellfish and octopus; side-profile swimming sprites should be presented as field-guide cutouts rather than inhabiting this exact perspective.",
+      "chosen_file": "assets/habitat-tidepool.png",
+      "crop_note": "Use centred 3:2 composition; quiet centre survives moderate horizontal crop. Do not cover key environment with dense text.",
+      "width": 1536,
+      "height": 1024,
+      "file_bytes": 2280876
+    },
+    {
+      "id": "journey-harbour",
+      "category": "process-scene",
+      "variants": [
+        {
+          "version": "A",
+          "path": "exec-d91a8d12-81f9-43c5-8bb9-d14ca008ae9d.png",
+          "prompt": "Retro marine field-guide pixel art. Cohesive 16-bit adventure-game background art, crisp deliberately visible square pixels, stepped contours, restrained ordered dithering, hand-clustered highlights. Base palette midnight navy #081B2C, ocean teal #145563, sea-glass #78C7AD, parchment #F5E6BB, coral orange #EE9862. Sophisticated natural-history museum mood, charming but not babyish. No smooth vector curves, no glossy 3D, no photorealism, no blurry pixel filter, no text, no logos, no border.\nUse case: stylized-concept. Asset type: wide website chapter background. Input image role: style reference only, do not copy reef composition if environment differs.\n1536x1024 wide pixel-art website chapter. Quiet coastal fishing harbour at dawn. Small teal working fishing boat tied to wooden pier at one side, rolled nets and empty blue crates along pier, warm cream sky and coral sunrise over open teal water. Large quiet central water/sky region for overlay story and fish imagery. Charming storybook natural-history expedition in exact retro pixel style, no city landmarks, no people, no caught fish, no text or brands.\nCreate strong crisp hard-edged pixel clusters at consistent 4px scale, as though 384x256 authored artwork enlarged nearest-neighbor. Restrained dither, no antialiasing. High-impact environmental story illustration.",
+          "variant_file": "variants/journey-harbour--a.png",
+          "selected": true
+        },
+        {
+          "version": "B",
+          "path": "exec-b91ed76d-7705-4ef3-b44e-0702fa4ba91f.png",
+          "prompt": "Retro marine field-guide pixel art. Cohesive 16-bit adventure-game background art, crisp deliberately visible square pixels, stepped contours, restrained ordered dithering, hand-clustered highlights. Base palette midnight navy #081B2C, ocean teal #145563, sea-glass #78C7AD, parchment #F5E6BB, coral orange #EE9862. Sophisticated natural-history museum mood, charming but not babyish. No smooth vector curves, no glossy 3D, no photorealism, no blurry pixel filter, no text, no logos, no border.\nUse case: stylized-concept. Input image is pixel-style reference only. Landscape 1536x1024. Alternative B: sunrise at a small working harbour, boat and empty pier on RIGHT edge instead of left, taller quiet cream-coral sky in top 45 percent and pale teal water in centre. One wooden jetty with coiled rope and stacked empty navy crates. Small low lighthouse far left horizon, no lettering or people. Pixel landscape is inviting and warm; central area remains uncluttered.\nCrisp 16-bit authored game art using broad stepped shading and restrained dither, visible square pixels like reference. No text or logos.",
+          "variant_file": "variants/journey-harbour--b.png",
+          "selected": false
+        }
+      ],
+      "chosen": "A",
+      "reason": "Stronger warm coral sky and more characterful small working boat; nice transition from ocean to shore.",
+      "overlay": {
+        "x": 0.58,
+        "y": 0.24,
+        "width": 0.44,
+        "height": 0.26
+      },
+      "limitations": "Generic harbour and boat, not proof of catch method, origin or supplier.",
+      "chosen_file": "assets/journey-harbour.png",
+      "crop_note": "Use centred 3:2 composition; quiet centre survives moderate horizontal crop. Do not cover key environment with dense text.",
+      "width": 1536,
+      "height": 1024,
+      "file_bytes": 1927853
+    },
+    {
+      "id": "journey-farm",
+      "category": "process-scene",
+      "variants": [
+        {
+          "version": "A",
+          "path": "exec-4f12f30f-f7e9-45aa-93e8-76664071fbd1.png",
+          "prompt": "Retro marine field-guide pixel art. Cohesive 16-bit adventure-game background art, crisp deliberately visible square pixels, stepped contours, restrained ordered dithering, hand-clustered highlights. Base palette midnight navy #081B2C, ocean teal #145563, sea-glass #78C7AD, parchment #F5E6BB, coral orange #EE9862. Sophisticated natural-history museum mood, charming but not babyish. No smooth vector curves, no glossy 3D, no photorealism, no blurry pixel filter, no text, no logos, no border.\nUse case: stylized-concept. Asset type: wide website chapter background. Input image role: style reference only, do not copy reef composition if environment differs.\n1536x1024 wide pixel-art website chapter. Distant coastal aquaculture setting in calm fjord-like water, two circular sea pens with low railings toward bottom right, small service boat alongside, green mountain coastline in distance, warm sunrise and navy/teal water. Central upper region calm and open for title/information. Generic conceptual farm illustration, no labels or claims of actual supplier. No fish or people, coherent detailed square-pixel art.\nConsistent hard-edged pixel clusters; all shading formed of deliberate color bands and restrained dither. Reference is pixel-art treatment only. Change environment completely to requested setting. No lettering.",
+          "variant_file": "variants/journey-farm--a.png",
+          "selected": false
+        },
+        {
+          "version": "B",
+          "path": "exec-6b01b8e6-ddc3-441d-9658-7df143bf48a6.png",
+          "prompt": "Retro marine field-guide pixel art. Cohesive 16-bit adventure-game background art, crisp deliberately visible square pixels, stepped contours, restrained ordered dithering, hand-clustered highlights. Base palette midnight navy #081B2C, ocean teal #145563, sea-glass #78C7AD, parchment #F5E6BB, coral orange #EE9862. Sophisticated natural-history museum mood, charming but not babyish. No smooth vector curves, no glossy 3D, no photorealism, no blurry pixel filter, no text, no logos, no border.\nUse case: stylized-concept. Input image is pixel-style reference only. Landscape 1536x1024. Alternative B: panoramic fjord aquaculture illustration with a central calm sea and distant pine-covered coastline, two circular sea pens at LOWER LEFT with empty rings and a small cream service boat. Pale muted coral sunrise with broad clear sky occupies upper third, mountains only far left and right. Diagram-like clarity of sea-pen rings, no animals or people, no labeling. Documentary conceptual scenery, not real farm.\nCrisp 16-bit authored game art using broad stepped shading and restrained dither. No text or logos. Retain color-palette cohesion.",
+          "variant_file": "variants/journey-farm--b.png",
+          "selected": true
+        }
+      ],
+      "chosen": "B",
+      "reason": "Calmer composition and crisp circular pen silhouettes; wide open right water accommodates captions.",
+      "overlay": {
+        "x": 0.68,
+        "y": 0.62,
+        "width": 0.36,
+        "height": 0.25
+      },
+      "limitations": "Conceptual sea-pen farm only. Do not use as evidence of actual conditions or sourcing; farming routes vary by species.",
+      "chosen_file": "assets/journey-farm.png",
+      "crop_note": "Use centred 3:2 composition; quiet centre survives moderate horizontal crop. Do not cover key environment with dense text.",
+      "width": 1536,
+      "height": 1024,
+      "file_bytes": 1968179
+    },
+    {
+      "id": "journey-conservation",
+      "category": "process-scene",
+      "variants": [
+        {
+          "version": "A",
+          "path": "exec-44798266-873f-483d-87a1-7a85c59925a3.png",
+          "prompt": "Retro marine field-guide pixel art. Cohesive 16-bit adventure-game background art, crisp deliberately visible square pixels, stepped contours, restrained ordered dithering, hand-clustered highlights. Base palette midnight navy #081B2C, ocean teal #145563, sea-glass #78C7AD, parchment #F5E6BB, coral orange #EE9862. Sophisticated natural-history museum mood, charming but not babyish. No smooth vector curves, no glossy 3D, no photorealism, no blurry pixel filter, no text, no logos, no border.\nUse case: stylized-concept. Asset type: wide website chapter background. Input image role: style reference only, do not copy reef composition if environment differs.\n1536x1024 wide pixel-art website chapter. Peaceful protected marine habitat viewed underwater through a large open reef arch at far edges, sunlight in broad stepped rays, a small distant non-invasive research camera on tripod at bottom corner, simple surface conservation buoy above at far corner. Vast clear central turquoise water for species sprite. Coral orange, sea-glass mint, navy ink. No fish, no human, no signs or text. Show wonder and observation.\nConsistent hard-edged pixel clusters; all shading formed of deliberate color bands and restrained dither. Reference is pixel-art treatment only. Change environment completely to requested setting. No lettering.",
+          "variant_file": "variants/journey-conservation--a.png",
+          "selected": false
+        },
+        {
+          "version": "B",
+          "path": "exec-86c6b1d9-42b4-4b59-9400-c052ad4dda0b.png",
+          "prompt": "Retro marine field-guide pixel art. Cohesive 16-bit adventure-game background art, crisp deliberately visible square pixels, stepped contours, restrained ordered dithering, hand-clustered highlights. Base palette midnight navy #081B2C, ocean teal #145563, sea-glass #78C7AD, parchment #F5E6BB, coral orange #EE9862. Sophisticated natural-history museum mood, charming but not babyish. No smooth vector curves, no glossy 3D, no photorealism, no blurry pixel filter, no text, no logos, no border.\nUse case: stylized-concept. Input image is pixel-style reference only. Landscape 1536x1024. Alternative B: quiet marine conservation sanctuary. Massive natural stone arch only at upper left corner, low living reef at both lower edges, broad clear blue-teal middle. Small research camera far lower LEFT on three-leg tripod, simple orange conservation buoy at upper right surface tethered vertically along extreme right edge. Central 65 percent empty water for species. Fewer brighter coral clusters, strongest stepped sunrays at upper centre. No fish, people or lettering.\nCrisp 16-bit authored game art using broad stepped shading and restrained dither. No text or logos. Retain color-palette cohesion.",
+          "variant_file": "variants/journey-conservation--b.png",
+          "selected": true
+        }
+      ],
+      "chosen": "B",
+      "reason": "Larger calm central water and clearly separated research camera and buoy create observation theme.",
+      "overlay": {
+        "x": 0.55,
+        "y": 0.43,
+        "width": 0.46,
+        "height": 0.45
+      },
+      "limitations": "Generic conceptual sanctuary. Buoy and camera do not identify legal protected status or an actual reserve.",
+      "chosen_file": "assets/journey-conservation.png",
+      "crop_note": "Use centred 3:2 composition; quiet centre survives moderate horizontal crop. Do not cover key environment with dense text.",
+      "width": 1536,
+      "height": 1024,
+      "file_bytes": 1965218
+    },
+    {
+      "id": "world-atlas",
+      "category": "decorative-map",
+      "variants": [
+        {
+          "version": "A",
+          "path": "exec-86d6027b-5782-4a0f-a302-c9324104de0b.png",
+          "prompt": "Retro marine field-guide pixel art. Cohesive 16-bit adventure-game background art, crisp deliberately visible square pixels, stepped contours, restrained ordered dithering, hand-clustered highlights. Base palette midnight navy #081B2C, ocean teal #145563, sea-glass #78C7AD, parchment #F5E6BB, coral orange #EE9862. Sophisticated natural-history museum mood, charming but not babyish. No smooth vector curves, no glossy 3D, no photorealism, no blurry pixel filter, no text, no logos, no border.\nUse case: stylized-concept. Asset type: wide website chapter background. Input image role: style reference only, do not copy reef composition if environment differs.\n1536x1024 landscape pixel-art decorative world atlas for a marine natural-history website. Flat equirectangular world silhouette of recognizable continents North/South America left, Europe/Africa middle, Asia/Australia right, Antarctica along bottom. Muted cream and sea-glass land, midnight navy ocean, sparse teal pixel coast edging and subtle unlabelled graticule. No range overlays or invented migration paths. No letters, names, borders, UI, symbols, fish. Clean wide negative ocean areas. Decorative base only, geographic data added separately in product. Same stepped pixel style as reference.\nConsistent hard-edged pixel clusters; all shading formed of deliberate color bands and restrained dither. Reference is pixel-art treatment only. Change environment completely to requested setting. No lettering.",
+          "variant_file": "variants/world-atlas--a.png",
+          "selected": false
+        },
+        {
+          "version": "B",
+          "path": "exec-4ade57a2-5502-4c4a-a7bb-3392b0809469.png",
+          "prompt": "Retro marine field-guide pixel art. Cohesive 16-bit adventure-game background art, crisp deliberately visible square pixels, stepped contours, restrained ordered dithering, hand-clustered highlights. Base palette midnight navy #081B2C, ocean teal #145563, sea-glass #78C7AD, parchment #F5E6BB, coral orange #EE9862. Sophisticated natural-history museum mood, charming but not babyish. No smooth vector curves, no glossy 3D, no photorealism, no blurry pixel filter, no text, no logos, no border.\nUse case: stylized-concept. Input image is pixel-style reference only. Landscape 1536x1024. Alternative B: FLAT unlabelled decorative equirectangular world atlas with SIMPLE SOLID pale parchment and mint continent silhouettes. Americas left, Europe Africa centre, Asia Australia right, Antarctica bottom; recognizable but decorative. Midnight navy ocean with subtle perfectly straight orthogonal teal graticule, no tilted or curved projection. No terrain texture, coastlines stepped with clearly square pixels. NO decorative sea currents, no fish, no range data, no routes, no dots, no borders. The purpose is a quiet pixel marine map decoration; reserve broad ocean space. 1536x1024.\nCrisp 16-bit authored game art using broad stepped shading and restrained dither. No text or logos. Retain color-palette cohesion.",
+          "variant_file": "variants/world-atlas--b.png",
+          "selected": false
+        },
+        {
+          "version": "C",
+          "path": "exec-25eb12c7-dc89-455e-9f7a-70e7299c60de.png",
+          "prompt": "Retro marine field-guide pixel art. Cohesive 16-bit adventure-game background art, crisp deliberately visible square pixels, stepped contours, restrained ordered dithering, hand-clustered highlights. Base palette midnight navy #081B2C, ocean teal #145563, sea-glass #78C7AD, parchment #F5E6BB, coral orange #EE9862. Sophisticated natural-history museum mood, charming but not babyish. No smooth vector curves, no glossy 3D, no photorealism, no blurry pixel filter, no text, no logos, no border.\nUse case: stylized-concept. Asset type: decorative atlas background for retro seafood field-guide website. Image 1 is an earlier atlas variant to improve; Image 2 is the canonical pixel-art medium reference. Create variant C: maintain the recognizable world layout and pale parchment/mint land from atlas, simplify the image by REMOVING all sweeping wavy ocean bands and all graticule lines. Ocean should be calm deep navy made of broad hard-edged subtle pixel color fields. Render continents using authentic crisp blocky pixel clusters and restrained dither, retaining their readable shapes, without smooth vector fills, blur, antialiasing or outlines. Balance the clear silhouette of an atlas with the handcrafted pixel texture of the reef. Landscape 1536x1024. No names, labels, borders, range overlays, routes, animals, UI, markers or lettering. This is a decorative world map illustration only; not geographic evidence.",
+          "variant_file": "variants/world-atlas--c.png",
+          "selected": true
+        }
+      ],
+      "chosen": "C",
+      "reason": "C retains detailed authored pixel texture while removing graticule clutter. Cleaner decorative atlas than A, and stronger style cohesion than smooth B.",
+      "overlay": {
+        "x": 0.5,
+        "y": 0.5,
+        "width": 0.9,
+        "height": 0.85
+      },
+      "limitations": "AI-generated decorative atlas, not reliable geography, not a coordinate basemap and not species range evidence.",
+      "chosen_file": "assets/world-atlas.png",
+      "crop_note": "Use contain at full 3:2 aspect; do not use as coordinate map.",
+      "width": 1536,
+      "height": 1024,
+      "file_bytes": 2064984
+    }
+  ]
+}

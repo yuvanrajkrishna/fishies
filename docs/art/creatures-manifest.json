@@ -1,0 +1,2027 @@
+{
+  "style": "Retro marine field-guide pixel art. Cohesive 16-bit adventure-game background art, crisp deliberately visible square pixels, stepped contours, restrained ordered dithering, hand-clustered highlights. Base palette midnight navy #081B2C, ocean teal #145563, sea-glass #78C7AD, parchment #F5E6BB, coral orange #EE9862. Sophisticated natural-history museum mood, charming but not babyish. No smooth vector curves, no glossy 3D, no photorealism, no blurry pixel filter, no text, no logos, no border.",
+  "mode": "built-in imagegen",
+  "status": "complete",
+  "coordinateOrder": "row-major top-left to bottom-right; zero-based cell index",
+  "assets": [
+    {
+      "id": "fish-atlas-reef",
+      "category": "fish-sprites",
+      "cols": 3,
+      "rows": 2,
+      "items": [
+        "common clownfish",
+        "blue tang",
+        "copperband butterflyfish",
+        "red lionfish",
+        "short-snouted seahorse",
+        "blacktip reef shark"
+      ],
+      "selectedVersion": "C",
+      "path": "fish-atlas-reef.png",
+      "variants": [
+        {
+          "version": "A",
+          "sourcePath": "exec-a3f2a3aa-6061-44e3-937c-c13ccaf93f07.png",
+          "path": "fish-atlas-reef--a.png",
+          "prompt": "Retro marine field-guide pixel art. Cohesive 16-bit adventure-game background art, crisp deliberately visible square pixels, stepped contours, restrained ordered dithering, hand-clustered highlights. Base palette midnight navy #081B2C, ocean teal #145563, sea-glass #78C7AD, parchment #F5E6BB, coral orange #EE9862. Sophisticated natural-history museum mood, charming but not babyish. No smooth vector curves, no glossy 3D, no photorealism, no blurry pixel filter, no text, no logos, no border.\nUse case: scientific-educational. Asset type: transparent 3 by 2 specimen sprite atlas, 1536x1024. Exactly SIX isolated identifiable adult fish, one fish inside each equal-sized cell. Full body side profile facing RIGHT. Genuine transparent alpha, no labels, grid lines, shadows, water or background. Each fish centered with 15 percent margin. Crisp 16-bit natural-history pixel art matching reference style, rich navy outlines, visibly square pixel clusters. TOP LEFT common clownfish Amphiprion ocellaris: orange body with three white black-edged vertical bands. TOP MIDDLE palette surgeonfish/blue tang Paracanthurus hepatus: royal blue oval body, black palette marking, bright yellow triangular tail. TOP RIGHT copperband butterflyfish Chelmon rostratus: disc-shaped cream body, vertical copper-orange bands, elongated narrow pointed snout, black eyespot near rear upper fin. BOTTOM LEFT red lionfish Pterois volitans: cream and red-brown stripes, fan pectoral fins, long distinct dorsal spines. BOTTOM MIDDLE short-snouted seahorse Hippocampus hippocampus: golden brown ridged upright body facing right, curved neck, short snout, coiled tail, no invented flowing fins. BOTTOM RIGHT blacktip reef shark Carcharhinus melanopterus: streamlined grey shark, white belly, clearly black-tipped dorsal and other fins, typical unequal-lobed shark tail. Not to scale. These are separate sprites for a marine discovery website, not an aquarium stocking suggestion."
+        },
+        {
+          "version": "B",
+          "sourcePath": "exec-a0c1c9b6-636d-46da-9762-d6a36cb0f203.png",
+          "path": "fish-atlas-reef--b.png",
+          "prompt": "Retro marine field-guide pixel art. Cohesive 16-bit adventure-game background art, crisp deliberately visible square pixels, stepped contours, restrained ordered dithering, hand-clustered highlights. Base palette midnight navy #081B2C, ocean teal #145563, sea-glass #78C7AD, parchment #F5E6BB, coral orange #EE9862. Sophisticated natural-history museum mood, charming but not babyish. No smooth vector curves, no glossy 3D, no photorealism, no blurry pixel filter, no text, no logos, no border.\nUse case: scientific-educational. Asset type: transparent 3 by 2 specimen sprite atlas, 1536x1024. Exactly SIX isolated identifiable adult fish, one fish inside each equal-sized cell. Full body side profile facing RIGHT. Genuine transparent alpha, no labels, grid lines, shadows, water or background. Each fish centered with 20 percent margin. Crisp 16-bit natural-history pixel art matching reference style, rich navy outlines, visibly square pixel clusters. TOP LEFT common clownfish Amphiprion ocellaris: orange body with three white black-edged vertical bands. TOP MIDDLE palette surgeonfish/blue tang Paracanthurus hepatus: royal blue oval body, black palette marking, bright yellow triangular tail. TOP RIGHT copperband butterflyfish Chelmon rostratus: disc-shaped cream body, vertical copper-orange bands, elongated narrow pointed snout, black eyespot near rear upper fin. BOTTOM LEFT red lionfish Pterois volitans: cream and red-brown stripes, fan pectoral fins, long distinct dorsal spines. BOTTOM MIDDLE short-snouted seahorse Hippocampus hippocampus: golden brown ridged upright body facing right, curved neck, short snout, coiled tail, no invented flowing fins. BOTTOM RIGHT blacktip reef shark Carcharhinus melanopterus: streamlined grey shark, white belly, clearly black-tipped dorsal and other fins, typical unequal-lobed shark tail. Not to scale. These are separate sprites for a marine discovery website, not an aquarium stocking suggestion.\nRevision B production requirement: replace any surrounding glow or halo with complete transparency. Each specimen occupies at most 60 percent width and 60 percent height of its equal cell, center precisely. All empty pixels truly alpha zero. No black/colored backdrop, no gradients, no cast shadow, no ambient halo or aura. A clean dark navy ink contour, natural-history color blocks. Do not crop any fin or antenna. This is a transparent game asset, not a poster."
+        },
+        {
+          "version": "C",
+          "sourcePath": "exec-65926d59-0225-45f9-8af6-979d6ef7370d.png",
+          "path": "fish-atlas-reef--c.png",
+          "prompt": "Use case: background-extraction. Edit this exact marine pixel-art sprite atlas. Preserve the species identities, colors, anatomy, number, pixel style and row-major order. Remove the entire black, grey and colored background and ALL soft radial halos. Make every non-object pixel completely transparent (alpha zero), including spaces between limbs. No glow, no cast shadow. Isolate the dark navy outlined creatures cleanly as game sprites. Scale each complete sprite down inside its own unchanged equal cell until there is at least 20 percent EMPTY TRANSPARENT SPACE on each side of its cell; center it precisely. Do not crop, merge, reorder or add species. Keep the landscape 1536x1024 aspect ratio and 3 columns by 2 rows. No grid or text."
+        }
+      ],
+      "selectionReason": "C selected from three versions for improved centering and smaller silhouettes, keeping vivid distinctive bands and dark pixel outlines.",
+      "limitations": [
+        "Illustrative stylization, not anatomical verification or to scale.",
+        "ImageGen dimensions may differ from requested dimensions; equal cell grid is authoritative.",
+        "Hidden RGB may show a halo in tools that ignore alpha; use PNG transparency in the website."
+      ],
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "fullyTransparentFraction": 0.7417,
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "cells": [
+        {
+          "index": 0,
+          "row": 0,
+          "col": 0,
+          "item": "common clownfish",
+          "cellBounds": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "alphaBoundsWithinCell": [
+            0,
+            57,
+            512,
+            512
+          ]
+        },
+        {
+          "index": 1,
+          "row": 0,
+          "col": 1,
+          "item": "blue tang",
+          "cellBounds": [
+            512,
+            0,
+            1024,
+            512
+          ],
+          "alphaBoundsWithinCell": [
+            1,
+            18,
+            512,
+            512
+          ]
+        },
+        {
+          "index": 2,
+          "row": 0,
+          "col": 2,
+          "item": "copperband butterflyfish",
+          "cellBounds": [
+            1024,
+            0,
+            1536,
+            512
+          ],
+          "alphaBoundsWithinCell": [
+            0,
+            34,
+            494,
+            512
+          ]
+        },
+        {
+          "index": 3,
+          "row": 1,
+          "col": 0,
+          "item": "red lionfish",
+          "cellBounds": [
+            0,
+            512,
+            512,
+            1024
+          ],
+          "alphaBoundsWithinCell": [
+            33,
+            0,
+            498,
+            512
+          ]
+        },
+        {
+          "index": 4,
+          "row": 1,
+          "col": 1,
+          "item": "short-snouted seahorse",
+          "cellBounds": [
+            512,
+            512,
+            1024,
+            1024
+          ],
+          "alphaBoundsWithinCell": [
+            9,
+            0,
+            512,
+            488
+          ]
+        },
+        {
+          "index": 5,
+          "row": 1,
+          "col": 2,
+          "item": "blacktip reef shark",
+          "cellBounds": [
+            1024,
+            512,
+            1536,
+            1024
+          ],
+          "alphaBoundsWithinCell": [
+            0,
+            0,
+            488,
+            494
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fish-atlas-food",
+      "category": "fish-sprites",
+      "cols": 3,
+      "rows": 2,
+      "items": [
+        "Atlantic salmon",
+        "Atlantic cod",
+        "yellowfin tuna",
+        "European seabass",
+        "Atlantic mackerel",
+        "rainbow trout"
+      ],
+      "selectedVersion": "C",
+      "path": "fish-atlas-food.png",
+      "variants": [
+        {
+          "version": "A",
+          "sourcePath": "exec-dfdbfcb0-5a68-4d30-be45-a90ff6d85538.png",
+          "path": "fish-atlas-food--a.png",
+          "prompt": "Retro marine field-guide pixel art. Cohesive 16-bit adventure-game background art, crisp deliberately visible square pixels, stepped contours, restrained ordered dithering, hand-clustered highlights. Base palette midnight navy #081B2C, ocean teal #145563, sea-glass #78C7AD, parchment #F5E6BB, coral orange #EE9862. Sophisticated natural-history museum mood, charming but not babyish. No smooth vector curves, no glossy 3D, no photorealism, no blurry pixel filter, no text, no logos, no border.\nUse case: scientific-educational. Asset type: transparent 3 by 2 specimen sprite atlas, 1536x1024. Create exactly SIX scientifically recognizable adult fish, one isolated fish wholly inside each equal-sized cell, transparent alpha background, NO labels, NO grid lines, NO shadows, no water. All side-profile facing RIGHT, full fins/tails included, each centered in its cell with generous 15 percent empty margin. Consistent 16-bit pixel art; chunky 4-6 pixel stair-step outlines matching the style reference. Cell positions: TOP LEFT Atlantic salmon, streamlined silver body with sparse dark spots above lateral line, slight fork tail; TOP MIDDLE Atlantic cod, three separate rounded dorsal fins and small chin barbel, olive-speckled body; TOP RIGHT yellowfin tuna, streamlined dark-backed silver body, long yellow sickle second dorsal and anal fins, yellow finlets, crescent tail. BOTTOM LEFT European seabass, silver elongated body, two dorsal fins, subtle dark grey back; BOTTOM MIDDLE Atlantic mackerel, turquoise blue back with distinctive dark wavy vertical bars, silver belly, forked tail; BOTTOM RIGHT rainbow trout, speckled olive/silver body and pink lateral stripe, adipose fin. Correct distinctive silhouettes; no decorative invented fins. Reference is style only, not content. No coral, no environment. Keep true transparent alpha."
+        },
+        {
+          "version": "B",
+          "sourcePath": "exec-75c5db5d-16fc-444d-ae2d-9e7e8909db98.png",
+          "path": "fish-atlas-food--b.png",
+          "prompt": "Retro marine field-guide pixel art. Cohesive 16-bit adventure-game background art, crisp deliberately visible square pixels, stepped contours, restrained ordered dithering, hand-clustered highlights. Base palette midnight navy #081B2C, ocean teal #145563, sea-glass #78C7AD, parchment #F5E6BB, coral orange #EE9862. Sophisticated natural-history museum mood, charming but not babyish. No smooth vector curves, no glossy 3D, no photorealism, no blurry pixel filter, no text, no logos, no border.\nUse case: scientific-educational. Asset type: transparent 3 by 2 specimen sprite atlas, 1536x1024. Create exactly SIX scientifically recognizable adult fish, one isolated fish wholly inside each equal-sized cell, transparent alpha background, NO labels, NO grid lines, NO shadows, no water. All side-profile facing RIGHT, full fins/tails included, each centered in its cell with generous 20 percent empty margin. Consistent 16-bit pixel art; chunky 4-6 pixel stair-step outlines matching the style reference. Cell positions: TOP LEFT Atlantic salmon, streamlined silver body with sparse dark spots above lateral line, slight fork tail; TOP MIDDLE Atlantic cod, three separate rounded dorsal fins and small chin barbel, olive-speckled body; TOP RIGHT yellowfin tuna, streamlined dark-backed silver body, long yellow sickle second dorsal and anal fins, yellow finlets, crescent tail. BOTTOM LEFT European seabass, silver elongated body, two dorsal fins, subtle dark grey back; BOTTOM MIDDLE Atlantic mackerel, turquoise blue back with distinctive dark wavy vertical bars, silver belly, forked tail; BOTTOM RIGHT rainbow trout, speckled olive/silver body and pink lateral stripe, adipose fin. Correct distinctive silhouettes; no decorative invented fins. Reference is style only, not content. No coral, no environment. Keep true transparent alpha.\nRevision B production requirement: replace any surrounding glow or halo with complete transparency. Each specimen occupies at most 60 percent width and 60 percent height of its equal cell, center precisely. All empty pixels truly alpha zero. No black/colored backdrop, no gradients, no cast shadow, no ambient halo or aura. A clean dark navy ink contour, natural-history color blocks. Do not crop any fin or antenna. This is a transparent game asset, not a poster."
+        },
+        {
+          "version": "C",
+          "sourcePath": "exec-f9e3a3fd-f24b-4ed7-9915-e9dc4928e6c4.png",
+          "path": "fish-atlas-food--c.png",
+          "prompt": "Use case: background-extraction. Edit this exact marine pixel-art sprite atlas. Preserve the species identities, colors, anatomy, number, pixel style and row-major order. Remove the entire black, grey and colored background and ALL soft radial halos. Make every non-object pixel completely transparent (alpha zero), including spaces between limbs. No glow, no cast shadow. Isolate the dark navy outlined creatures cleanly as game sprites. Scale each complete sprite down inside its own unchanged equal cell until there is at least 20 percent EMPTY TRANSPARENT SPACE on each side of its cell; center it precisely. Do not crop, merge, reorder or add species. Keep the landscape 1536x1024 aspect ratio and 3 columns by 2 rows. No grid or text."
+        }
+      ],
+      "selectionReason": "C selected from three versions for clear silhouettes, brighter cream highlights, measured transparent exterior and consistent composition.",
+      "limitations": [
+        "Illustrative stylization, not anatomical verification or to scale.",
+        "ImageGen dimensions may differ from requested dimensions; equal cell grid is authoritative.",
+        "Hidden RGB may show a halo in tools that ignore alpha; use PNG transparency in the website."
+      ],
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "fullyTransparentFraction": 0.7795,
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "cells": [
+        {
+          "index": 0,
+          "row": 0,
+          "col": 0,
+          "item": "Atlantic salmon",
+          "cellBounds": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "alphaBoundsWithinCell": [
+            31,
+            21,
+            512,
+            512
+          ]
+        },
+        {
+          "index": 1,
+          "row": 0,
+          "col": 1,
+          "item": "Atlantic cod",
+          "cellBounds": [
+            512,
+            0,
+            1024,
+            512
+          ],
+          "alphaBoundsWithinCell": [
+            1,
+            78,
+            512,
+            512
+          ]
+        },
+        {
+          "index": 2,
+          "row": 0,
+          "col": 2,
+          "item": "yellowfin tuna",
+          "cellBounds": [
+            1024,
+            0,
+            1536,
+            512
+          ],
+          "alphaBoundsWithinCell": [
+            0,
+            31,
+            481,
+            512
+          ]
+        },
+        {
+          "index": 3,
+          "row": 1,
+          "col": 0,
+          "item": "European seabass",
+          "cellBounds": [
+            0,
+            512,
+            512,
+            1024
+          ],
+          "alphaBoundsWithinCell": [
+            25,
+            0,
+            506,
+            512
+          ]
+        },
+        {
+          "index": 4,
+          "row": 1,
+          "col": 1,
+          "item": "Atlantic mackerel",
+          "cellBounds": [
+            512,
+            512,
+            1024,
+            1024
+          ],
+          "alphaBoundsWithinCell": [
+            9,
+            1,
+            510,
+            512
+          ]
+        },
+        {
+          "index": 5,
+          "row": 1,
+          "col": 2,
+          "item": "rainbow trout",
+          "cellBounds": [
+            1024,
+            512,
+            1536,
+            1024
+          ],
+          "alphaBoundsWithinCell": [
+            1,
+            0,
+            482,
+            486
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seafood-atlas-shellfish",
+      "category": "creature-sprites",
+      "cols": 3,
+      "rows": 3,
+      "items": [
+        "a red-brown European lobster with two large unequal claws and long antennae",
+        "a brown edible crab with broad oval shell and thick black-tipped claws",
+        "a translucent pink-grey northern prawn in curled side profile, long antennae",
+        "a blue mussel in dark blue elongated shell, one half slightly open",
+        "a Pacific oyster, irregular layered grey cream rough shell, open to show flesh",
+        "a king scallop with symmetrical fan-shaped ribbed shell, warm coral cream",
+        "a longfin squid, elongated mantle, two fins and clustered arms, ivory rust palette",
+        "a common octopus, rounded head and EIGHT curling arms, warm burnt orange",
+        "a European cuttlefish with broad oval mantle, thin fringing fin, tucked arms"
+      ],
+      "selectedVersion": "B",
+      "path": "seafood-atlas-shellfish.png",
+      "variants": [
+        {
+          "version": "A",
+          "sourcePath": "exec-fa6717fb-d6d5-46de-8c4b-b97f4ce6f4d5.png",
+          "path": "seafood-atlas-shellfish--a.png",
+          "prompt": "Retro marine field-guide pixel art. Cohesive 16-bit adventure-game background art, crisp deliberately visible square pixels, stepped contours, restrained ordered dithering, hand-clustered highlights. Base palette midnight navy #081B2C, ocean teal #145563, sea-glass #78C7AD, parchment #F5E6BB, coral orange #EE9862. Sophisticated natural-history museum mood, charming but not babyish. No smooth vector curves, no glossy 3D, no photorealism, no blurry pixel filter, no text, no logos, no border.\nUse case: stylized-concept. Asset type: 1024x1024 transparent sprite atlas in exactly 3 columns and 3 rows of equal cells. Nine standalone sprites in row-major order: 1. a red-brown European lobster with two large unequal claws and long antennae; 2. a brown edible crab with broad oval shell and thick black-tipped claws; 3. a translucent pink-grey northern prawn in curled side profile, long antennae; 4. a blue mussel in dark blue elongated shell, one half slightly open; 5. a Pacific oyster, irregular layered grey cream rough shell, open to show flesh; 6. a king scallop with symmetrical fan-shaped ribbed shell, warm coral cream; 7. a longfin squid, elongated mantle, two fins and clustered arms, ivory rust palette; 8. a common octopus, rounded head and EIGHT curling arms, warm burnt orange; 9. a European cuttlefish with broad oval mantle, thin fringing fin, tucked arms. All items centered in their own cell with 20 percent empty margin on every side. One single complete item in each cell, maximum 60 percent of cell width or height including antennae. Clear navy ink edge and chunky visibly square authored pixel clusters matching reference. Not to scale. Full anatomy recognisable, limbs distinct. Genuine transparent alpha outside objects, NO visible background, NO glow, NO halo, NO shadows, no labels, letters, digits, borders, gridlines, decorative filler or overlapping items. Reference is style only, do not copy coral or water."
+        },
+        {
+          "version": "B",
+          "sourcePath": "exec-1947f7d1-dfb9-46d1-ba45-d23fcee7187d.png",
+          "path": "seafood-atlas-shellfish--b.png",
+          "prompt": "Use case: background-extraction. Edit this exact marine pixel-art sprite atlas. Preserve the species identities, colors, anatomy, number, pixel style and row-major order. Remove the entire black, grey and colored background and ALL soft radial halos. Make every non-object pixel completely transparent (alpha zero), including spaces between limbs. No glow, no cast shadow. Isolate the dark navy outlined creatures cleanly as game sprites. Scale each complete sprite down inside its own unchanged equal cell until there is at least 20 percent EMPTY TRANSPARENT SPACE on each side of its cell; center it precisely. Do not crop, merge, reorder or add species. Keep the square aspect ratio and 3 columns by 3 rows. No grid or text."
+        }
+      ],
+      "selectionReason": "B selected over A for more usable margins, separated appendages and all nine complete species silhouettes.",
+      "limitations": [
+        "Illustrative stylization, not anatomical verification or to scale.",
+        "ImageGen dimensions may differ from requested dimensions; equal cell grid is authoritative.",
+        "Hidden RGB may show a halo in tools that ignore alpha; use PNG transparency in the website."
+      ],
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "fullyTransparentFraction": 0.6943,
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "cells": [
+        {
+          "index": 0,
+          "row": 0,
+          "col": 0,
+          "item": "a red-brown European lobster with two large unequal claws and long antennae",
+          "cellBounds": [
+            0,
+            0,
+            418,
+            418
+          ],
+          "alphaBoundsWithinCell": [
+            80,
+            98,
+            388,
+            408
+          ]
+        },
+        {
+          "index": 1,
+          "row": 0,
+          "col": 1,
+          "item": "a brown edible crab with broad oval shell and thick black-tipped claws",
+          "cellBounds": [
+            418,
+            0,
+            836,
+            418
+          ],
+          "alphaBoundsWithinCell": [
+            1,
+            23,
+            368,
+            418
+          ]
+        },
+        {
+          "index": 2,
+          "row": 0,
+          "col": 2,
+          "item": "a translucent pink-grey northern prawn in curled side profile, long antennae",
+          "cellBounds": [
+            836,
+            0,
+            1254,
+            418
+          ],
+          "alphaBoundsWithinCell": [
+            32,
+            65,
+            388,
+            372
+          ]
+        },
+        {
+          "index": 3,
+          "row": 1,
+          "col": 0,
+          "item": "a blue mussel in dark blue elongated shell, one half slightly open",
+          "cellBounds": [
+            0,
+            418,
+            418,
+            836
+          ],
+          "alphaBoundsWithinCell": [
+            33,
+            57,
+            415,
+            418
+          ]
+        },
+        {
+          "index": 4,
+          "row": 1,
+          "col": 1,
+          "item": "a Pacific oyster, irregular layered grey cream rough shell, open to show flesh",
+          "cellBounds": [
+            418,
+            418,
+            836,
+            836
+          ],
+          "alphaBoundsWithinCell": [
+            37,
+            3,
+            412,
+            410
+          ]
+        },
+        {
+          "index": 5,
+          "row": 1,
+          "col": 2,
+          "item": "a king scallop with symmetrical fan-shaped ribbed shell, warm coral cream",
+          "cellBounds": [
+            836,
+            418,
+            1254,
+            836
+          ],
+          "alphaBoundsWithinCell": [
+            1,
+            35,
+            370,
+            378
+          ]
+        },
+        {
+          "index": 6,
+          "row": 2,
+          "col": 0,
+          "item": "a longfin squid, elongated mantle, two fins and clustered arms, ivory rust palette",
+          "cellBounds": [
+            0,
+            836,
+            418,
+            1254
+          ],
+          "alphaBoundsWithinCell": [
+            47,
+            29,
+            400,
+            383
+          ]
+        },
+        {
+          "index": 7,
+          "row": 2,
+          "col": 1,
+          "item": "a common octopus, rounded head and EIGHT curling arms, warm burnt orange",
+          "cellBounds": [
+            418,
+            836,
+            836,
+            1254
+          ],
+          "alphaBoundsWithinCell": [
+            27,
+            23,
+            388,
+            324
+          ]
+        },
+        {
+          "index": 8,
+          "row": 2,
+          "col": 2,
+          "item": "a European cuttlefish with broad oval mantle, thin fringing fin, tucked arms",
+          "cellBounds": [
+            836,
+            836,
+            1254,
+            1254
+          ],
+          "alphaBoundsWithinCell": [
+            29,
+            23,
+            404,
+            330
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seafood-atlas-wild",
+      "category": "creature-sprites",
+      "cols": 3,
+      "rows": 3,
+      "items": [
+        "a purple sea urchin with round compact radial spines",
+        "a blue-green European flat oyster shell closed, rough layered round outline",
+        "a razor clam in its long narrow brown paired shell",
+        "a langoustine, slim coral pink body with long thin claws",
+        "an anglerfish, dark brown broad flattened head and very large toothy mouth, small lure",
+        "a moon jellyfish, translucent cream-blue disc bell and four faint horseshoe-shaped gonads",
+        "a nautilus, cream coiled chambered shell with rust bands and many small tentacles",
+        "a pale ivory deep-sea dumbo octopus with ear-like fins, rounded body and webbed arms",
+        "a leafy seadragon, slender golden green body with leaf-shaped appendages"
+      ],
+      "selectedVersion": "B",
+      "path": "seafood-atlas-wild.png",
+      "variants": [
+        {
+          "version": "A",
+          "sourcePath": "exec-0964a3f4-408f-4619-a722-29afcc69b142.png",
+          "path": "seafood-atlas-wild--a.png",
+          "prompt": "Retro marine field-guide pixel art. Cohesive 16-bit adventure-game background art, crisp deliberately visible square pixels, stepped contours, restrained ordered dithering, hand-clustered highlights. Base palette midnight navy #081B2C, ocean teal #145563, sea-glass #78C7AD, parchment #F5E6BB, coral orange #EE9862. Sophisticated natural-history museum mood, charming but not babyish. No smooth vector curves, no glossy 3D, no photorealism, no blurry pixel filter, no text, no logos, no border.\nUse case: stylized-concept. Asset type: square transparent sprite atlas, exactly 3 columns and 3 rows equal cells. Nine isolated sprites at cell centres in this ROW-MAJOR ORDER: 1. a purple sea urchin with round compact radial spines; 2. a blue-green European flat oyster shell closed, rough layered round outline; 3. a razor clam in its long narrow brown paired shell; 4. a langoustine, slim coral pink body with long thin claws; 5. an anglerfish, dark brown broad flattened head and very large toothy mouth, small lure; 6. a moon jellyfish, translucent cream-blue disc bell and four faint horseshoe-shaped gonads; 7. a nautilus, cream coiled chambered shell with rust bands and many small tentacles; 8. a pale ivory deep-sea dumbo octopus with ear-like fins, rounded body and webbed arms; 9. a leafy seadragon, slender golden green body with leaf-shaped appendages. Each complete sprite occupies only the middle 60 percent of its cell width and height, leave 20 percent empty TRANSPARENT margins including all appendages. Crisp visibly square pixel clusters, dark navy contours and quiet cream/teal/coral highlight. Charming natural-history specimen illustration with careful distinctive silhouettes, not literal scientific plate or scale. Use reference only for color/pixel treatment. No underwater scene or coral. Genuine fully transparent background. No text, labels, grid, borders, glow, halo, dropshadow or overlapping cells. Retain the listed characteristic anatomy, choose clean readable compact poses."
+        },
+        {
+          "version": "B",
+          "sourcePath": "exec-f3bec022-5b49-4d47-beff-d9dbcae463ab.png",
+          "path": "seafood-atlas-wild--b.png",
+          "prompt": "Retro marine field-guide pixel art. Cohesive 16-bit adventure-game background art, crisp deliberately visible square pixels, stepped contours, restrained ordered dithering, hand-clustered highlights. Base palette midnight navy #081B2C, ocean teal #145563, sea-glass #78C7AD, parchment #F5E6BB, coral orange #EE9862. Sophisticated natural-history museum mood, charming but not babyish. No smooth vector curves, no glossy 3D, no photorealism, no blurry pixel filter, no text, no logos, no border.\nUse case: stylized-concept. Asset type: square transparent 3x3 game sprite atlas. Nine separate sprites in fixed row-major order: 1. a purple sea urchin with round compact radial spines; 2. a blue-green European flat oyster shell closed, rough layered round outline; 3. a razor clam in its long narrow brown paired shell; 4. a langoustine, slim coral pink body with long thin claws; 5. an anglerfish, dark brown broad flattened head and very large toothy mouth, small lure; 6. a moon jellyfish, translucent cream-blue disc bell and four faint horseshoe-shaped gonads; 7. a nautilus, cream coiled chambered shell with rust bands and many small tentacles; 8. a pale ivory deep-sea dumbo octopus with ear-like fins, rounded body and webbed arms; 9. a leafy seadragon, slender golden green body with leaf-shaped appendages. All centered in equal cells. Complete silhouettes and margins twenty percent of cell dimensions. No clipping or cell overlap. Dark navy clean pixel contours, deliberate square pixel blocks like 16-bit adventure inventory, highlights in sea-glass cream coral and brass. Genuine transparent empty space. No text, grid, captions, numbers, logo, border, scene, cast shadow, halo, glow, vignette, or gradient background. Reference style only. Alternative B. More restrained colours, slightly smaller silhouettes, make the anglerfish a recognizable benthic angler with flattened broad head, low body and single short lure (not a round invented monster). Keep dumbo octopus a calm cream deep-sea animal with soft webbed arms, less cartoon face. Clearly preserve nautilus shell coiling and slender leafy seadragon body."
+        }
+      ],
+      "selectionReason": "B selected over A for reduced scale, more consistent spacing and calmer creature treatment; anglerfish remains illustrative and generic.",
+      "limitations": [
+        "Illustrative stylization, not anatomical verification or to scale.",
+        "ImageGen dimensions may differ from requested dimensions; equal cell grid is authoritative.",
+        "Hidden RGB may show a halo in tools that ignore alpha; use PNG transparency in the website."
+      ],
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "fullyTransparentFraction": 0.6159,
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "cells": [
+        {
+          "index": 0,
+          "row": 0,
+          "col": 0,
+          "item": "a purple sea urchin with round compact radial spines",
+          "cellBounds": [
+            0,
+            0,
+            418,
+            418
+          ],
+          "alphaBoundsWithinCell": [
+            0,
+            23,
+            418,
+            416
+          ]
+        },
+        {
+          "index": 1,
+          "row": 0,
+          "col": 1,
+          "item": "a blue-green European flat oyster shell closed, rough layered round outline",
+          "cellBounds": [
+            418,
+            0,
+            836,
+            418
+          ],
+          "alphaBoundsWithinCell": [
+            1,
+            0,
+            418,
+            418
+          ]
+        },
+        {
+          "index": 2,
+          "row": 0,
+          "col": 2,
+          "item": "a razor clam in its long narrow brown paired shell",
+          "cellBounds": [
+            836,
+            0,
+            1254,
+            418
+          ],
+          "alphaBoundsWithinCell": [
+            1,
+            9,
+            396,
+            418
+          ]
+        },
+        {
+          "index": 3,
+          "row": 1,
+          "col": 0,
+          "item": "a langoustine, slim coral pink body with long thin claws",
+          "cellBounds": [
+            0,
+            418,
+            418,
+            836
+          ],
+          "alphaBoundsWithinCell": [
+            0,
+            3,
+            418,
+            392
+          ]
+        },
+        {
+          "index": 4,
+          "row": 1,
+          "col": 1,
+          "item": "an anglerfish, dark brown broad flattened head and very large toothy mouth, small lure",
+          "cellBounds": [
+            418,
+            418,
+            836,
+            836
+          ],
+          "alphaBoundsWithinCell": [
+            0,
+            1,
+            418,
+            418
+          ]
+        },
+        {
+          "index": 5,
+          "row": 1,
+          "col": 2,
+          "item": "a moon jellyfish, translucent cream-blue disc bell and four faint horseshoe-shaped gonads",
+          "cellBounds": [
+            836,
+            418,
+            1254,
+            836
+          ],
+          "alphaBoundsWithinCell": [
+            0,
+            5,
+            398,
+            418
+          ]
+        },
+        {
+          "index": 6,
+          "row": 2,
+          "col": 0,
+          "item": "a nautilus, cream coiled chambered shell with rust bands and many small tentacles",
+          "cellBounds": [
+            0,
+            836,
+            418,
+            1254
+          ],
+          "alphaBoundsWithinCell": [
+            0,
+            13,
+            418,
+            418
+          ]
+        },
+        {
+          "index": 7,
+          "row": 2,
+          "col": 1,
+          "item": "a pale ivory deep-sea dumbo octopus with ear-like fins, rounded body and webbed arms",
+          "cellBounds": [
+            418,
+            836,
+            836,
+            1254
+          ],
+          "alphaBoundsWithinCell": [
+            0,
+            0,
+            418,
+            418
+          ]
+        },
+        {
+          "index": 8,
+          "row": 2,
+          "col": 2,
+          "item": "a leafy seadragon, slender golden green body with leaf-shaped appendages",
+          "cellBounds": [
+            836,
+            836,
+            1254,
+            1254
+          ],
+          "alphaBoundsWithinCell": [
+            1,
+            0,
+            404,
+            386
+          ]
+        }
+      ]
+    },
+    {
+      "id": "props-market",
+      "category": "props",
+      "cols": 3,
+      "rows": 3,
+      "items": [
+        "empty wicker shopping basket",
+        "fishmonger's brass tabletop balance scale",
+        "open blue fish crate with a few clear ice cubes but no fish",
+        "empty kraft paper takeaway wrap cone",
+        "closed ivory insulated cool bag",
+        "small empty glass-front seafood counter miniature",
+        "cream market awning with teal stripes no writing",
+        "small shipping ice box with lid open",
+        "blank hanging dark price tag with twine"
+      ],
+      "selectedVersion": "B",
+      "path": "props-market.png",
+      "variants": [
+        {
+          "version": "A",
+          "sourcePath": "exec-8db728ed-8b74-4093-8fcb-7b8f228becb3.png",
+          "path": "props-market--a.png",
+          "prompt": "Retro marine field-guide pixel art. Cohesive 16-bit adventure-game background art, crisp deliberately visible square pixels, stepped contours, restrained ordered dithering, hand-clustered highlights. Base palette midnight navy #081B2C, ocean teal #145563, sea-glass #78C7AD, parchment #F5E6BB, coral orange #EE9862. Sophisticated natural-history museum mood, charming but not babyish. No smooth vector curves, no glossy 3D, no photorealism, no blurry pixel filter, no text, no logos, no border.\nUse case: stylized-concept. Asset type: transparent production game-prop atlas, square image exactly 3 columns and 3 rows of equal cells. Nine separate complete objects in row-major order: 1. empty wicker shopping basket; 2. fishmonger's brass tabletop balance scale; 3. open blue fish crate with a few clear ice cubes but no fish; 4. empty kraft paper takeaway wrap cone; 5. closed ivory insulated cool bag; 6. small empty glass-front seafood counter miniature; 7. cream market awning with teal stripes no writing; 8. small shipping ice box with lid open; 9. blank hanging dark price tag with twine. Each sprite occupies only middle 60 percent width and height of its own cell. Precisely centered, at least20 percent transparent margins. Refined chunky 16-bit adventure inventory art with crisp squared pixels, dark navy outlines, visible ordered dither, cream brass teal and coral. Reference only for style and palette. Use matching slightly elevated 3/4 viewpoint except flat UI items facing viewer. No animals except described simple emblems. Genuine transparent background and transparent gaps/windows. No text, letters, numerals, typography, frames, background scenes, ground plane, glow, halo, soft gradients, cast shadows or overlapping cells."
+        },
+        {
+          "version": "B",
+          "sourcePath": "exec-a03fb27d-ec45-41dd-a780-ede51307a504.png",
+          "path": "props-market--b.png",
+          "prompt": "Retro marine field-guide pixel art. Cohesive 16-bit adventure-game background art, crisp deliberately visible square pixels, stepped contours, restrained ordered dithering, hand-clustered highlights. Base palette midnight navy #081B2C, ocean teal #145563, sea-glass #78C7AD, parchment #F5E6BB, coral orange #EE9862. Sophisticated natural-history museum mood, charming but not babyish. No smooth vector curves, no glossy 3D, no photorealism, no blurry pixel filter, no text, no logos, no border.\nUse case: stylized-concept. Asset type: square transparent 3x3 game sprite atlas. Nine separate sprites in fixed row-major order: 1. empty wicker shopping basket; 2. fishmonger's brass tabletop balance scale; 3. open blue fish crate with a few clear ice cubes but no fish; 4. empty kraft paper takeaway wrap cone; 5. closed ivory insulated cool bag; 6. small empty glass-front seafood counter miniature; 7. cream market awning with teal stripes no writing; 8. small shipping ice box with lid open; 9. blank hanging dark price tag with twine. All centered in equal cells. Complete silhouettes and margins twenty percent of cell dimensions. No clipping or cell overlap. Dark navy clean pixel contours, deliberate square pixel blocks like 16-bit adventure inventory, highlights in sea-glass cream coral and brass. Genuine transparent empty space. No text, grid, captions, numbers, logo, border, scene, cast shadow, halo, glow, vignette, or gradient background. Reference style only. Alternative B. Refine slightly smaller more compact objects, simpler broad pixel clusters and brass details. Same correct items/order. Basket, scale, crate, wrapping cone, bag, counter, awning, icebox, tag. Keep empty icebox and counter, no seafood, don't add brand emblem to bag. Make awning freestanding with small two posts."
+        }
+      ],
+      "selectionReason": "B selected over A for fully supported awning, simpler readable crate and blank cooler, with consistent clean silhouettes.",
+      "limitations": [
+        "Stylized illustration; props and decorative maps are not scientific or geographic evidence."
+      ],
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "fullyTransparentFraction": 0.6287,
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "cells": [
+        {
+          "index": 0,
+          "row": 0,
+          "col": 0,
+          "item": "empty wicker shopping basket",
+          "cellBounds": [
+            0,
+            0,
+            418,
+            418
+          ],
+          "alphaBoundsWithinCell": [
+            0,
+            19,
+            418,
+            418
+          ]
+        },
+        {
+          "index": 1,
+          "row": 0,
+          "col": 1,
+          "item": "fishmonger's brass tabletop balance scale",
+          "cellBounds": [
+            418,
+            0,
+            836,
+            418
+          ],
+          "alphaBoundsWithinCell": [
+            1,
+            9,
+            414,
+            418
+          ]
+        },
+        {
+          "index": 2,
+          "row": 0,
+          "col": 2,
+          "item": "open blue fish crate with a few clear ice cubes but no fish",
+          "cellBounds": [
+            836,
+            0,
+            1254,
+            418
+          ],
+          "alphaBoundsWithinCell": [
+            15,
+            21,
+            371,
+            418
+          ]
+        },
+        {
+          "index": 3,
+          "row": 1,
+          "col": 0,
+          "item": "empty kraft paper takeaway wrap cone",
+          "cellBounds": [
+            0,
+            418,
+            418,
+            836
+          ],
+          "alphaBoundsWithinCell": [
+            0,
+            0,
+            418,
+            418
+          ]
+        },
+        {
+          "index": 4,
+          "row": 1,
+          "col": 1,
+          "item": "closed ivory insulated cool bag",
+          "cellBounds": [
+            418,
+            418,
+            836,
+            836
+          ],
+          "alphaBoundsWithinCell": [
+            7,
+            3,
+            382,
+            411
+          ]
+        },
+        {
+          "index": 5,
+          "row": 1,
+          "col": 2,
+          "item": "small empty glass-front seafood counter miniature",
+          "cellBounds": [
+            836,
+            418,
+            1254,
+            836
+          ],
+          "alphaBoundsWithinCell": [
+            1,
+            23,
+            400,
+            418
+          ]
+        },
+        {
+          "index": 6,
+          "row": 2,
+          "col": 0,
+          "item": "cream market awning with teal stripes no writing",
+          "cellBounds": [
+            0,
+            836,
+            418,
+            1254
+          ],
+          "alphaBoundsWithinCell": [
+            0,
+            31,
+            403,
+            418
+          ]
+        },
+        {
+          "index": 7,
+          "row": 2,
+          "col": 1,
+          "item": "small shipping ice box with lid open",
+          "cellBounds": [
+            418,
+            836,
+            836,
+            1254
+          ],
+          "alphaBoundsWithinCell": [
+            1,
+            0,
+            418,
+            418
+          ]
+        },
+        {
+          "index": 8,
+          "row": 2,
+          "col": 2,
+          "item": "blank hanging dark price tag with twine",
+          "cellBounds": [
+            836,
+            836,
+            1254,
+            1254
+          ],
+          "alphaBoundsWithinCell": [
+            1,
+            0,
+            409,
+            418
+          ]
+        }
+      ]
+    },
+    {
+      "id": "props-aquarium",
+      "category": "props",
+      "cols": 3,
+      "rows": 3,
+      "items": [
+        "empty freestanding glass aquarium tank with sand and tiny plant",
+        "arched aquarium viewing-window frame with empty transparent centre",
+        "cream admission ticket with simple fish silhouette and no text",
+        "binoculars in navy and brass",
+        "snorkel mask with teal strap",
+        "small conservation buoy with sea-glass leaf emblem no text",
+        "branch of orange coral on small rock",
+        "ribbon of green kelp on small rock",
+        "anemone with cream pink tentacles"
+      ],
+      "selectedVersion": "B",
+      "path": "props-aquarium.png",
+      "variants": [
+        {
+          "version": "A",
+          "sourcePath": "exec-d9999cc6-93ff-4b61-978f-1370203fba88.png",
+          "path": "props-aquarium--a.png",
+          "prompt": "Retro marine field-guide pixel art. Cohesive 16-bit adventure-game background art, crisp deliberately visible square pixels, stepped contours, restrained ordered dithering, hand-clustered highlights. Base palette midnight navy #081B2C, ocean teal #145563, sea-glass #78C7AD, parchment #F5E6BB, coral orange #EE9862. Sophisticated natural-history museum mood, charming but not babyish. No smooth vector curves, no glossy 3D, no photorealism, no blurry pixel filter, no text, no logos, no border.\nUse case: stylized-concept. Asset type: transparent production game-prop atlas, square image exactly 3 columns and 3 rows of equal cells. Nine separate complete objects in row-major order: 1. empty freestanding glass aquarium tank with sand and tiny plant; 2. arched aquarium viewing-window frame with empty transparent centre; 3. cream admission ticket with simple fish silhouette and no text; 4. binoculars in navy and brass; 5. snorkel mask with teal strap; 6. small conservation buoy with sea-glass leaf emblem no text; 7. branch of orange coral on small rock; 8. ribbon of green kelp on small rock; 9. anemone with cream pink tentacles. Each sprite occupies only middle 60 percent width and height of its own cell. Precisely centered, at least20 percent transparent margins. Refined chunky 16-bit adventure inventory art with crisp squared pixels, dark navy outlines, visible ordered dither, cream brass teal and coral. Reference only for style and palette. Use matching slightly elevated 3/4 viewpoint except flat UI items facing viewer. No animals except described simple emblems. Genuine transparent background and transparent gaps/windows. No text, letters, numerals, typography, frames, background scenes, ground plane, glow, halo, soft gradients, cast shadows or overlapping cells."
+        },
+        {
+          "version": "B",
+          "sourcePath": "exec-39e561f1-db0e-425a-8cd0-8f3aca2b1a9f.png",
+          "path": "props-aquarium--b.png",
+          "prompt": "Retro marine field-guide pixel art. Cohesive 16-bit adventure-game background art, crisp deliberately visible square pixels, stepped contours, restrained ordered dithering, hand-clustered highlights. Base palette midnight navy #081B2C, ocean teal #145563, sea-glass #78C7AD, parchment #F5E6BB, coral orange #EE9862. Sophisticated natural-history museum mood, charming but not babyish. No smooth vector curves, no glossy 3D, no photorealism, no blurry pixel filter, no text, no logos, no border.\nUse case: stylized-concept. Asset type: square transparent 3x3 game sprite atlas. Nine separate sprites in fixed row-major order: 1. empty freestanding glass aquarium tank with sand and tiny plant; 2. arched aquarium viewing-window frame with empty transparent centre; 3. cream admission ticket with simple fish silhouette and no text; 4. binoculars in navy and brass; 5. snorkel mask with teal strap; 6. small conservation buoy with sea-glass leaf emblem no text; 7. branch of orange coral on small rock; 8. ribbon of green kelp on small rock; 9. anemone with cream pink tentacles. All centered in equal cells. Complete silhouettes and margins twenty percent of cell dimensions. No clipping or cell overlap. Dark navy clean pixel contours, deliberate square pixel blocks like 16-bit adventure inventory, highlights in sea-glass cream coral and brass. Genuine transparent empty space. No text, grid, captions, numbers, logo, border, scene, cast shadow, halo, glow, vignette, or gradient background. Reference style only. Alternative B. Refine into smaller, lighter, cleaner inventory sprites with consistent navy outlines. IMPORTANT bottom-right is a sea ANEMONE: rounded low fleshy base, many thin smooth curling cream-pink tentacles around central oral disc. It is NOT branching hard coral. Center top-middle arch must be fully transparent hole. Do not insert fish into aquarium."
+        }
+      ],
+      "selectionReason": "B selected over A because bottom-right is now a soft tentacled anemone rather than branching coral; tank and arch also clearer.",
+      "limitations": [
+        "Stylized illustration; props and decorative maps are not scientific or geographic evidence."
+      ],
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "fullyTransparentFraction": 0.5422,
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "cells": [
+        {
+          "index": 0,
+          "row": 0,
+          "col": 0,
+          "item": "empty freestanding glass aquarium tank with sand and tiny plant",
+          "cellBounds": [
+            0,
+            0,
+            418,
+            418
+          ],
+          "alphaBoundsWithinCell": [
+            0,
+            19,
+            418,
+            418
+          ]
+        },
+        {
+          "index": 1,
+          "row": 0,
+          "col": 1,
+          "item": "arched aquarium viewing-window frame with empty transparent centre",
+          "cellBounds": [
+            418,
+            0,
+            836,
+            418
+          ],
+          "alphaBoundsWithinCell": [
+            21,
+            31,
+            418,
+            418
+          ]
+        },
+        {
+          "index": 2,
+          "row": 0,
+          "col": 2,
+          "item": "cream admission ticket with simple fish silhouette and no text",
+          "cellBounds": [
+            836,
+            0,
+            1254,
+            418
+          ],
+          "alphaBoundsWithinCell": [
+            3,
+            8,
+            386,
+            418
+          ]
+        },
+        {
+          "index": 3,
+          "row": 1,
+          "col": 0,
+          "item": "binoculars in navy and brass",
+          "cellBounds": [
+            0,
+            418,
+            418,
+            836
+          ],
+          "alphaBoundsWithinCell": [
+            0,
+            17,
+            414,
+            418
+          ]
+        },
+        {
+          "index": 4,
+          "row": 1,
+          "col": 1,
+          "item": "snorkel mask with teal strap",
+          "cellBounds": [
+            418,
+            418,
+            836,
+            836
+          ],
+          "alphaBoundsWithinCell": [
+            7,
+            2,
+            418,
+            418
+          ]
+        },
+        {
+          "index": 5,
+          "row": 1,
+          "col": 2,
+          "item": "small conservation buoy with sea-glass leaf emblem no text",
+          "cellBounds": [
+            836,
+            418,
+            1254,
+            836
+          ],
+          "alphaBoundsWithinCell": [
+            3,
+            1,
+            402,
+            410
+          ]
+        },
+        {
+          "index": 6,
+          "row": 2,
+          "col": 0,
+          "item": "branch of orange coral on small rock",
+          "cellBounds": [
+            0,
+            836,
+            418,
+            1254
+          ],
+          "alphaBoundsWithinCell": [
+            0,
+            0,
+            403,
+            418
+          ]
+        },
+        {
+          "index": 7,
+          "row": 2,
+          "col": 1,
+          "item": "ribbon of green kelp on small rock",
+          "cellBounds": [
+            418,
+            836,
+            836,
+            1254
+          ],
+          "alphaBoundsWithinCell": [
+            15,
+            0,
+            418,
+            418
+          ]
+        },
+        {
+          "index": 8,
+          "row": 2,
+          "col": 2,
+          "item": "anemone with cream pink tentacles",
+          "cellBounds": [
+            836,
+            836,
+            1254,
+            1254
+          ],
+          "alphaBoundsWithinCell": [
+            1,
+            1,
+            400,
+            388
+          ]
+        }
+      ]
+    },
+    {
+      "id": "props-navigation",
+      "category": "ui-sprites",
+      "cols": 3,
+      "rows": 3,
+      "items": [
+        "folded parchment map with blue river line, no place names",
+        "brass compass with needle and no lettering",
+        "navy magnifying glass with empty lens",
+        "coral map pin with fish silhouette cutout",
+        "cream calendar with nine tiny teal squares and no text",
+        "gold pocket watch with hands and no numerals",
+        "small globe showing simplified world continents, decorative only",
+        "open marine field notebook with blank cream pages",
+        "sealed glass message bottle with rolled parchment"
+      ],
+      "selectedVersion": "A",
+      "path": "props-navigation.png",
+      "variants": [
+        {
+          "version": "A",
+          "sourcePath": "exec-b42430f1-4531-4e97-8c5e-c3649555f18f.png",
+          "path": "props-navigation--a.png",
+          "prompt": "Retro marine field-guide pixel art. Cohesive 16-bit adventure-game background art, crisp deliberately visible square pixels, stepped contours, restrained ordered dithering, hand-clustered highlights. Base palette midnight navy #081B2C, ocean teal #145563, sea-glass #78C7AD, parchment #F5E6BB, coral orange #EE9862. Sophisticated natural-history museum mood, charming but not babyish. No smooth vector curves, no glossy 3D, no photorealism, no blurry pixel filter, no text, no logos, no border.\nUse case: stylized-concept. Asset type: transparent production game-prop atlas, square image exactly 3 columns and 3 rows of equal cells. Nine separate complete objects in row-major order: 1. folded parchment map with blue river line, no place names; 2. brass compass with needle and no lettering; 3. navy magnifying glass with empty lens; 4. coral map pin with fish silhouette cutout; 5. cream calendar with nine tiny teal squares and no text; 6. gold pocket watch with hands and no numerals; 7. small globe showing simplified world continents, decorative only; 8. open marine field notebook with blank cream pages; 9. sealed glass message bottle with rolled parchment. Each sprite occupies only middle 60 percent width and height of its own cell. Precisely centered, at least20 percent transparent margins. Refined chunky 16-bit adventure inventory art with crisp squared pixels, dark navy outlines, visible ordered dither, cream brass teal and coral. Reference only for style and palette. Use matching slightly elevated 3/4 viewpoint except flat UI items facing viewer. No animals except described simple emblems. Genuine transparent background and transparent gaps/windows. No text, letters, numerals, typography, frames, background scenes, ground plane, glow, halo, soft gradients, cast shadows or overlapping cells."
+        },
+        {
+          "version": "B",
+          "sourcePath": "exec-a85c20c6-489f-4a5f-93f1-699adc6fbe50.png",
+          "path": "props-navigation--b.png",
+          "prompt": "Retro marine field-guide pixel art. Cohesive 16-bit adventure-game background art, crisp deliberately visible square pixels, stepped contours, restrained ordered dithering, hand-clustered highlights. Base palette midnight navy #081B2C, ocean teal #145563, sea-glass #78C7AD, parchment #F5E6BB, coral orange #EE9862. Sophisticated natural-history museum mood, charming but not babyish. No smooth vector curves, no glossy 3D, no photorealism, no blurry pixel filter, no text, no logos, no border.\nUse case: stylized-concept. Alternative B production atlas. Square true transparent PNG with EXACTLY3x3 equal square cells, one complete isolated sprite in each cell. Row-major items: 1. folded parchment map with blue river line, no place names; 2. brass compass with needle and no lettering; 3. navy magnifying glass with empty lens; 4. coral map pin with fish silhouette cutout; 5. cream calendar with nine tiny teal squares and no text; 6. gold pocket watch with hands and no numerals; 7. small globe showing simplified world continents, decorative only; 8. open marine field notebook with blank cream pages; 9. sealed glass message bottle with rolled parchment. Pixelart 16-bit adventure inventory, compact composition with each sprite centered in middle sixty percent of its cell. Visible square clusters, hard navy outlines, muted teal cream coral and brass highlights. No scene/backdrop, soft gradients, casts shadows, glow, halos, labels, words or letters. No visible cell borders. Refine stronger silhouettes for use at64px size. The compass has a distinct red/blue needle and no letters. Magnifying glass is clean navy with transparent center and a restrained single cream reflection. Fish cutout inside coral map pin must read clearly. Globe is decorative simplified continents, not geographic data. Open notebook pages clean and blank. Reference sets pixel style only."
+        }
+      ],
+      "selectionReason": "A selected over B because hand-clustered dither and antique material detail better match the creature art, while B is smoother and flatter.",
+      "limitations": [
+        "Stylized illustration; props and decorative maps are not scientific or geographic evidence."
+      ],
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "fullyTransparentFraction": 0.6002,
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "cells": [
+        {
+          "index": 0,
+          "row": 0,
+          "col": 0,
+          "item": "folded parchment map with blue river line, no place names",
+          "cellBounds": [
+            0,
+            0,
+            418,
+            418
+          ],
+          "alphaBoundsWithinCell": [
+            0,
+            79,
+            418,
+            410
+          ]
+        },
+        {
+          "index": 1,
+          "row": 0,
+          "col": 1,
+          "item": "brass compass with needle and no lettering",
+          "cellBounds": [
+            418,
+            0,
+            836,
+            418
+          ],
+          "alphaBoundsWithinCell": [
+            1,
+            40,
+            414,
+            415
+          ]
+        },
+        {
+          "index": 2,
+          "row": 0,
+          "col": 2,
+          "item": "navy magnifying glass with empty lens",
+          "cellBounds": [
+            836,
+            0,
+            1254,
+            418
+          ],
+          "alphaBoundsWithinCell": [
+            3,
+            19,
+            370,
+            399
+          ]
+        },
+        {
+          "index": 3,
+          "row": 1,
+          "col": 0,
+          "item": "coral map pin with fish silhouette cutout",
+          "cellBounds": [
+            0,
+            418,
+            418,
+            836
+          ],
+          "alphaBoundsWithinCell": [
+            0,
+            31,
+            418,
+            418
+          ]
+        },
+        {
+          "index": 4,
+          "row": 1,
+          "col": 1,
+          "item": "cream calendar with nine tiny teal squares and no text",
+          "cellBounds": [
+            418,
+            418,
+            836,
+            836
+          ],
+          "alphaBoundsWithinCell": [
+            0,
+            1,
+            418,
+            408
+          ]
+        },
+        {
+          "index": 5,
+          "row": 1,
+          "col": 2,
+          "item": "gold pocket watch with hands and no numerals",
+          "cellBounds": [
+            836,
+            418,
+            1254,
+            836
+          ],
+          "alphaBoundsWithinCell": [
+            47,
+            14,
+            384,
+            388
+          ]
+        },
+        {
+          "index": 6,
+          "row": 2,
+          "col": 0,
+          "item": "small globe showing simplified world continents, decorative only",
+          "cellBounds": [
+            0,
+            836,
+            418,
+            1254
+          ],
+          "alphaBoundsWithinCell": [
+            19,
+            0,
+            400,
+            400
+          ]
+        },
+        {
+          "index": 7,
+          "row": 2,
+          "col": 1,
+          "item": "open marine field notebook with blank cream pages",
+          "cellBounds": [
+            418,
+            836,
+            836,
+            1254
+          ],
+          "alphaBoundsWithinCell": [
+            4,
+            16,
+            414,
+            418
+          ]
+        },
+        {
+          "index": 8,
+          "row": 2,
+          "col": 2,
+          "item": "sealed glass message bottle with rolled parchment",
+          "cellBounds": [
+            836,
+            836,
+            1254,
+            1254
+          ],
+          "alphaBoundsWithinCell": [
+            23,
+            16,
+            402,
+            399
+          ]
+        }
+      ]
+    },
+    {
+      "id": "props-ocean-life",
+      "category": "props",
+      "cols": 3,
+      "rows": 3,
+      "items": [
+        "cluster of five pearl-blue air bubbles",
+        "spiral cream seashell",
+        "orange sea star with five arms",
+        "small sandcastle-shaped rock formation",
+        "smooth pebbles and gravel patch",
+        "cluster of three pale blue plankton-like decorative specks",
+        "small silver school of five generic distant fish silhouettes",
+        "seagrass tuft growing from sand",
+        "tiny research submersible with round brass porthole"
+      ],
+      "selectedVersion": "B",
+      "path": "props-ocean-life.png",
+      "variants": [
+        {
+          "version": "A",
+          "sourcePath": "exec-9795c080-c94a-4125-b81a-e70b7a114f7f.png",
+          "path": "props-ocean-life--a.png",
+          "prompt": "Retro marine field-guide pixel art. Cohesive 16-bit adventure-game background art, crisp deliberately visible square pixels, stepped contours, restrained ordered dithering, hand-clustered highlights. Base palette midnight navy #081B2C, ocean teal #145563, sea-glass #78C7AD, parchment #F5E6BB, coral orange #EE9862. Sophisticated natural-history museum mood, charming but not babyish. No smooth vector curves, no glossy 3D, no photorealism, no blurry pixel filter, no text, no logos, no border.\nUse case: stylized-concept. Asset type: square true transparent 3x3 pixel sprite atlas. Nine complete sprites, equal square cells, strict row-major order: 1. cluster of five pearl-blue air bubbles; 2. spiral cream seashell; 3. orange sea star with five arms; 4. small sandcastle-shaped rock formation; 5. smooth pebbles and gravel patch; 6. cluster of three pale blue plankton-like decorative specks; 7. small silver school of five generic distant fish silhouettes; 8. seagrass tuft growing from sand; 9. tiny research submersible with round brass porthole. Each has generous twenty percent empty transparent padding around its complete silhouette. Center each sprite exactly in its cell. Compact compositions with no overlap. No letters, words, numbers, labels, grid, borders, cast shadows, background, halos. Navy outlines, cream/teal/coral/gold highlights and clearly stepped 4-pixel style, hand-clustered dithering. No smooth vector shapes. Small environmental accent sprites, sophisticated miniature inventory art matching style reference. Individual groups explicitly requested count as one sprite."
+        },
+        {
+          "version": "B",
+          "sourcePath": "exec-7000b116-bd43-4db7-9969-95bab67d4af6.png",
+          "path": "props-ocean-life--b.png",
+          "prompt": "Retro marine field-guide pixel art. Cohesive 16-bit adventure-game background art, crisp deliberately visible square pixels, stepped contours, restrained ordered dithering, hand-clustered highlights. Base palette midnight navy #081B2C, ocean teal #145563, sea-glass #78C7AD, parchment #F5E6BB, coral orange #EE9862. Sophisticated natural-history museum mood, charming but not babyish. No smooth vector curves, no glossy 3D, no photorealism, no blurry pixel filter, no text, no logos, no border.\nUse case: stylized-concept. Alternative B production atlas. Square true transparent PNG with EXACTLY3x3 equal square cells, one complete isolated sprite in each cell. Row-major items: 1. cluster of five pearl-blue air bubbles; 2. spiral cream seashell; 3. orange sea star with five arms; 4. small sandcastle-shaped rock formation; 5. smooth pebbles and gravel patch; 6. cluster of three pale blue plankton-like decorative specks; 7. small silver school of five generic distant fish silhouettes; 8. seagrass tuft growing from sand; 9. tiny research submersible with round brass porthole. Pixelart 16-bit adventure inventory, compact composition with each sprite centered in middle sixty percent of its cell. Visible square clusters, hard navy outlines, muted teal cream coral and brass highlights. No scene/backdrop, soft gradients, casts shadows, glow, halos, labels, words or letters. No visible cell borders. More delicate ocean decorations than version A; five SMALL pearl blue bubbles, one cream shell, exactly five arm sea-star, warm cream rock formation not literal castle architecture, several smooth pebbles, THREE tiny plankton specks, FIVE distant fish silhouettes, a simple sea-grass tuft without extra coral, and charming tiny research submersible. Submersible faces right with one round porthole. Keep objects separate; open transparent negative space around each. Reference sets pixel style only."
+        }
+      ],
+      "selectionReason": "B selected over A for all five bubbles, simpler seagrass, cleaner five-fish group and stronger compact submersible silhouette.",
+      "limitations": [
+        "Stylized illustration; props and decorative maps are not scientific or geographic evidence."
+      ],
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "fullyTransparentFraction": 0.717,
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "cells": [
+        {
+          "index": 0,
+          "row": 0,
+          "col": 0,
+          "item": "cluster of five pearl-blue air bubbles",
+          "cellBounds": [
+            0,
+            0,
+            418,
+            418
+          ],
+          "alphaBoundsWithinCell": [
+            0,
+            15,
+            418,
+            418
+          ]
+        },
+        {
+          "index": 1,
+          "row": 0,
+          "col": 1,
+          "item": "spiral cream seashell",
+          "cellBounds": [
+            418,
+            0,
+            836,
+            418
+          ],
+          "alphaBoundsWithinCell": [
+            0,
+            25,
+            418,
+            418
+          ]
+        },
+        {
+          "index": 2,
+          "row": 0,
+          "col": 2,
+          "item": "orange sea star with five arms",
+          "cellBounds": [
+            836,
+            0,
+            1254,
+            418
+          ],
+          "alphaBoundsWithinCell": [
+            0,
+            19,
+            396,
+            418
+          ]
+        },
+        {
+          "index": 3,
+          "row": 1,
+          "col": 0,
+          "item": "small sandcastle-shaped rock formation",
+          "cellBounds": [
+            0,
+            418,
+            418,
+            836
+          ],
+          "alphaBoundsWithinCell": [
+            0,
+            0,
+            418,
+            418
+          ]
+        },
+        {
+          "index": 4,
+          "row": 1,
+          "col": 1,
+          "item": "smooth pebbles and gravel patch",
+          "cellBounds": [
+            418,
+            418,
+            836,
+            836
+          ],
+          "alphaBoundsWithinCell": [
+            0,
+            0,
+            418,
+            418
+          ]
+        },
+        {
+          "index": 5,
+          "row": 1,
+          "col": 2,
+          "item": "cluster of three pale blue plankton-like decorative specks",
+          "cellBounds": [
+            836,
+            418,
+            1254,
+            836
+          ],
+          "alphaBoundsWithinCell": [
+            0,
+            5,
+            408,
+            412
+          ]
+        },
+        {
+          "index": 6,
+          "row": 2,
+          "col": 0,
+          "item": "small silver school of five generic distant fish silhouettes",
+          "cellBounds": [
+            0,
+            836,
+            418,
+            1254
+          ],
+          "alphaBoundsWithinCell": [
+            0,
+            0,
+            418,
+            418
+          ]
+        },
+        {
+          "index": 7,
+          "row": 2,
+          "col": 1,
+          "item": "seagrass tuft growing from sand",
+          "cellBounds": [
+            418,
+            836,
+            836,
+            1254
+          ],
+          "alphaBoundsWithinCell": [
+            5,
+            0,
+            418,
+            418
+          ]
+        },
+        {
+          "index": 8,
+          "row": 2,
+          "col": 2,
+          "item": "tiny research submersible with round brass porthole",
+          "cellBounds": [
+            836,
+            836,
+            1254,
+            1254
+          ],
+          "alphaBoundsWithinCell": [
+            0,
+            7,
+            408,
+            418
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lifecycle-fish",
+      "category": "lifecycle-sprites",
+      "cols": 3,
+      "rows": 3,
+      "items": [
+        "cluster of translucent amber fish eggs resting in a little gravel",
+        "tiny pale fish larva with visible golden yolk sac",
+        "small silver juvenile fish with vertical parr marks",
+        "tiny orange clownfish juvenile with three white bands",
+        "small flat translucent marine fish larva with no yolk sac",
+        "cluster of small attached orange reef-fish eggs on rock",
+        "male golden seahorse side profile with visibly swollen brood pouch",
+        "three very small golden newborn seahorses upright separate together",
+        "small grey shark pup with black dorsal tip"
+      ],
+      "selectedVersion": "B",
+      "path": "lifecycle-fish.png",
+      "variants": [
+        {
+          "version": "A",
+          "sourcePath": "exec-afbce9a6-f4a2-4c13-a103-5eecaedc49cf.png",
+          "path": "lifecycle-fish--a.png",
+          "prompt": "Retro marine field-guide pixel art. Cohesive 16-bit adventure-game background art, crisp deliberately visible square pixels, stepped contours, restrained ordered dithering, hand-clustered highlights. Base palette midnight navy #081B2C, ocean teal #145563, sea-glass #78C7AD, parchment #F5E6BB, coral orange #EE9862. Sophisticated natural-history museum mood, charming but not babyish. No smooth vector curves, no glossy 3D, no photorealism, no blurry pixel filter, no text, no logos, no border.\nUse case: stylized-concept. Asset type: square transparent sprite atlas, exactly 3 columns and 3 rows equal cells. Nine isolated sprites at cell centres in this ROW-MAJOR ORDER: 1. cluster of translucent amber fish eggs resting in a little gravel; 2. tiny pale fish larva with visible golden yolk sac; 3. small silver juvenile fish with vertical parr marks; 4. tiny orange clownfish juvenile with three white bands; 5. small flat translucent marine fish larva with no yolk sac; 6. cluster of small attached orange reef-fish eggs on rock; 7. male golden seahorse side profile with visibly swollen brood pouch; 8. three very small golden newborn seahorses upright separate together; 9. small grey shark pup with black dorsal tip. Each complete sprite occupies only the middle 60 percent of its cell width and height, leave 20 percent empty TRANSPARENT margins including all appendages. Crisp visibly square pixel clusters, dark navy contours and quiet cream/teal/coral highlight. Charming natural-history specimen illustration with careful distinctive silhouettes, not literal scientific plate or scale. Use reference only for color/pixel treatment. No underwater scene or coral. Genuine fully transparent background. No text, labels, grid, borders, glow, halo, dropshadow or overlapping cells. Lifecycle icons depict illustrative life stages across different species; emphasize tiny juvenile shapes distinctly from adults."
+        },
+        {
+          "version": "B",
+          "sourcePath": "exec-09b5951c-75ab-4f05-abd0-9804e339c81b.png",
+          "path": "lifecycle-fish--b.png",
+          "prompt": "Retro marine field-guide pixel art. Cohesive 16-bit adventure-game background art, crisp deliberately visible square pixels, stepped contours, restrained ordered dithering, hand-clustered highlights. Base palette midnight navy #081B2C, ocean teal #145563, sea-glass #78C7AD, parchment #F5E6BB, coral orange #EE9862. Sophisticated natural-history museum mood, charming but not babyish. No smooth vector curves, no glossy 3D, no photorealism, no blurry pixel filter, no text, no logos, no border.\nUse case: stylized-concept. Asset type: square true transparent 3x3 pixel sprite atlas. Nine complete sprites, equal square cells, strict row-major order: 1. cluster of translucent amber fish eggs resting in a little gravel; 2. tiny pale fish larva with visible golden yolk sac; 3. small silver juvenile fish with vertical parr marks; 4. tiny orange clownfish juvenile with three white bands; 5. small flat translucent marine fish larva with no yolk sac; 6. cluster of small attached orange reef-fish eggs on rock; 7. male golden seahorse side profile with visibly swollen brood pouch; 8. three very small golden newborn seahorses upright separate together; 9. small grey shark pup with black dorsal tip. Each has generous twenty percent empty transparent padding around its complete silhouette. Center each sprite exactly in its cell. Compact compositions with no overlap. No letters, words, numbers, labels, grid, borders, cast shadows, background, halos. Navy outlines, cream/teal/coral/gold highlights and clearly stepped 4-pixel style, hand-clustered dithering. No smooth vector shapes. Create alternative B: smaller compact stages and more consistent navy outlines. TOP MIDDLE a VERY small long nearly transparent newly hatched larva with prominent yolk sac, thin tail; MIDDLE CENTRE a tiny thin transparent pelagic larval fish, NOT an adult flatfish, no adult high dorsal silhouette. Bottom-middle exactly three miniature upright seahorses. All drawings illustrate stages, not validated biological diagrams."
+        }
+      ],
+      "selectionReason": "B selected over A because the middle-centre larva is a slender larva instead of an adult-like flatfish, with clearer smaller stages.",
+      "limitations": [
+        "Illustrative stylization, not anatomical verification or to scale.",
+        "ImageGen dimensions may differ from requested dimensions; equal cell grid is authoritative.",
+        "Hidden RGB may show a halo in tools that ignore alpha; use PNG transparency in the website."
+      ],
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "fullyTransparentFraction": 0.7766,
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "cells": [
+        {
+          "index": 0,
+          "row": 0,
+          "col": 0,
+          "item": "cluster of translucent amber fish eggs resting in a little gravel",
+          "cellBounds": [
+            0,
+            0,
+            418,
+            418
+          ],
+          "alphaBoundsWithinCell": [
+            25,
+            9,
+            418,
+            418
+          ]
+        },
+        {
+          "index": 1,
+          "row": 0,
+          "col": 1,
+          "item": "tiny pale fish larva with visible golden yolk sac",
+          "cellBounds": [
+            418,
+            0,
+            836,
+            418
+          ],
+          "alphaBoundsWithinCell": [
+            0,
+            37,
+            418,
+            418
+          ]
+        },
+        {
+          "index": 2,
+          "row": 0,
+          "col": 2,
+          "item": "small silver juvenile fish with vertical parr marks",
+          "cellBounds": [
+            836,
+            0,
+            1254,
+            418
+          ],
+          "alphaBoundsWithinCell": [
+            0,
+            9,
+            398,
+            418
+          ]
+        },
+        {
+          "index": 3,
+          "row": 1,
+          "col": 0,
+          "item": "tiny orange clownfish juvenile with three white bands",
+          "cellBounds": [
+            0,
+            418,
+            418,
+            836
+          ],
+          "alphaBoundsWithinCell": [
+            0,
+            0,
+            418,
+            418
+          ]
+        },
+        {
+          "index": 4,
+          "row": 1,
+          "col": 1,
+          "item": "small flat translucent marine fish larva with no yolk sac",
+          "cellBounds": [
+            418,
+            418,
+            836,
+            836
+          ],
+          "alphaBoundsWithinCell": [
+            0,
+            0,
+            418,
+            418
+          ]
+        },
+        {
+          "index": 5,
+          "row": 1,
+          "col": 2,
+          "item": "cluster of small attached orange reef-fish eggs on rock",
+          "cellBounds": [
+            836,
+            418,
+            1254,
+            836
+          ],
+          "alphaBoundsWithinCell": [
+            0,
+            1,
+            402,
+            418
+          ]
+        },
+        {
+          "index": 6,
+          "row": 2,
+          "col": 0,
+          "item": "male golden seahorse side profile with visibly swollen brood pouch",
+          "cellBounds": [
+            0,
+            836,
+            418,
+            1254
+          ],
+          "alphaBoundsWithinCell": [
+            0,
+            0,
+            418,
+            418
+          ]
+        },
+        {
+          "index": 7,
+          "row": 2,
+          "col": 1,
+          "item": "three very small golden newborn seahorses upright separate together",
+          "cellBounds": [
+            418,
+            836,
+            836,
+            1254
+          ],
+          "alphaBoundsWithinCell": [
+            0,
+            0,
+            418,
+            418
+          ]
+        },
+        {
+          "index": 8,
+          "row": 2,
+          "col": 2,
+          "item": "small grey shark pup with black dorsal tip",
+          "cellBounds": [
+            836,
+            836,
+            1254,
+            1254
+          ],
+          "alphaBoundsWithinCell": [
+            0,
+            1,
+            392,
+            418
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lifecycle-invertebrates",
+      "category": "lifecycle-sprites",
+      "cols": 3,
+      "rows": 3,
+      "items": [
+        "female prawn curled with small egg cluster under abdomen",
+        "small translucent prawn larva as simplified educational illustration",
+        "tiny juvenile prawn",
+        "crab zoea larva with delicate long spine and large eyes, simplified educational",
+        "tiny juvenile crab with visible claws",
+        "tiny clam spat attached to small shell fragment",
+        "cluster of cream octopus egg capsules dangling like grapes",
+        "tiny newly hatched octopus with rounded head and eight short arms",
+        "small juvenile squid with short mantle and tiny fins"
+      ],
+      "selectedVersion": "B",
+      "path": "lifecycle-invertebrates.png",
+      "variants": [
+        {
+          "version": "A",
+          "sourcePath": "exec-7afa7ce9-66c6-4d84-8536-c7d02c69af83.png",
+          "path": "lifecycle-invertebrates--a.png",
+          "prompt": "Retro marine field-guide pixel art. Cohesive 16-bit adventure-game background art, crisp deliberately visible square pixels, stepped contours, restrained ordered dithering, hand-clustered highlights. Base palette midnight navy #081B2C, ocean teal #145563, sea-glass #78C7AD, parchment #F5E6BB, coral orange #EE9862. Sophisticated natural-history museum mood, charming but not babyish. No smooth vector curves, no glossy 3D, no photorealism, no blurry pixel filter, no text, no logos, no border.\nUse case: stylized-concept. Asset type: square transparent sprite atlas, exactly 3 columns and 3 rows equal cells. Nine isolated sprites at cell centres in this ROW-MAJOR ORDER: 1. female prawn curled with small egg cluster under abdomen; 2. small translucent prawn larva as simplified educational illustration; 3. tiny juvenile prawn; 4. crab zoea larva with delicate long spine and large eyes, simplified educational; 5. tiny juvenile crab with visible claws; 6. tiny clam spat attached to small shell fragment; 7. cluster of cream octopus egg capsules dangling like grapes; 8. tiny newly hatched octopus with rounded head and eight short arms; 9. small juvenile squid with short mantle and tiny fins. Each complete sprite occupies only the middle 60 percent of its cell width and height, leave 20 percent empty TRANSPARENT margins including all appendages. Crisp visibly square pixel clusters, dark navy contours and quiet cream/teal/coral highlight. Charming natural-history specimen illustration with careful distinctive silhouettes, not literal scientific plate or scale. Use reference only for color/pixel treatment. No underwater scene or coral. Genuine fully transparent background. No text, labels, grid, borders, glow, halo, dropshadow or overlapping cells. Lifecycle icons depict illustrative life stages across different species; emphasize tiny juvenile shapes distinctly from adults."
+        },
+        {
+          "version": "B",
+          "sourcePath": "exec-3983a260-2735-4197-a08e-5f99c9a5cb44.png",
+          "path": "lifecycle-invertebrates--b.png",
+          "prompt": "Retro marine field-guide pixel art. Cohesive 16-bit adventure-game background art, crisp deliberately visible square pixels, stepped contours, restrained ordered dithering, hand-clustered highlights. Base palette midnight navy #081B2C, ocean teal #145563, sea-glass #78C7AD, parchment #F5E6BB, coral orange #EE9862. Sophisticated natural-history museum mood, charming but not babyish. No smooth vector curves, no glossy 3D, no photorealism, no blurry pixel filter, no text, no logos, no border.\nUse case: stylized-concept. Asset type: square true transparent 3x3 pixel sprite atlas. Nine complete sprites, equal square cells, strict row-major order: 1. female prawn curled with small egg cluster under abdomen; 2. small translucent prawn larva as simplified educational illustration; 3. tiny juvenile prawn; 4. crab zoea larva with delicate long spine and large eyes, simplified educational; 5. tiny juvenile crab with visible claws; 6. tiny clam spat attached to small shell fragment; 7. cluster of cream octopus egg capsules dangling like grapes; 8. tiny newly hatched octopus with rounded head and eight short arms; 9. small juvenile squid with short mantle and tiny fins. Each has generous twenty percent empty transparent padding around its complete silhouette. Center each sprite exactly in its cell. Compact compositions with no overlap. No letters, words, numbers, labels, grid, borders, cast shadows, background, halos. Navy outlines, cream/teal/coral/gold highlights and clearly stepped 4-pixel style, hand-clustered dithering. No smooth vector shapes. Create alternative B with more translucent pale cream larval bodies, thin delicate appendages and smaller compact arrangement. Middle-left crab zoea has long single dorsal spine and big eyes; middle-right clam spat is tiny on shell fragment not adult clam. Bottom-middle hatchling octopus has eight small stubby arms, clearly juvenile. No anthropomorphic smiles. This is illustrative stage imagery."
+        }
+      ],
+      "selectionReason": "B selected over A for smaller clam spat, paler delicate larvae and restrained colors. Stylized lifecycle icons still require factual text to explain each species.",
+      "limitations": [
+        "Illustrative stylization, not anatomical verification or to scale.",
+        "ImageGen dimensions may differ from requested dimensions; equal cell grid is authoritative.",
+        "Hidden RGB may show a halo in tools that ignore alpha; use PNG transparency in the website."
+      ],
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "fullyTransparentFraction": 0.6839,
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "cells": [
+        {
+          "index": 0,
+          "row": 0,
+          "col": 0,
+          "item": "female prawn curled with small egg cluster under abdomen",
+          "cellBounds": [
+            0,
+            0,
+            418,
+            418
+          ],
+          "alphaBoundsWithinCell": [
+            25,
+            21,
+            418,
+            418
+          ]
+        },
+        {
+          "index": 1,
+          "row": 0,
+          "col": 1,
+          "item": "small translucent prawn larva as simplified educational illustration",
+          "cellBounds": [
+            418,
+            0,
+            836,
+            418
+          ],
+          "alphaBoundsWithinCell": [
+            0,
+            8,
+            418,
+            418
+          ]
+        },
+        {
+          "index": 2,
+          "row": 0,
+          "col": 2,
+          "item": "tiny juvenile prawn",
+          "cellBounds": [
+            836,
+            0,
+            1254,
+            418
+          ],
+          "alphaBoundsWithinCell": [
+            0,
+            9,
+            408,
+            418
+          ]
+        },
+        {
+          "index": 3,
+          "row": 1,
+          "col": 0,
+          "item": "crab zoea larva with delicate long spine and large eyes, simplified educational",
+          "cellBounds": [
+            0,
+            418,
+            418,
+            836
+          ],
+          "alphaBoundsWithinCell": [
+            0,
+            0,
+            418,
+            418
+          ]
+        },
+        {
+          "index": 4,
+          "row": 1,
+          "col": 1,
+          "item": "tiny juvenile crab with visible claws",
+          "cellBounds": [
+            418,
+            418,
+            836,
+            836
+          ],
+          "alphaBoundsWithinCell": [
+            0,
+            0,
+            418,
+            418
+          ]
+        },
+        {
+          "index": 5,
+          "row": 1,
+          "col": 2,
+          "item": "tiny clam spat attached to small shell fragment",
+          "cellBounds": [
+            836,
+            418,
+            1254,
+            836
+          ],
+          "alphaBoundsWithinCell": [
+            0,
+            0,
+            402,
+            418
+          ]
+        },
+        {
+          "index": 6,
+          "row": 2,
+          "col": 0,
+          "item": "cluster of cream octopus egg capsules dangling like grapes",
+          "cellBounds": [
+            0,
+            836,
+            418,
+            1254
+          ],
+          "alphaBoundsWithinCell": [
+            0,
+            0,
+            418,
+            418
+          ]
+        },
+        {
+          "index": 7,
+          "row": 2,
+          "col": 1,
+          "item": "tiny newly hatched octopus with rounded head and eight short arms",
+          "cellBounds": [
+            418,
+            836,
+            836,
+            1254
+          ],
+          "alphaBoundsWithinCell": [
+            0,
+            0,
+            418,
+            418
+          ]
+        },
+        {
+          "index": 8,
+          "row": 2,
+          "col": 2,
+          "item": "small juvenile squid with short mantle and tiny fins",
+          "cellBounds": [
+            836,
+            836,
+            1254,
+            1254
+          ],
+          "alphaBoundsWithinCell": [
+            0,
+            6,
+            410,
+            418
+          ]
+        }
+      ]
+    }
+  ],
+  "selectedAtlasCount": 10,
+  "selectedSpriteCellCount": 84,
+  "variantCount": 22,
+  "qualityNotes": [
+    "All generated with built-in ImageGen. No pixels edited programmatically.",
+    "Each selected atlas inspected visually; PNG alpha verified with read-only PIL.",
+    "Exact 20 percent margins requested but generation varies. Use reported cell grid and alpha bounding boxes, not assumed sprite padding.",
+    "Illustrative lifecycle and anatomy require factual text; outputs are not biological verification."
+  ]
+}
