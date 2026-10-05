@@ -1,4 +1,4 @@
-# Seafood Stories
+# Fishies
 
 A retro pixel-art field guide that follows sea creatures from their habitats through their life stories, then helps you find aquariums, restaurants and seafood shops near a location you choose.
 
@@ -52,7 +52,7 @@ The geographic markers show broad, illustrative habitat regions. They are not pr
 
 Three endpoints contribute to the discovery experience:
 
-| Endpoint | Its job in Seafood Stories |
+| Endpoint | Its job in Fishies |
 | --- | --- |
 | **Search** | Finds public aquarium, restaurant, shop and recipe pages using the selected creature, route and location. |
 | **Fetch** | Reads discovered pages and extracts relevant text. Results distinguish pages that were read from search leads that could not be checked. |
