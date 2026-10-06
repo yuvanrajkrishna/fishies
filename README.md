@@ -10,27 +10,20 @@ Use Node.js 20.9 or newer and npm.
 
 ```sh
 npm ci
-cp .env.example .env.local
-```
-
-Add your TinyFish API key to `.env.local`:
-
-```dotenv
-TINYFISH_API_KEY=your_key_here
-```
-
-Then start the website:
-
-```sh
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000). The visual field guide works without an API key; live discovery requires a key with access to the endpoints used below. The key stays on the server and must not be added to a public repository.
+Open [http://localhost:3000](http://localhost:3000). The catalogue, facts, lifecycle and globe work without a key. For live discovery, select **Add API key** and enter your own TinyFish key with access to Search, Fetch and Agent.
+
+The app keeps your key only in memory in the current tab. It survives navigation within Fishies but clears on refresh or closing the tab. **Your API key → Remove key** clears it immediately. Each live request sends it in a header over HTTPS to Fishies’ server, which forwards it to the appropriate TinyFish endpoint without saving it. Requests use the visitor’s TinyFish account and allowance. Do not use HTTP for a public deployment.
+
+There is no shared server key or environment-variable fallback. Do not add `TINYFISH_API_KEY` to Vercel; a visitor must supply a key even if that variable exists in a local environment. API keys are never sent in URL parameters, response bodies or application logs, and are not put in browser storage or cookies. Hosting infrastructure still processes the request headers, so this is not a direct browser-to-TinyFish connection.
 
 Other useful commands:
 
 ```sh
 npm run check
+npm run test:keys
 npm run build
 npm run start
 ```
@@ -60,7 +53,7 @@ Three endpoints contribute to the discovery experience:
 
 The app labels source evidence and time of checking. A menu mention is not a booking or confirmation of current stock. Common menu names do not necessarily identify the exact scientific species. Agent checks do not log in, make purchases or submit forms.
 
-API handlers live in `app/api/`. The TinyFish key, short-lived signed result tokens and request checks are handled on the server. The API’s simple in-memory rate limiter is intended for the demo; a larger public service would need persistent, shared limits.
+API handlers live in `app/api/`. Each handler requires the visitor’s key before contacting TinyFish. Short-lived result tokens are bound to that key, so changing or removing it clears previous results. A missing or malformed key returns HTTP 401 without an upstream request. The API’s simple in-memory rate limiter is intended for the demo; a larger public service would need persistent, shared limits.
 
 ## Artwork and creature sources
 
@@ -90,7 +83,9 @@ On Vercel, the server does not try to write to the application filesystem. It di
 - `app/studio/page.tsx` — artwork gallery.
 - `app/request-creature.tsx` — creature suggestion form.
 - `lib/catalogue.ts` — curated species stories, route availability and sources.
-- `lib/tinyfish.ts` — server-side TinyFish helpers.
+- `app/tinyfish-key.tsx` — in-memory visitor key and masked key settings.
+- `lib/tinyfish.ts` — request-only TinyFish credentials and server-side helpers.
+- `scripts/test-api-keys.cjs` — credential isolation and no-fallback regression tests.
 - `public/art/` — selected generated artwork.
 
 Built with Next.js, React, Motion, D3 Geo, TopoJSON and Lucide icons.
